@@ -4,13 +4,13 @@ layout: default
 
 ## About Phillip
 
-Learn more about me [here](./about-Phillip.md).
+Learn more about me [here](./pages/about-Phillip.md).
 
 ## Projects
 
-[WiFi Harvester](./wifiHarvester.md)
+[WiFi Harvester](./pages//wifiHarvester.md)
 
-[PCAPa](./PCAPa.md) 
+[PCAPa](./pages/PCAPa.md)
 
 ## Publications
 
