@@ -6,9 +6,9 @@ layout: default
 
 ## Projects
 
-[WiFi Harvester](https://github.com/gaterunner341/wifiHarvester)
+[WiFi Harvester](https://github.com/gaterunner341/wifiHarvester){:target="_blank"} 
 
-[PCAPa](https://github.com/gaterunner341/PCAPa)
+[PCAPa](https://github.com/gaterunner341/PCAPa){:target="_blank"} 
 
 ## Publications
 
