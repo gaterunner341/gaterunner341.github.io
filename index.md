@@ -8,7 +8,7 @@ Learn more about me [here](./about-Phillip.md).
 
 ## Projects
 
-[WiFi Harvester](https://github.com/gaterunner341/wifiHarvester){:target="_blank"} 
+[WiFi Harvester](./wifiHarvester.md)
 
 [PCAPa](https://github.com/gaterunner341/PCAPa){:target="_blank"} 
 
