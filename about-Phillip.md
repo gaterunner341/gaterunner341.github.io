@@ -4,7 +4,7 @@ layout: default
 
 ## About Phillip
 
-![PhillProfile](./assets/images/PhillProfile.jpg){: .align-left}**_Phillip Kittelson_** is a security professional with 20 plus years in law enforcement, IT, and security disciplines including personnel, physical, industrial and cybersecurity. Phillip is experienced working in various roles supporting the defense and government contracting worlds, having been employeed by large, medium, and small companies including _Lockheed Martin_, _Raytheon Technologies_, and _MindPoit Group_. Phillip has provided direct-support to government agencies including the Departments of Defense, Homeland Security, and Justice.
+![PhillProfile](./assets/images/PhillProfile.jpg){: .align-left} **_Phillip Kittelson_** is a security professional with 20 plus years in law enforcement, IT, and security disciplines including personnel, physical, industrial and cybersecurity. Phillip is experienced working in various roles supporting the defense and government contracting worlds, having been employeed by large, medium, and small companies including _Lockheed Martin_, _Raytheon Technologies_, and _MindPoit Group_. Phillip has provided direct-support to government agencies including the Departments of Defense, Homeland Security, and Justice.
 
 Phillip's military experience includes Air Force Security Forces, nuclear weapons security, K9 operations, Client Systems, and Cyber Defense. Phillip is a veteran of Operating Iraqi Freedom, and Operationg Enduring Freedom, and has deployed to countries in the Middle East, including Iraq and Afghanistan. Phillip currently serves as a Master Sergeant in the Air Force's Cyber Defense speciality.
 
