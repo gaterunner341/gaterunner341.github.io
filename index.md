@@ -10,8 +10,7 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-## [About Phillip](./about-Phillip.md).
-## [Find out more about me](./about-Phillip.md).
+## [About Phillip](./about-Phillip.md)
 
 ## Projects
 PCAPa
