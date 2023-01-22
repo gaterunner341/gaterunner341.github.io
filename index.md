@@ -2,7 +2,9 @@
 layout: default
 ---
 
-## [About Phillip](./about-Phillip.md)
+## About Phillip
+
+Learn more about me [here](./about-Phillip.md).
 
 ## Projects
 
