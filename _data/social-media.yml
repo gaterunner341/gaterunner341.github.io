@@ -10,8 +10,8 @@ github:
   title: 'GitHub'
   fa-icon: 'fa-github-square'
   
-  youtube:
-    id: '@cyberphill5699/videos'
-    href: 'https://www.youtube.com/'
-    title: 'YouTube'
-    fa-icon: 'fa-youtube-square'
+youtube:
+  id: '@cyberphill5699/videos'
+  href: 'https://www.youtube.com/'
+  title: 'YouTube'
+  fa-icon: 'fa-youtube-square'
