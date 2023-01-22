@@ -4,7 +4,7 @@ layout: default
 
 ## About Phillip
 
-![PhillProfile](./assets/images/PhillProfile.jpg){: .align-left}
+![PhillProfile](./assets/images/PhillProfile.jpg)
 
 **_Phillip Kittelson_** is a security professional with 20 plus years in law enforcement, IT, and security disciplines including personnel, physical, industrial and cybersecurity. Phillip is experienced working in various roles supporting the defense and government contracting worlds, having been employeed by large, medium, and small companies including _Lockheed Martin_, _Raytheon Technologies_, and _MindPoit Group_. Phillip has provided direct-support to government agencies including the Departments of Defense, Homeland Security, and Justice.
 
