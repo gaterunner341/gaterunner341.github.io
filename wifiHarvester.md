@@ -19,4 +19,4 @@ The program collects the following information:
 
 The Wi-Fi SSID is important to identify the network in question.  Additionally, if the password for the connection is saved in the system’s profiles, this will also be collected.  MAC Randomization enables an examiner to determine if the connection potentially had difference MAC addresses when the system was connected.  The connection mode indicates if the connection could be accomplished automatically, or if a user needed to make the connection manually.  SSID Count indicates if that network connection had more than one SSID associated with that connection.
 
-/[back](./)..
+###[back](./)..
