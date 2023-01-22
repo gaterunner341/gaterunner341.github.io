@@ -15,3 +15,7 @@ Learn more about me [here](./about-Phillip.md).
 ## Publications
 
 Pending
+
+## Blog
+
+Pending
