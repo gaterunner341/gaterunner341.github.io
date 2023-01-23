@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Conduct iPhone Privacy Audit
-auhtor: phillip_kittelson
+author: phillip_kittelson
 ---
 
 # iPhone Privacy Audit
