@@ -37,6 +37,14 @@
       <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
+          <div>
+             <h3> {{author.name}} &nbsp;
+               # include link to author's Twitter
+               {% if author.twitter &}
+                <a href="{{author.twitter}}" class=icon fa-twitter"><span class="label">Twitter</span></a>
+               {% endif %}
+              </h3>
+          </div>
         </section>
 
         <aside id="sidebar">
