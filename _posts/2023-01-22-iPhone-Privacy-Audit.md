@@ -3,7 +3,7 @@ layout: default
 title:  Conduct iPhone Privacy Audit
 ---
 
-# Welcome
+# iPhone Privacy Audit
 
 Conducting an iPhone Privacy Audit...
 
