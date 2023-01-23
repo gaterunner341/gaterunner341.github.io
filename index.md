@@ -1,5 +1,6 @@
 ---
 layout: default
+title:  PhillipKittelson.com
 ---
 
 ## About Phillip
