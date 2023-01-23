@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  Conduct iPhone Privacy Audit
 auhtor: phillip_kittelson
 ---
