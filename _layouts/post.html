@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<p>{{ page.date }} - Written by {{ page.author }}</p>
+
+<p>Author: {{ page.author }}</p>
+<p>{{ page.date | date: '%B %d, %Y' }}</p>
 
 {{ content }}
-
-### [back]({{ site.url }}/)..
