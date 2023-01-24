@@ -2,8 +2,8 @@
 layout: post
 title:  Conduct iPhone Privacy Audit
 author: Phillip Kittelson
-tags: privacy
-categories: Security
+categories: cybersecurity privacy
+tags: audit iPhone iOS
 ---
 
 Conducting an iPhone Privacy Audit...
