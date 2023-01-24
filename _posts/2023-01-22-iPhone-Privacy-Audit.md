@@ -8,5 +8,4 @@ Conducting an iPhone Privacy Audit...
 
 20:12
 
-
-### [back]({{ site.url }}/)..
+Bottom of post.
