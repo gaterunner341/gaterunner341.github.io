@@ -30,17 +30,7 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          ## if there is an author bio
-          {% if author.bio %}
-            {% include author_bio.html %}
-          {% endif %}
-          
           {{ content }}
-            <h3> {{author.name}}</h3>
-               # include link to author's Twitter
-               {% if author.twitter &}
-                <a href="{{author.twitter}}" class=icon fa-twitter"><span class="label">Twitter</span></a>
-               {% endif %}
         </section>
 
         <aside id="sidebar">
