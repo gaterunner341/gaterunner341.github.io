@@ -12,6 +12,6 @@ Phillip's military experience includes Air Force Security Forces, nuclear weapon
 
 Phillip has a bachelor's degree in Computer Forensics and Digital Investigation from _Champlain College_, and holds certifications including **[CompTIA Security+](https://www.credly.com/badges/d9894d81-0c04-4985-8f9e-f1832a965872){:target="_blank"}**, **[AWS Cloud Practitioner](https://www.credly.com/badges/05a58aaa-9fdb-4e15-9d4c-7a924816fbd3){:target="_blank"}**, and **[Certified Information System Security Professional (CISSP)](https://www.credly.com/badges/1d3668c9-52c6-424d-91b0-95e17780fe26){:target="_blank"}** from _(ISC)<sup>2</sup>_. Phillip’s prior certifications include the **[Physical Security Certification (PSC)](https://www.cdse.edu/Certification/About-SP%C4%93D-Certification/Physical-Security-Certification/){:target="_blank"}** from the _Defense Counterinteligence and Security Agency (DCSA)_.
 
-![logo-isc2-cissp-square](./assets/images/logo-isc2-cissp-square.png) ![SecurityPlus Logo Certified CE](./assets/images/SecurityPlus Logo Certified CE.png)
+![logo-isc2-cissp-square](./assets/images/logo-isc2-cissp-square.png) ![SecurityPlusLogoCertified CE](./assets/images/SecurityPlus Logo Certified CE.png)
 
 ### [back](./)..
