@@ -4,8 +4,6 @@ title:  Conduct iPhone Privacy Audit
 author: Phillip Kittelson
 ---
 
-# iPhone Privacy Audit
-
 Conducting an iPhone Privacy Audit...
 
 20:12
