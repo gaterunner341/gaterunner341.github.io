@@ -8,3 +8,6 @@ layout: default
 {{ content }}
 
 <h3><a href='{{site.url}}/'>Back</a></h3>
+<p></p>
+<i>Categories: {{page.categories | capitalize | join: ', '}}</i>
+<i>Tags: {{page.tags | capitalize | join: ', '}}</i>
