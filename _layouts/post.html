@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<p>Author: {{ page.author }}</p>
-<p>{{ page.date | date: '%B %d, %Y' }}</p>
+<p>{{ page.author }}, {{ page.date | date: '%B %d, %Y' }}</p>
 
 {{ content }}
