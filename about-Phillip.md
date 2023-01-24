@@ -15,7 +15,7 @@ Phillip has a bachelor's degree in Computer Forensics and Digital Investigation 
 ![CISSP](./assets/images/logo-isc2-cissp-square.png){:height="100px" width="100px" .center-image} -
 ![Sec+](./assets/images/SecurityPlusLogoCertifiedCE.png){:height="100px" width="100px" .center-image} -
 ![ACP](./assets/images/ACP.png){:height="100px" width="100px" .center-image} -
-![PSC](.assets/images/PSC.png){:height="100px" width="100px" .center-image}
+![PSC](./assets/images/PSC.png){:height="100px" width="100px" .center-image}
 
 
 ### [back](./)..
