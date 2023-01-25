@@ -13,9 +13,7 @@ Learn more about me [here](./about-Phillip.md).
 
 [PCAPa](./PCAPa.md)
 
-## Publications
-
-Pending
+## [Publications](./publications.md)
 
 ## Blog
 
