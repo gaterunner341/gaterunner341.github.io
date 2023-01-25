@@ -4,7 +4,7 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 Posted by <b><a href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b> | {{ page.date | date: '%B %d, %Y' }}
-<p></p>
+{% include share.html %}
 {{ content }}
 
 <h3><a href='{{site.url}}/'>Back</a></h3>
@@ -12,4 +12,3 @@ Posted by <b><a href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b>
 <i><h5>Categories:</h5> {{page.categories | join: ', '}}</i>
 <i><h5>Tags:</h5> {{page.tags | join: ', '}}</i>
 Share Buttons
-{% include share.html %}
