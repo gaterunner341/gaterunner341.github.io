@@ -7,11 +7,7 @@ title:  PhillipKittelson.com
 
 Learn more about me [here](./about-Phillip.md).
 
-## Projects
-
-[WiFi Harvester](./wifiHarvester.md)
-
-[PCAPa](./PCAPa.md)
+## [Projects](./projects.md)
 
 ## [Publications](./publications.md)
 
