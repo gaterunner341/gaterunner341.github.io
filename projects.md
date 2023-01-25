@@ -9,5 +9,6 @@ WiFi Harvester is a Python script I developed as a forensics tool during my [Pyt
 
 ## [PCAPa](./PCAPa.md)
 
+I wrote PCAP analyzer, a BASH-based script, while I was developing my BASH skills. PCAPa can be used to analyze PCAP network packet captures files. This is an adapted script based on a video tutorial from [Packet Pioneer](https://packetpioneer.com/about-me/){:target="_blank"}.
 
 ### [back](./)..
