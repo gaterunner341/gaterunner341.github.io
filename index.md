@@ -14,3 +14,7 @@ Learn more about me [here](./about-Phillip.md).
 ## Blog
 
 Pending
+
+
+
+[Blog Category](./archivebycategory.md)
