@@ -3,10 +3,3 @@ description: A blog from a security professional
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
-
-plugins:
-  - jekyll-last-modified-at
-
-# Optional. The default date format, used if none is specified in the tag.
-last-modified-at:
-    date-format: '%d-%b-%y'
