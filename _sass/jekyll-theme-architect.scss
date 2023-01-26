@@ -187,7 +187,7 @@ form {
 
 /* GENERAL ELEMENT TYPE STYLES */
 
-aside#sidebar, #main-content h1 {
+#main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -198,14 +198,14 @@ aside#sidebar, #main-content h1 {
   letter-spacing: -1px;
 }
 
-aside#sidebar, #main-content h1:before {
+#main-content h1:before {
   padding-right: 0.3em;
   margin-left: -0.9em;
   color: #9ddcff;
   content: "/";
 }
 
-aside#sidebar, #main-content h2 {
+#main-content h2 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
@@ -213,14 +213,14 @@ aside#sidebar, #main-content h2 {
   color: #474747;
   text-indent: 4px;
 }
-aside#sidebar, #main-content h2:before {
+#main-content h2:before {
   padding-right: 0.3em;
   margin-left: -1.5em;
   content: "//";
   color: #9ddcff;
 }
 
-aside#sidebar, #main-content h3 {
+#main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -230,14 +230,14 @@ aside#sidebar, #main-content h3 {
   text-indent: 3px;
 }
 
-aside#sidebar, #main-content h3:before {
+#main-content h3:before {
   padding-right: 0.3em;
   margin-left: -2em;
   content: "///";
   color: #9ddcff;
 }
 
-aside#sidebar, #main-content h4 {
+#main-content h4 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
@@ -246,14 +246,14 @@ aside#sidebar, #main-content h4 {
   text-indent: 3px;
 }
 
-aside#sidebar, h4:before {
+h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
   content: "////";
   color: #9ddcff;
 }
 
-aside#sidebar, #main-content h5 {
+#main-content h5 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 14px;
@@ -267,7 +267,7 @@ h5:before {
   color: #9ddcff;
 }
 
-aside#sidebar, #main-content h6 {
+#main-content h6 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: .8em;
