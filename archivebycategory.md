@@ -1,8 +1,8 @@
  ---
-    layout: default
-    title: Post by Category
-    permalink: /categoryview/
-    sitemap: false
+layout: default
+title: Post by Category
+permalink: /categoryview/
+sitemap: false
  ---
  
  <div>
