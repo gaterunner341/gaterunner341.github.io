@@ -1,24 +1,12 @@
 ---
 layout: default
 ---
+<header class="intro project-header">
+    <h1>{{ page.project-name }}</h1>
+    {{ page.project-description }}
+</header>
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-div {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
-</style>
-</head>
-  
-<body>
-  
-{{ content }}
-  
-</body>
-</html>
+<div class="project-body">
+    {{ page.content }}
+    <a href="{{ page.github-url }}">Check out {{ page.project-name }} on my Github</a>
+</div>
