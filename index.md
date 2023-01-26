@@ -3,18 +3,7 @@ layout: default
 title:  PhillipKittelson.com
 ---
 ## PAGE UNDER CONSTRUCTION
-
-## About Phillip
-
-Learn more about me [here](./about-Phillip.md).
-
-## [Projects](./projects.md)
-
-## [Publications](./publications.md)
-
-## Blog
-
-Pending
+Welcome to **PhillipKittelson.com**, a blog from a security professional named Phillip Kittelson. To learn more about Phillip, click [here](./about-Phillip.md).
 
 
 
