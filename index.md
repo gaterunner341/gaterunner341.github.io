@@ -3,7 +3,7 @@ layout: default
 title:  PhillipKittelson.com
 ---
 ## PAGE UNDER CONSTRUCTION
-Welcome to **PhillipKittelson.com**, a blog from a security professional named Phillip Kittelson. To learn more about Phillip, click [here](./about-Phillip.md).
+Welcome to **PhillipKittelson.com**, a blog from a security professional. To learn more about Phillip, click [here](./about-Phillip.md).
 
 
 
