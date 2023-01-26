@@ -5,9 +5,14 @@ permalink: /blogview/
 sitemap: false
 ---
 
-{% assign sorted_posts = site.posts | sort: 'title' %}
-        {% for post in sorted_posts %}
-            {%if post.categories contains category[0]%}
-                <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}, {{ post.date | date: "%B %e, %Y" }}<p class="date"></h2></p></a>
-            {%endif%}
-        {% endfor %}
+ {% for post in site.posts %}
+  <article>
+    <h2>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    {{ post.content }}
+  </article>
+{% endfor %}
