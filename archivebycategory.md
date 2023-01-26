@@ -23,7 +23,7 @@ sitemap: false
         {% assign sorted_posts = site.posts | sort: 'title' %}
         {% for post in sorted_posts %}
             {%if post.categories contains category[0]%}
-                <h4><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}, {{ post.date | date: "%B %e, %Y" }}<p class="date"></p></a></h4>
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}, {{ post.date | date: "%B %e, %Y" }}<p class="date"></p></a>
             {%endif%}
         {% endfor %}
     {% endfor %}
