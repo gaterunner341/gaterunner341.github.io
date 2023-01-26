@@ -3,13 +3,3 @@ description: A blog from a security professional
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
-
-collections:
-  projects:
-    output: true
-
-defaults:
-  -  scope:
-      type: projects
-     values:
-      layout: project
