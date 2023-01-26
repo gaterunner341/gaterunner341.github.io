@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: myprojects
 title: Phillip's Projects
 ---
 
