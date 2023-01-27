@@ -9,7 +9,7 @@ I'm Phillip, a professional with experience across the many disciplines of secur
 In the mean time, click around, and check out my blog posts, projects I'm working on, and publications I have put out.
 
 ## Projects
-Check out my projects page, to see what I'm working on.
+Check out my projects page to see what I'm working on.
 
 ## Publications
 While the only publications I have taken part in are academic, I plan to work my way into publishing for a wider audience.
