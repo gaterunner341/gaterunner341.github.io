@@ -3,3 +3,5 @@ description: A blog from a security professional
 show_downloads: false
 google_analytics: true
 theme: jekyll-theme-architect
+plugins:
+  - jekyll-feed
