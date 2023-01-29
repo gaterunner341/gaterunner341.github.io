@@ -15,6 +15,4 @@ Phillip has a bachelor's degree in Computer Forensics and Digital Investigation 
 ![ACP](./assets/images/ACP.png){:height="75px" width="75px"}
 ![PSC](./assets/images/PSC.png){:height="75px" width="75px"}
 
-{% include cert_gallery.html folder="myfolder" %}
-
 ### [Back...](./){: .hover-underline-animation}
