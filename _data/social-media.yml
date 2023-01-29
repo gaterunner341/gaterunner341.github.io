@@ -21,3 +21,9 @@ twitter:
   href: 'https://twitter.com/'
   title: 'twitter'
   fa-icon: 'fa-twitter-square'
+  
+  rss:
+    id: 'feed.xml'
+    href: 'https://www.phillipkittelson.com/'
+    title: 'rss'
+    fa-icon: 'fa-rss-square'
