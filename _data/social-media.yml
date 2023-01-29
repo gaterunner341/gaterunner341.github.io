@@ -1,9 +1,3 @@
-email:
-  id: 'your.name@yoursite.com'
-  href: 'mailto:'
-  title: 'Email'
-  fa-icon: 'fa-envelope-square'
-
 github:
   id: 'gaterunner341'
   href: 'https://github.com/'
