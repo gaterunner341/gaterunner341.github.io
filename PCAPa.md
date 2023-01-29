@@ -4,7 +4,7 @@ layout: default
 
 ## PCAPa
 
-[PCAPa](https://github.com/gaterunner341/PCAPa){:target="_blank"} is a BASH Script to parse out relevant artifacts from PCAP files.
+[PCAPa](https://github.com/gaterunner341/PCAPa){: .hover-underline-animation target="_blank"} is a BASH Script to parse out relevant artifacts from PCAP files.
 
 This project was inspired by a packet threat hunting script from Chris Greer @packetpioneer. Most of the outputs were meant as a learning project in BASH.
 
@@ -30,4 +30,4 @@ NOTE: Be cautious of the naming of original PCAP files. This script will delete 
 * country-*
 * arp-*
 
-### [Back...](./projects.html)
+### [Back...](./projects.html){: .hover-underline-animation}
