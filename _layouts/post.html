@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-By <b><a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b> | {{ page.categories | upcase }} | {{ page.date | date: '%d %b %y' }} |
+By <b><a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b> | {{ page.categories | first | upcase }} | {{ page.date | date: '%d %b %y' }} |
 {% include read_time.html %} | {% include share.html %}
 <p></p>
 {{ content }}
