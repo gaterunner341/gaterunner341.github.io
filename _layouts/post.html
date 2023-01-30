@@ -3,8 +3,7 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-{% include read_time.html %}
-Posted by <b><a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b> | {{ page.date | date: '%B %d, %Y' }} |
+Posted by <b><a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b> | {% include read_time.html %} | {{ page.date | date: '%B %d, %Y' }} |
 {% include share.html %}
 <p></p>
 {{ content }}
