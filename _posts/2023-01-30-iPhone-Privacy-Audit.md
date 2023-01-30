@@ -25,10 +25,10 @@ After deleting unused apps, check out the current permissions your apps have bee
 As an informed user, you should really understand the types of data apps can access and take advantage of. Certainly, there is value in granting access to your Contacts to the Facebook or Instagram apps to find your current friends on these platforms. Is there a good reason either one would need to use the Health Data on your phone? Should a meal prep app have access to the microphone on your phone? I don’t see any beneficial reason for either of these situations. Here is a break down of what data is available on an iPhone:
 - **Contacts** provides apps access to the contacts contained on your phone. Social media apps, apps involving scheduling, and meetings are prime candidates for this data source.
 - **Location Services** can allow apps to track your location in real time. Navigation apps, apps that tag geolocation in meta data (such as photos) would be apps you’d grand location services to. Location services can be granular:
-..* **Never** prevents the app from accessing your geolocation at all
-..* **Ask Next Time or when I share** can be used to provide one-time geolocation to an app
-..* **While using the app** only allows an app to access geolocation while the app is in use. I only allow Google Maps, and other navigation apps, to access my geolocation while I have the app open.
-..* **Always** provides constant access to your location. Apps such as __Find My__, Apple’s native location app, and apps where you share your real-time location to trusted friends or family members, could be granted always access.
+    - **Never** prevents the app from accessing your geolocation at all
+    - **Ask Next Time or when I share** can be used to provide one-time geolocation to an app
+    - **While using the app** only allows an app to access geolocation while the app is in use. I only allow Google Maps, and other navigation apps, to access my geolocation while I have the app open.
+    - *Always** provides constant access to your location. Apps such as __Find My__, Apple’s native location app, and apps where you share your real-time location to trusted friends or family members, could be granted always access.
 - **Calendars** provides access to create and access the calendar items on your phone. Allowing your phone to pull information from the email client to create calendar items is a beneficial feature.
 - **Reminders** grants access to apps to create or read the reminders in the Reminders app of your phone.
 - **Photos** access allows an app to access photos on your device. Posting a photo to Facebook or Instagram would require this access. Google’s reverse photo search feature would require this access. 
