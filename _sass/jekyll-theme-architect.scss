@@ -504,6 +504,15 @@ footer a:hover {
   transform-origin: bottom left;
 }
 
+/* Author avatar icons */
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
 
