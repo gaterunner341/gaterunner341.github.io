@@ -6,8 +6,6 @@ categories: cybersecurity
 tags: audit iPhone iOS cybersecurity privacy
 date: 2023-01-30
 ---
-# iPhone Privacy Audit
-
 This post covers iPhone, however, the features I discuss may be available on popular platforms such as Android.
 
 The integrations available on our mobile devices have, no doubt, enhanced our lives. It is nice to reserve a table at your favorite restaurant using a service like Open Table and have that reservation popup automatically on your calendar. However, when it comes to sharing data on your device with apps, every user should understand what they are being asked to grant access to. Apple has done a relatively good job with making the types of data apps are asking for front and center when you download an app from the Apple App Store, however, I don’t believe most users truly understand what some of this access means.
