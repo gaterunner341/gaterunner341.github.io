@@ -9,12 +9,12 @@ layout: default
 Phillip's military experience includes Air Force Security Forces, nuclear weapons security, K9 operations, Client Systems, and Cyber Defense. Phillip is a veteran of Operation Iraqi Freedom (OIF), and Operation Enduring Freedom (OEF), and has deployed to countries in the Middle East including Iraq and Afghanistan. Phillip currently serves as a Master Sergeant in the Air Force's Cyber Defense speciality.
 
 Phillip has a bachelor's degree in Computer Forensics and Digital Investigation from **[Champlain College](https://www.champlain.edu/){: .hover-underline-animation target="_blank"}**, and holds certifications including:
-- **[CompTIA Security+](https://www.credly.com/badges/d9894d81-0c04-4985-8f9e-f1832a965872){: .hover-underline-animation target="_blank"}**
-- **[AWS Cloud Practitioner](https://www.credly.com/badges/05a58aaa-9fdb-4e15-9d4c-7a924816fbd3){: .hover-underline-animation target="_blank"}**
-- **[Certified Information System Security Professional (CISSP)](https://www.credly.com/badges/1d3668c9-52c6-424d-91b0-95e17780fe26){: .hover-underline-animation target="_blank"}**
+- [CompTIA Security+](https://www.credly.com/badges/d9894d81-0c04-4985-8f9e-f1832a965872){: .hover-underline-animation target="_blank"}
+- [AWS Cloud Practitioner](https://www.credly.com/badges/05a58aaa-9fdb-4e15-9d4c-7a924816fbd3){: .hover-underline-animation target="_blank"}
+- [Certified Information System Security Professional (CISSP)](https://www.credly.com/badges/1d3668c9-52c6-424d-91b0-95e17780fe26){: .hover-underline-animation target="_blank"}
 
 Phillip’s prior certifications include:
-- **[Physical Security Certification (PSC)](https://www.cdse.edu/Certification/About-SP%C4%93D-Certification/Physical-Security-Certification/){: .hover-underline-animation target="_blank"}**
+- [Physical Security Certification (PSC)](https://www.cdse.edu/Certification/About-SP%C4%93D-Certification/Physical-Security-Certification/){: .hover-underline-animation target="_blank"}
 
 ![CISSP](./assets/images/logo-isc2-cissp-square.png){:height="75px" width="75px"}
 ![Sec+](./assets/images/SecurityPlusLogoCertifiedCE.png){:height="75px" width="75px"}
