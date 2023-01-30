@@ -1,16 +1,10 @@
 ---
 layout: default
-author: phillip_kittelson
-image: assets/images/PhillProfile.jpg
 ---
 <p style="color:#F62817;font-weight:bold">{{ page.categories | first | upcase }}</p>
 <h1>{{ page.title }}</h1>
 
-{% if author.bio %}
-      {% include author_bio.html %}
-{% endif %}
-
-By <b><a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b> | {{ page.date | date: '%d %b %y' }} |
+By <img src="https://www.phillipkittelson.com/assets/images/PhillProfile.jpg" alt="Avatar" class="avatar"><b><a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b> | {{ page.date | date: '%d %b %y' }} |
 {% include read_time.html %} | {% include share.html %}
 <p></p>
 {{ content }}
