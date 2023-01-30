@@ -1,7 +1,7 @@
 title: PhillipKittelson.com
 description: A blog from a security professional
 show_downloads: false
-google_analytics:
+google_analytics: G-1FEEX4ER1Z
 theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
