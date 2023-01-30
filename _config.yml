@@ -5,5 +5,3 @@ google_analytics: G-1FEEX4ER1Z
 theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
-imagesurl: "assets/images/certs/"
-thumbsurl: "assets/images/certs/"
