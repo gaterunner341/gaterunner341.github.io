@@ -23,27 +23,27 @@ After deleting unused apps, check out the current permissions your apps have bee
 
 ### Get Educated
 As an informed user, you should really understand the types of data apps can access and take advantage of. Certainly, there is value in granting access to your Contacts to the Facebook or Instagram apps to find your current friends on these platforms. Is there a good reason either one would need to use the Health Data on your phone? Should a meal prep app have access to the microphone on your phone? I don’t see any beneficial reason for either of these situations. Here is a break down of what data is available on an iPhone:
-**Contacts** provides apps access to the contacts contained on your phone. Social media apps, apps involving scheduling, and meetings are prime candidates for this data source.
-**Location Services** can allow apps to track your location in real time. Navigation apps, apps that tag geolocation in meta data (such as photos) would be apps you’d grand location services to. Location services can be granular:
+- **Contacts** provides apps access to the contacts contained on your phone. Social media apps, apps involving scheduling, and meetings are prime candidates for this data source.
+- **Location Services** can allow apps to track your location in real time. Navigation apps, apps that tag geolocation in meta data (such as photos) would be apps you’d grand location services to. Location services can be granular:
 ..* **Never** prevents the app from accessing your geolocation at all
 ..* **Ask Next Time or when I share** can be used to provide one-time geolocation to an app
 ..* **While using the app** only allows an app to access geolocation while the app is in use. I only allow Google Maps, and other navigation apps, to access my geolocation while I have the app open.
 ..* **Always** provides constant access to your location. Apps such as __Find My__, Apple’s native location app, and apps where you share your real-time location to trusted friends or family members, could be granted always access.
-**Calendars** provides access to create and access the calendar items on your phone. Allowing your phone to pull information from the email client to create calendar items is a beneficial feature.
-**Reminders** grants access to apps to create or read the reminders in the Reminders app of your phone.
-**Photos** access allows an app to access photos on your device. Posting a photo to Facebook or Instagram would require this access. Google’s reverse photo search feature would require this access. 
-**Bluetooth** access allows apps to access other devices via the Bluetooth antenna. Connecting a Google Home to your home network is a good example of an app requiring this feature. Ride share apps, such as Lime o Zip Car use Bluetooth to communicate with the scooter or rental car you’re trying to unlock.
-**Local Network** gives apps the ability to establish network connections. A streaming app, such as __NetFlix__ or __Disney+__ needs network access, while an app you use to edit photos probably doesn’t.
-**Microphone** grants apps access to listen and record sound from your phone’s microphone. Recording a video, making a Zoom call are legitimate reasons an app would need to access your microphone. An app which promises to turn your likeness into a giraffe, is not.
-**Speech Recognition** sends recorded voice to Apple to profess requests. While microphone only allows sound recording, determining what you are asking for when you say, “__Hey Siri, when does my nearest Target store close__?” requires this access.
-**Camera** access allows apps to capture photos and video from phones camera.
-**Health** data has been increasingly available on mobile devices, giving us useful integrations and data access to life healthier lifestyles. A pedometer app, or step counter, is a great example. I can’t think of a reason to allow the Starbucks app access to this info.
-**Research Sensor & Usage Data** grants data to sources and sensors which would otherwise be unavailable to an app. An example of this type of access includes health studies and wellness research.
-**HomeKit** is Apple’s smart home service, which can allow you to control lights, temperature, and other connected devices in your home.
-**Media & Apple Music** access allows an app to know what’s in your media library, and the types of music you play.
-**Files and Folders** access allows an app to access the files you have stored locally on your phone. Storing an sharing a PDF document natively on your phone, without using a proprietary app is an example. Sharing that same PDF via iMessage, or email uses this feature.
-**Motion & Fitness** access allows an app to track telemetry on your phone, count steps, or your physical output during exercise.
-**Focus** access allows the newer Focus feature status to be shared with apps. If you’ve ever texted someone and received an automated “I’m driving text” back is an example.
+- **Calendars** provides access to create and access the calendar items on your phone. Allowing your phone to pull information from the email client to create calendar items is a beneficial feature.
+- **Reminders** grants access to apps to create or read the reminders in the Reminders app of your phone.
+- **Photos** access allows an app to access photos on your device. Posting a photo to Facebook or Instagram would require this access. Google’s reverse photo search feature would require this access. 
+- **Bluetooth** access allows apps to access other devices via the Bluetooth antenna. Connecting a Google Home to your home network is a good example of an app requiring this feature. Ride share apps, such as Lime o Zip Car use Bluetooth to communicate with the scooter or rental car you’re trying to unlock.
+- **Local Network** gives apps the ability to establish network connections. A streaming app, such as __NetFlix__ or __Disney+__ needs network access, while an app you use to edit photos probably doesn’t.
+- **Microphone** grants apps access to listen and record sound from your phone’s microphone. Recording a video, making a Zoom call are legitimate reasons an app would need to access your microphone. An app which promises to turn your likeness into a giraffe, is not.
+- **Speech Recognition** sends recorded voice to Apple to profess requests. While microphone only allows sound recording, determining what you are asking for when you say, “__Hey Siri, when does my nearest Target store close__?” requires this access.
+- **Camera** access allows apps to capture photos and video from phones camera.
+- **Health** data has been increasingly available on mobile devices, giving us useful integrations and data access to life healthier lifestyles. A pedometer app, or step counter, is a great example. I can’t think of a reason to allow the Starbucks app access to this info.
+- **Research Sensor & Usage Data** grants data to sources and sensors which would otherwise be unavailable to an app. An example of this type of access includes health studies and wellness research.
+- **HomeKit** is Apple’s smart home service, which can allow you to control lights, temperature, and other connected devices in your home.
+- **Media & Apple Music** access allows an app to know what’s in your media library, and the types of music you play.
+- **Files and Folders** access allows an app to access the files you have stored locally on your phone. Storing an sharing a PDF document natively on your phone, without using a proprietary app is an example. Sharing that same PDF via iMessage, or email uses this feature.
+- **Motion & Fitness** access allows an app to track telemetry on your phone, count steps, or your physical output during exercise.
+- **Focus** access allows the newer Focus feature status to be shared with apps. If you’ve ever texted someone and received an automated “I’m driving text” back is an example.
 
 ### Get Extra Geeky
 If you’re feeling __really__ geeky, or want to have utter control and understanding of the data access, and connections your iPhone has to offer, tap into the __iOS App Privacy Report__. This feature allows you to see the data and sensor access, as well as network connections. For the average user, this is probably overkill. You can turn on the feature and view the report by going to __Settings__ > __Privacy & Security__, then tap __App Privacy Report__, and turn the feature on.
