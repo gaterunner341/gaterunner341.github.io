@@ -3,12 +3,11 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-By <b><a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b> | {{ page.date | date: '%d %b %y' }} |
+By <b><a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'>{{ page.author }}</a></b> | {{page.categories}} | {{ page.date | date: '%d %b %y' }} |
 {% include read_time.html %} | {% include share.html %}
 <p></p>
 {{ content }}
 
 <h3><a class="hover-underline-animation" href='{{site.url}}/blogview/'>Back...</a></h3>
 <p></p>
-<h5>Categories: <u>{{page.categories | join: ', '}}</u></h5>
 <h5>Tags: {{ page.tags | join: ', '}}</h5>
