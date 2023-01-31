@@ -5,7 +5,7 @@ permalink: /blogview/
 sitemap: false
 ---
 
- {% for post in site.posts %}
+ {% for post in site.posts reversed %}
   <article>
     <h2><a class="hover-underline-animation" href="{{ post.url }}">{{ post.title }}, {{ post.date | date: "%Y-%m-%d" }}</a></h2>
     {%- if post.image -%}
