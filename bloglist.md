@@ -9,8 +9,8 @@ sitemap: false
   <article>
     <h2><a class="hover-underline-animation" href="{{ post.url }}">{{ post.title }} | {{ post.date | date: "%Y-%m-%d" }}</a></h2>
     {%- if post.image -%}
-      <img src="{{ site.url }}/assets/images/featured-image/{{ post.image }}" style="width:150px">
+      <img src="{{ site.url }}/assets/images/featured-image/{{ post.image }}" style="width:150px;float:left">
     {%- endif -%}
-    <br>{{ post.content | strip_html | truncatewords: 50 }}
+    {{ post.content | strip_html | truncatewords: 50 }}
   </article>
 {% endfor %}
