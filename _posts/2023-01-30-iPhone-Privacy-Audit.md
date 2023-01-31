@@ -6,6 +6,7 @@ categories: cybersecurity
 tags: audit iPhone iOS cybersecurity privacy
 date: 2023-01-30
 sharing-tag: Text to include for posts.
+image: assets\images\featured-image\AppPrivacyReport.PNG
 ---
 This post covers iPhone, however, the features I discuss may be available on popular platforms such as Android.
 
