@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dealing with Spam Calls and Texts
+title: Dealing with Spam Calls, Texts
 author: Phillip Kittelson
 categories: cybersecurity
 tags: iPhone smsishing scam caller spam
