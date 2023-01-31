@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Fi Limted Date Breach
+title: GoogleFi Limted Date Breach
 author: Phillip Kittelson
 categories: cybersecurity
 tags: GoogleFi Google cybersecurity data breach
