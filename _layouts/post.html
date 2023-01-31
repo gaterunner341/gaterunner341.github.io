@@ -5,7 +5,7 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 {%- if page.image -%}
-<img src="{{- page.image | relative_url -}}">
+    <img src="{{ site.url }}/{{ page.image }}">
 {%- endif -%}
 
 <img src="https://www.phillipkittelson.com/assets/images/PhillProfile.jpg" alt="Avatar" class="avatar"><b><a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'> {{ page.author }}</a></b> | {{ page.date | date: '%d %b %y' }} |
