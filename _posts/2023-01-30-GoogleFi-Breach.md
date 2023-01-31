@@ -24,6 +24,41 @@ GoogleFi stated the potentially limited data breach does not include information
 
 While the email does not include the name of the 3rd party, the site [9too5Google.com](https://9to5google.com/2023/01/30/google-fi-data-breach-tmobile/){: .hover-underline-animation target="_blank"} suspects the 3rd party could be T-mobile, which recently release news of their own [data breach](https://9to5mac.com/2023/01/19/t-mobile-data-breach-customer-info/){: .hover-underline-animation target="_blank"}.
 
+
+## Google's Email
+The text of the email sent to users:
+-----------------------------------------------
+> Dear Google Fi customer,
+>
+>We’re writing to let you know that the primary network provider for Google Fi recently informed us there has been suspicious activity relating to a third party system that contains a limited amount of Google Fi customer data.
+>
+> There is no action required by you at this time.
+>
+> This system is used for Google Fi customer support purposes and contains limited data including when your account was activated, data about your mobile service plan, SIM card serial number, and active or inactive account status.
+>
+> It does not contain your name, date of birth, email address, payment card information, social security number or tax IDs, driver’s license or other form of government ID, or financial account information, passwords or PINs that you may use for Google Fi, or the contents of any SMS messages or calls.
+>
+> Our incident response team undertook an investigation and determined that unauthorized access occurred and have worked with our primary network provider to identify and implement measures to secure the data on that third party system and notify everyone potentially impacted. There was no access to Google's systems or any systems overseen by Google.
+>
+> If you are an active Fi user, please note that your Google Fi service continues to work as usual and was not interrupted by this issue.
+>
+> What does this mean for me?
+>
+>The accessed information included your phone number and limited technical information. This includes information about when your account was activated, SIM card serial number, account status (for example, whether your plan is active or inactive), and limited details about the mobile service plan and options provided by your Google Fi service (such as unlimited SMS or international roaming).
+>
+> For more information
+>
+> As always, be alert for phishing attempts. For more about best practices, see our advice on how to avoid phishing.
+>
+> Read more about keeping your Google Fi information safe.
+>
+> We’re always here for our customers and available to offer support. If you have any questions or require assistance, please see this Help Center article for contact options and reference issue ID 267187948.
+Sincerely,
+>
+>Google Fi Team
+
+-----------------------------------------------
+
 ## What does this mean for me, as a user?
 If you are GoogleFi user, while at this point there is no reason to believe other information about your has been copied. For the most part, this breach could potentially just lead to more SMSishing attacks (a form of phishing using text messages) since subscriber phone number was included in the breach. As always, users should be cautious when clicking on links from unknown numbers.
 
