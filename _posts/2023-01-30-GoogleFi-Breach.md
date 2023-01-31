@@ -22,3 +22,8 @@ GoogleFi stated the potentially limited data breach does not include information
 
 ## What does this mean for me, as a user?
 If you are GoogleFi user, while at this point there is no reason to believe other information about your has been copied. For the most part, this breach could potentially just lead to more SMSishing attacks (a form of phishing using text messages) since subscriber phone number was included in the breach. As always, users should be cautious when clicking on links from unknown numbers.
+
+Other general security steps a users can take include:
+- Enabling 2-Factor Authentication (2FA) on Google accounts
+- Adding a recovery email and phone number to GoogleFi accounts
+- Ensure strong passwords are used for their account
