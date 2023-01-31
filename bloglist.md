@@ -7,6 +7,10 @@ sitemap: false
 
  {% for post in site.posts %}
   <article>
-    <h2><a class="hover-underline-animation" href="{{ post.url }}">{{ post.title }}, {{ post.date | date: "%Y-%m-%d" }}</a></h2><br>{{ post.content | strip_html | truncatewords: 50 }}
+    <h2><a class="hover-underline-animation" href="{{ post.url }}">{{ post.title }}, {{ post.date | date: "%Y-%m-%d" }}</a></h2>
+    {%- if page.image -%}
+      <img src="{{ site.url }}/{{ page.image }}">{: width="150" }
+    {%- endif -%}
+    <br>{{ post.content | strip_html | truncatewords: 50 }}
   </article>
 {% endfor %}
