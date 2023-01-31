@@ -22,7 +22,7 @@ The system in question, a 3rd party used for "GoogleFi customer support purposes
 
 GoogleFi stated the potentially limited data breach does not include information such as name, date of birth, email addresses, and payment card information.
 
-While the email does not include the name of the 3rd party, the site [9to5Google.com](https://9to5google.com/2023/01/30/google-fi-data-breach-tmobile/){: .hover-underline-animation target="_blank"} suspects the 3rd party could be T-mobile, which recently release news of their own [data breach](https://9to5mac.com/2023/01/19/t-mobile-data-breach-customer-info/){: .hover-underline-animation target="_blank"}.
+While the email does not include the name of the 3rd party, the site **[9to5Google.com](https://9to5google.com/2023/01/30/google-fi-data-breach-tmobile/){: .hover-underline-animation target="_blank"}** suspects the 3rd party could be T-mobile, which recently release news of their own **[data breach](https://9to5mac.com/2023/01/19/t-mobile-data-breach-customer-info/){: .hover-underline-animation target="_blank"}**.
 
 
 ## Google's Email
@@ -46,12 +46,12 @@ While the email does not include the name of the 3rd party, the site [9to5Google
 >
 > For more information
 >
-> As always, be alert for phishing attempts. For more about best practices, see our advice on [how to avoid phishing](https://support.google.com/mail/answer/8253#zippy=%2Cpay-attention-to-warnings-from-google%2Cnever-respond-to-requests-for-private-info%2Cbeware-of-messages-that-sound-urgent-or-too-good-to-be-true%2Cstop-think-before-you-click%2Cuse-gmail-to-help-you-identify-phishing-emails%2Cuse-safe-browsing-in-chrome%2Ccheck-for-unsafe-saved-passwords%2Chelp-protect-your-google-account-password%2Clearn-about--step-verification%2Cdont-enter-your-password-after-clicking-a-link-in-a-message){: .hover-underline-animation target="_blank"}.
+> As always, be alert for phishing attempts. For more about best practices, see our advice on **[how to avoid phishing](https://support.google.com/mail/answer/8253#zippy=%2Cpay-attention-to-warnings-from-google%2Cnever-respond-to-requests-for-private-info%2Cbeware-of-messages-that-sound-urgent-or-too-good-to-be-true%2Cstop-think-before-you-click%2Cuse-gmail-to-help-you-identify-phishing-emails%2Cuse-safe-browsing-in-chrome%2Ccheck-for-unsafe-saved-passwords%2Chelp-protect-your-google-account-password%2Clearn-about--step-verification%2Cdont-enter-your-password-after-clicking-a-link-in-a-message){: .hover-underline-animation target="_blank"}**.
 >
-> Read more about [keeping your Google Fi information safe](https://support.google.com/fi/answer/13274172?visit_id=638107279937551347-538348395&p=January2023&rd=1){: .hover-underline-animation target="_blank"}.
+> Read more about **[keeping your Google Fi information safe](https://support.google.com/fi/answer/13274172?visit_id=638107279937551347-538348395&p=January2023&rd=1){: .hover-underline-animation target="_blank"}**.
 >
-> We’re always here for our customers and available to offer support. If you have any questions or require assistance, please see this Help Center [article](https://support.google.com/fi/answer/13274172?visit_id=638107279937551347-538348395&p=January2023&rd=1){: .hover-underline-animation target="_blank"} for contact options and reference issue ID 267187948.
-Sincerely,
+> We’re always here for our customers and available to offer support. If you have any questions or require assistance, please see this Help Center **[article](https://support.google.com/fi/answer/13274172?visit_id=638107279937551347-538348395&p=January2023&rd=1){: .hover-underline-animation target="_blank"}** for contact options and reference issue ID 267187948.
+> Sincerely,
 >
 >Google Fi Team
 
