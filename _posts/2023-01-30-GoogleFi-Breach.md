@@ -22,7 +22,7 @@ The system in question, a 3rd party used for "GoogleFi customer support purposes
 
 GoogleFi stated the potentially limited data breach does not include information such as name, date of birth, email addresses, and payment card information.
 
-While the email does not include the name of the 3rd party, the site **[9to5Google.com](https://9to5google.com/2023/01/30/google-fi-data-breach-tmobile/){: .hover-underline-animation target="_blank"}** suspects the 3rd party could be T-mobile, which recently release news of their own **[data breach](https://9to5mac.com/2023/01/19/t-mobile-data-breach-customer-info/){: .hover-underline-animation target="_blank"}**.
+While the email does not include the name of the 3rd party, the site **[9to5Google.com](https://9to5google.com/2023/01/30/google-fi-data-breach-tmobile/){: .hover-underline-animation target="_blank"}** suspects the 3rd party could be T-mobile, which recently released news of their own **[data breach](https://9to5mac.com/2023/01/19/t-mobile-data-breach-customer-info/){: .hover-underline-animation target="_blank"}**.
 
 
 ## Google's Email
