@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Fi Just Notified Users of a Limted Breach of a 3rd Party
+title: Google Fi Limted Date Breach
 author: Phillip Kittelson
 categories: cybersecurity
 tags: GoogleFi Google cybersecurity data breach
@@ -8,9 +8,9 @@ date: 2023-01-30
 intro: 
 image: assets\images\featured-image\googlefi.png
 ---
-GoogleFi sent out an email on 30 Jan 2023, informing its users of suspicious activity on network of a "primary network provider."
+GoogleFi sent out an email on 30 Jan 2023, informing its users of suspicious activity on the network of a "primary network provider."
 
-The system in question, used for "GoogleFi customer support purposes" contains limited customer data including the following:
+The system in question, a 3rd party used for "GoogleFi customer support purposes" contains limited customer data including the following:
 
 - Phone number
 - When accounts were activated
