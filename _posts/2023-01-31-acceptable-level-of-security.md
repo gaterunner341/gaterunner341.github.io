@@ -4,7 +4,7 @@ title: Is there ever enough security?
 author: Phillip Kittelson
 categories: cybersecurity
 tags: cybersecurity infosec information security baseline strategic thinking
-date: 2023-01-31
+date: 2023-01-31 19:00 -05:00
 image: acceptableuse.jpg
 ---
 
