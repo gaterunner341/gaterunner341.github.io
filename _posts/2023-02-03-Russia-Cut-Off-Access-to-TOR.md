@@ -10,7 +10,7 @@ image: tor.png
 
 Last month, Russia cut off access to TOR services and servers according to several reports from media including **[Reuters]( https://www.reuters.com/technology/russia-ratchets-up-internet-crackdown-with-block-privacy-service-tor-2021-12-08/){: .hover-underline-animation target=”_blank”}** and **[Forbs](https://www.forbes.com/sites/emmawoollacott/2021/12/09/russia-doubles-down-on-censorship-with-expanded-block-on-tor/?sh=538e9a3319bc){: .hover-underline-animation target=”_blank”}**.
 
-TOR, also known as the Onion Router Project, is an anonymizing network used by malicious actors and those seeking privacy for their personal activities or professional work such as journalist working in restrictive countries.
+TOR, also known as the **[Onion Router Project](https://www.torproject.org/){: .hover-underline-animation target=”_blank”}**, is an anonymizing network used by malicious actors and those seeking privacy for their personal activities or professional work such as journalist working in restrictive countries.
 
 According to the reports, shutting off TOR access is part of a larger effort by the Russian government cracking down on foreign technology companies, and restriction access to virtual private network (VPN) tools and services.
 
