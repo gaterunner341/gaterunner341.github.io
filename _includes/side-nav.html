@@ -5,7 +5,7 @@
   <ul>
     {% for post in site.posts limit:5 %}
       <li>
-        <a class="hover-underline-animation" href="{{ post.url }}">{{ post.title }}</a>
+        <a class="hover-underline-animation" href="{{ post.url }}" style="font-size: 16px">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
