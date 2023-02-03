@@ -3,7 +3,7 @@ layout: post
 title: Russia Cut Off Access to TOR
 author: Phillip Kittelson
 categories: cybersecurity
-tags: Russia privacy restrictions international TOR VPN
+tags: Russia privacy restrictions international TOR VPN sensorship
 date: 2023-02-03
 image: tor.png
 ---
