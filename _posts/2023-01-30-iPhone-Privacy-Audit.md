@@ -4,7 +4,7 @@ title: iPhone Privacy Audit
 author: Phillip Kittelson
 categories: cybersecurity
 tags: audit iPhone iOS cybersecurity privacy
-date: 2023-01-30
+date: 2023-01-30 14:30 -0500
 sharing-tag: Text to include for posts.
 image: AppPrivacyReport.PNG
 ---

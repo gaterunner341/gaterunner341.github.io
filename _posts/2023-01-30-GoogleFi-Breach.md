@@ -4,7 +4,7 @@ title: GoogleFi Limited Date Breach
 author: Phillip Kittelson
 categories: cybersecurity
 tags: GoogleFi Google cybersecurity data breach
-date: 2023-01-30
+date: 2023-01-30 20:30 -0500
 intro: 
 image: googlefi.png
 ---
