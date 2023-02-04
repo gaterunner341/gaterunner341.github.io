@@ -6,6 +6,7 @@ categories: cybersecurity
 tags: Russia privacy restrictions international TOR VPN sensorship
 date: 2023-02-03 18:15 -0500
 image: tor.png
+alt: The Tour Project
 ---
 
 Last month, Russia cut off access to TOR services and servers according to several reports from media including **[Reuters]( https://www.reuters.com/technology/russia-ratchets-up-internet-crackdown-with-block-privacy-service-tor-2021-12-08/){: .hover-underline-animation target=”_blank”}** and **[Forbs](https://www.forbes.com/sites/emmawoollacott/2021/12/09/russia-doubles-down-on-censorship-with-expanded-block-on-tor/?sh=538e9a3319bc){: .hover-underline-animation target=”_blank”}**.

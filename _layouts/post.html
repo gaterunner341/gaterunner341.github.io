@@ -4,7 +4,7 @@ layout: default
 
 <p style="color:#F62817;font-weight:bold">{{ page.categories | first | upcase }}</p>
 {%- if page.image -%}
-    <img src="{{ site.url }}/assets/images/featured-image/{{ page.image }}">
+    <img src="{{ site.url }}/assets/images/featured-image/{{ page.image }}" alt="{{ page.alt}}">
 {%- endif -%}
 <br>
 <h1>{{ page.title }}</h1>

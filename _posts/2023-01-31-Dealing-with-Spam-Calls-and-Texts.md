@@ -6,6 +6,7 @@ categories: cybersecurity
 tags: iPhone smsishing scam caller spam
 date: 2023-01-31 12:00 -05:00
 image: spamcaller.PNG
+alt: Spam Callers
 ---
 Unless you’ve been hiding under a rock the last few years, you should have experienced the spammer/scammer text and phone call phenomenon. It mostly started with the “we’ve been trying to reach you about your car’s extended warranty” robo calls, and has morphed into quite the out of control daily part of life now.
 

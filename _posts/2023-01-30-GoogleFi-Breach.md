@@ -6,6 +6,7 @@ categories: cybersecurity
 tags: GoogleFi Google cybersecurity data breach
 date: 2023-01-30 20:30 -0500 
 image: googlefi.png
+alt: GoogleFi
 ---
 __Updated @ 21:26 EST__
 

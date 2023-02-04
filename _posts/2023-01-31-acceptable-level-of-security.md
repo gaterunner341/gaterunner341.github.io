@@ -6,6 +6,7 @@ categories: cybersecurity
 tags: cybersecurity infosec information security baseline strategic thinking
 date: 2023-01-31 19:00 -05:00
 image: acceptableuse.jpg
+alt: Acceptable
 ---
 
 Is there a such thing as an "acceptable level of security?" Ask anyone in field of cybersecurity, and you might get an even split for a __yes__ or __no__ answers. The classic cybersecurity engineering person might say “No! There is never enough security!” While a more strategic person would say "yes!"
