@@ -72,7 +72,8 @@ header h2 {
 
 #main-content {
   float: left;
-  width: 690px;
+  max-width: 75%;
+  /* width: 690px; */
 }
 
 #main-content img {
