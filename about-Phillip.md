@@ -16,9 +16,9 @@ Phillip has a bachelor's degree in Computer Forensics and Digital Investigation 
 Phillip’s prior certifications include:
 - [Physical Security Certification (PSC)](https://www.cdse.edu/Certification/About-SP%C4%93D-Certification/Physical-Security-Certification/){: .hover-underline-animation target="_blank"}
 
-![CISSP](./assets/images/logo-isc2-cissp-square.png){: style="float:left; padding-right: 40px" height="75px" width="75px" alt="CISSP"}
-![Sec+](./assets/images/SecurityPlusLogoCertifiedCE.png){: style="float:left; padding-right: 40px" height="75px" width="75px" alt="Security+"}
-![ACP](./assets/images/ACP.png){: style="float:left; padding-right: 40px" height="75px" width="75px" alt="AWS Cloud Practitioner"}
+![CISSP](./assets/images/logo-isc2-cissp-square.png){: style="float:left; padding-right: 60px" height="75px" width="75px" alt="CISSP"}
+![Sec+](./assets/images/SecurityPlusLogoCertifiedCE.png){: style="float:left; padding-right: 60px" height="75px" width="75px" alt="Security+"}
+![ACP](./assets/images/ACP.png){: style="float:left; padding-right: 60px" height="75px" width="75px" alt="AWS Cloud Practitioner"}
 ![PSC](./assets/images/PSC.png){: height="75px" width="75px" alt="Physical Security Certification"}
 
 
