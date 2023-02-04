@@ -17,8 +17,8 @@ Phillip’s prior certifications include:
 - [Physical Security Certification (PSC)](https://www.cdse.edu/Certification/About-SP%C4%93D-Certification/Physical-Security-Certification/){: .hover-underline-animation target="_blank"}
 
 ![CISSP](./assets/images/logo-isc2-cissp-square.png){: style="float:left; padding-right: 20px" height="75px" width="75px"}
-![Sec+](./assets/images/SecurityPlusLogoCertifiedCE.png){:height="75px" width="75px"}
-![ACP](./assets/images/ACP.png){:height="75px" width="75px"}
-![PSC](./assets/images/PSC.png){:height="75px" width="75px"}
+![Sec+](./assets/images/SecurityPlusLogoCertifiedCE.png){: style="float:left; padding-right: 20px" height="75px" width="75px"}
+![ACP](./assets/images/ACP.png){: style="float:left; padding-right: 20px" height="75px" width="75px"}
+![PSC](./assets/images/PSC.png){: style="float:left; padding-right: 20px" height="75px" width="75px"}
 
 ### [Back...](./){: .hover-underline-animation}
