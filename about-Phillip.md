@@ -14,7 +14,7 @@ Phillip has a bachelor's degree in Computer Forensics and Digital Investigation 
 - [Certified Information System Security Professional (CISSP) from (ISC)<sup>2</sup>](https://www.credly.com/badges/1d3668c9-52c6-424d-91b0-95e17780fe26){: .hover-underline-animation target="_blank"}
 
 Phillip’s prior certifications include:
-- [Physical Security Certification (PSC)](https://www.cdse.edu/Certification/About-SP%C4%93D-Certification/Physical-Security-Certification/){: .hover-underline-animation target="_blank"}
+- [ DCSA's Physical Security Certification (PSC)](https://www.cdse.edu/Certification/About-SP%C4%93D-Certification/Physical-Security-Certification/){: .hover-underline-animation target="_blank"}
 
 ![CISSP](./assets/images/logo-isc2-cissp-square.png){: style="float:left; padding-right: 60px" height="75px" width="75px" alt="CISSP"}
 ![Sec+](./assets/images/SecurityPlusLogoCertifiedCE.png){: style="float:left; padding-right: 60px" height="75px" width="75px" alt="Security+"}
