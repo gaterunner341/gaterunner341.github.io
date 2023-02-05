@@ -3,7 +3,7 @@ layout: post
 title: Dealing with Spam Calls, Texts
 author: Phillip Kittelson
 categories: cybersecurity
-tags: iPhone smsishing scam caller spam
+tags: [ iPhone, smsishing, scam caller, spam ]
 date: 2023-01-31 12:00 -05:00
 image: spamcaller.PNG
 alt: Spam Callers
