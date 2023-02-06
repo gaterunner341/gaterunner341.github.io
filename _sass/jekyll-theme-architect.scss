@@ -27,11 +27,13 @@ a:hover {
 }
 
 header {
+  height: 200px;
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Exo 2', sans-serif;
   background: #ffffff url(../images/banner.jpg) 0 0 no-repeat;
   background-size: 800px;
+  background-position: center;
   border-bottom: solid 1px #191970;
 }
 
