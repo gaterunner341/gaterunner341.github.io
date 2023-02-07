@@ -85,7 +85,7 @@ header h2 {
 
 aside#sidebar {
   float: right;
-  width: 300px;
+  width: 250px;
   min-height: 504px;
   padding-left: 20px;
   font-size: 12px;
@@ -357,8 +357,7 @@ footer {
   /* padding-bottom: 30px; */
   /* margin-top: 40px; */
   font-size: 13px;
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
   background-color: #191970;
 }
