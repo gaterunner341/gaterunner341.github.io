@@ -1,5 +1,11 @@
-<h3><i class="fa fa-home" style="color:#ffffff" aria-hidden="true"></i> <a class="hover-underline-animation" href='{{site.url}}'>Home</a></h3>
-<h3><i class="fa fa-info-circle" style="color:#ffffff" aria-hidden="true"></i> <a class="hover-underline-animation" href='{{site.url}}/about-Phillip.html'>About Phillip</a></h3>
-<h3><i class="fa fa-terminal" style="color:#ffffff" aria-hidden="true"></i> <a class="hover-underline-animation" href='{{site.url}}/projects.html'>Projects</a></h3>
-<h3><i class="fa fa-book" style="color:#ffffff" aria-hidden="true"></i> <a class="hover-underline-animation" href='{{site.url}}/publications.html'>Publications</a></h3>
-<h3><i class="fa fa-rss-square" style="color:#ffffff" aria-hidden="true"></i> <a class="hover-underline-animation" href='{{site.url}}/blogview/'>Blog Posts</a></h3>
+{% if site.data.social-media %}
+<div id="social-media" class="center">
+    {% assign sm = site.data.social-media %}
+    {% for entry in sm %}
+        {% assign key = entry | first %}
+        {% if sm[key].id %}
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" target="_blank"><i class="fa {{ sm[key].fa-icon }} fa-2xl" style="color:#ffffff"></i></a>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
