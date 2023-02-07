@@ -350,22 +350,25 @@ dl dd {
   font-weight: 100;
 }
 
-#footer {
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #191970;
+  color: white;
+  text-align: center;
   height: 200px;
   /* padding-top: 20px; */
   /* border-top: solid 1px #191970; */
   /* padding-bottom: 30px; */
   /* margin-top: 40px; */
-  font-size: 13px;
-  position: absolute;
-  bottom: 0;
-  background-color: #191970;
 }
 
-#footer a {
+footer a {
   color: #666;
 }
-#footer a:hover {
+footer a:hover {
   color: #444;
 }
 
