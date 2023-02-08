@@ -11,5 +11,19 @@
 - company: Raytheon Technologies
   position: Sr. Cyber Threat Ops Technologist II
   duration: Mar 2021 &mdash; Mar 2022
-  summary: Job description.<ul><li>Accomplishment 1</li></ul><li>Accomplishment 2</li>
+  summary: Monitor, assess and respond to cyber intrusion alerts as part of the Computer Incident Response Team (CIRT) for the Cybersecurity and Infrastructure Security Agency (CISA) National Cyber Protection System’s Security (NCPS) Security Operations Center (SOC).
   logo: rtx.jpg
+
+# Sr. Cyber Defense Technologist I 
+- company: Raytheon Technologies
+  position: Sr. Cyber Defense Technologist I (ISSO)
+  duration: Aug 2019 &mdash; Mar 2021
+  summary: Provide oversight of, develop, and implement cybersecurity policy and procedure in compliance with RMF (JSIG), ICD 503, DAAPM and NISPOM for classified information systems. Support 250 end-users and multiple systems with 12+ Department of Defense contracts. Started with Apex Systems and transitioned to FT Raytheon employee 3/2020.
+  logo: rtx.jpg
+
+# Client Support Technician, Mid 
+- company: Multiple Contracts
+  position: Traveling Technician
+  duration: Sep 2017 &mdash; Aug 2019
+  summary: Part of 9-person project team for federal contractor that collectively updated 19K laptops to Windows 10 for the United States Marine Corps (at Insight), 5K NIPRNet PCs and 500 SIPRNet classified PCs/laptops for the USAF (at Verigent) using System Center Configuration Manager (SCCM). Boot enabled CDs and hard disk drives to initiate upgrades from Windows 7 Enterprise. Regularly reviewed error logs to determine imaging failures.
+  logo: work.jpg
