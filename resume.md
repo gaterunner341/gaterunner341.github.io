@@ -10,8 +10,8 @@ layout: default
 
 <i class="fa fa-certificate" aria-hidden="true" style="color:#191970"></i> Certifications
 
-<i class="fa fa-angle-double-right" aria-hidden="true"></i> Certified Information Systems Security Professional (CISSP) (ISC)<sup>2</sup>
-<i class="fa fa-angle-double-right" aria-hidden="true" style="color:#191970"></i> CompTIA Security+
+<i class="fa fa-angle-double-right" aria-hidden="true"></i> Certified Information Systems Security Professional (CISSP) (ISC)<sup>2</sup><br>
+<i class="fa fa-angle-double-right" aria-hidden="true" style="color:#191970"></i> CompTIA Security+<br>
 <i class="fa fa-angle-double-right" aria-hidden="true" style="color:#191970"></i> AWS Cloud Practitioner
 
 <i class="fa fa-terminal" style="color:#191970" aria-hidden="true"></i> Projects
