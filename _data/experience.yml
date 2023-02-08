@@ -51,8 +51,15 @@
 
 # USAFR 1
 - company: United States Air Force Reserve
+  position: Cyber Defense
+  duration: Jan 2022 &mdash; Present
+  summary: Job description.
+  logo: usafr.jpg
+
+# USAFR 1
+- company: United States Air Force Reserve
   position: Client Systems/Cyber Defense
-  duration: Mar 2019 &mdash; Present
+  duration: Mar 2019 &mdash; Jan 2022
   summary: Job description.
   logo: usafr.jpg
 
