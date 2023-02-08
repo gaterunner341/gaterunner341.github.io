@@ -27,3 +27,17 @@
   duration: Sep 2017 &mdash; Aug 2019
   summary: Part of 9-person project team for federal contractor that collectively updated 19K laptops to Windows 10 for the United States Marine Corps (at Insight), 5K NIPRNet PCs and 500 SIPRNet classified PCs/laptops for the USAF (at Verigent) using System Center Configuration Manager (SCCM). Boot enabled CDs and hard disk drives to initiate upgrades from Windows 7 Enterprise. Regularly reviewed error logs to determine imaging failures.
   logo: work.jpg
+
+# Technical Support
+- company: Lockheed Martin
+  position: Technical Support
+  duration: Jun 2015 &mdash; Sep 2017
+  summary: Served as the central point of contact for facility maintenance, repair or capital improvement project needs for 150 personnel. Liaised with customer, to coordinate, communicate and schedule needs within 140K square foot, $49M facility that contained $100M in simulators, servers, data storage and $90K of desktop IT equipment. 
+  logo: lm.png
+
+# Security Assistant Senior
+- company: Lockheed Martin
+  position: Security Assistant, Senior
+  duration: Aug 2014 &mdash; Jun 2015
+  summary: Job description.
+  logo: lm.png
