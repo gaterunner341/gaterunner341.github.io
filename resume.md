@@ -4,7 +4,7 @@ layout: default
 
 ![PhillProfile](./assets/images/PhillProfile.jpg){: style="border-radius: 50%;display: block;margin-left: auto;margin-right: auto;"}
 
-<span style="font-size:40px">Phillip Kittelson</span>
+<span style="font-size:40px;text-align: center;">Phillip Kittelson</span>
 
 <span style="font-size:20px"><i class="fa fa-graduation-cap" aria-hidden="true" style="color:#191970"></i> Education</span>
 
