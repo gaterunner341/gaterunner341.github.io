@@ -8,8 +8,9 @@ Phillip Kittelson
     <h2>Experience</h2>
     {% for job in site.data.experience %}
     <div>
-      <h3>{{ job.position }}</h3>
-      <h4>{{ job.company }} &bull; {{ job.duration }}</h4>
+      {{ job.logo }}
+      {{ job.position }}
+      {{ job.company }} &bull; {{ job.duration }}
       <p>{{ job.summary }}</p>
     </div><!-- end of resume-item -->
     {% endfor %}
