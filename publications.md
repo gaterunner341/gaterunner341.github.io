@@ -7,4 +7,4 @@ title: Phillip's Publications
 
 For my undergrad capstone thesis from Champlain College's [Computer Forensics and Digital Investigation](https://online.champlain.edu/degrees-certificates/bachelors-computer-forensics-digital-investigations){: .hover-underline-animation target="_blank"} program, I wrote about performing forensic analsysis on a drone device. Drones have increasingly been used to conduct criminal activity, and understanding the types of data available on a drone device could be invaluable when conducting an investigation involving drones.
 
-### [Back...](./){: .hover-underline-animation}
+<i class="fa-solid fa-backward" style="padding-right: 0.3em;margin-left: -0.9em;color: #8B0000;"></i>[Back...](./){: .hover-underline-animation}

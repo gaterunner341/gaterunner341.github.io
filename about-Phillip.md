@@ -21,5 +21,4 @@ Phillip’s prior certifications include:
 ![ACP](./assets/images/ACP.png){: style="float:left; padding-right: 60px" height="75px" width="75px" alt="AWS Cloud Practitioner"}
 ![PSC](./assets/images/PSC.png){: height="75px" width="75px" alt="Physical Security Certification"}
 
-
-### [Back...](./){: .hover-underline-animation}
+<i class="fa-solid fa-backward" style="padding-right: 0.3em;margin-left: -0.9em;color: #8B0000;"></i>[Back...](./){: .hover-underline-animation}
