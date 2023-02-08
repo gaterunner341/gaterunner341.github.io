@@ -19,4 +19,8 @@ layout: default
 <i class="fa fa-briefcase" aria-hidden="true" style="color:#191970"></i> Experience
 
 ![MPG](./assets/images/resume/mpg.jpg){: style="width: 15px; height: 15px;"} MindPoint Group<br>
-![RTX](./assets/images/resume/rtx.jpg){: style="width: 15px; height: 15px;"} Raytheon Technologies
+![RTX](./assets/images/resume/rtx.jpg){: style="width: 15px; height: 15px;"} Raytheon Technologies<br>
+![RTX](./assets/images/resume/rtx.jpg){: style="width: 15px; height: 15px;"} Raytheon Technologies<br>
+![LM](./assets/images/resume/lm.png){: style="width: 15px; height: 15px;"} Lockheed Martin<br>
+![USAF](./assets/images/resume/usaf.png){: style="width: 15px; height: 15px;"} United States Air Force<br>
+![USAFR](./assets/images/resume/usafr.jpg){: style="width: 15px; height: 15px;"} USAF Reserve<br>
