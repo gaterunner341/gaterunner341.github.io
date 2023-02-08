@@ -22,19 +22,19 @@ layout: default
 <i class="fa fa-briefcase" aria-hidden="true" style="color:#191970"></i> Experience
 
 ![MPG](./assets/images/resume/mpg.jpg){: style="width: 15px; height: 15px;"} MindPoint Group<br>
-Senior Counsultant<br>
+Senior Counsultant<br><br>
 ![RTX](./assets/images/resume/rtx.jpg){: style="width: 15px; height: 15px;"} Raytheon Technologies<br>
-Sr. Cyber Threat Ops Technologist II<br>
+Sr. Cyber Threat Ops Technologist II<br><br>
 ![RTX](./assets/images/resume/rtx.jpg){: style="width: 15px; height: 15px;"} Raytheon Technologies<br>
-Sr. Cyber Defense Technologist I<br>
+Sr. Cyber Defense Technologist I<br><br>
 ![Telos](./assets/images/resume/telos.png){: style="width: 15px; height: 15px;"} Telos Corp.<br>
-Client Systems Technician, Mid<br>
+Client Systems Technician, Mid<br><br>
 ![LM](./assets/images/resume/lm.png){: style="width: 15px; height: 15px;"} Lockheed Martin<br>
-Technical Support<br>
+Technical Support<br><br>
 ![LM](./assets/images/resume/lm.png){: style="width: 15px; height: 15px;"} Lockheed Martin<br>
-Security Assistant Senior<br>
+Security Assistant Senior<br><br>
 ![USAF](./assets/images/resume/usaf.png){: style="width: 15px; height: 15px;"} United States Air Force<br>
-3P, Security Forces<br>
+3P, Security Forces<br><br>
 ![USAFR](./assets/images/resume/usafr.jpg){: style="width: 15px; height: 15px;"} USAF Reserve<br>
 1D7, Cyber Defense
 3D, Client Systems
