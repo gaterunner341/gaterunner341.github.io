@@ -1,17 +1,17 @@
 # Certification
-- certification: Certified Information System Security Professional (CISSP)
-  organization: (ISC)<sup>2</sup>
+- cert: Certified Information System Security Professional (CISSP)
+  org: (ISC)<sup>2</sup>
   year: 2021
   logo: cissp.png
 
 # Certification
-- certification: Security+
-  organization: CompTIA
+- cert: Security+
+  org: CompTIA
   year: 2017
   logo: sec.png
 
 # Certification
-- certification: AWS Cloud Practitioner
-  organization: Amazon Web Services (AWS)
+- cert: AWS Cloud Practitioner
+  org: Amazon Web Services (AWS)
   year: 2021
   logo: ACP.png

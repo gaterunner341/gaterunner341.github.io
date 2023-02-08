@@ -30,4 +30,18 @@ Washington D.C. Metro Area
     </div>
     {% endfor %}
   </section>
+
+  <section>
+    <h2>Certifications</h2>
+    {% for certification in site.data.certification %}
+    <div style="width: 100%;">
+      <img src="./assets/images/resume/{{ certification.logo }}" style="padding-right:5px;float:left;width:50px;height:50px;">
+      <div style="width:115%;">
+        <b>{{ certification.cert }}</b><br>
+        {{ certification.org }} &bull; {{ certification.year }}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
   <br><br><br><br><br><br><br>
