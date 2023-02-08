@@ -2,22 +2,26 @@
 - cert: Certified Information System Security Professional (CISSP)
   org: (ISC)<sup>2</sup>
   year: 2021
+  certID: 830401
   logo: cissp.png
 
 # Certification
 - cert: Security+
   org: CompTIA
   year: 2017
+  certID: COMP001021196902
   logo: sec.png
 
 # Certification
 - cert: AWS Cloud Practitioner
   org: Amazon Web Services (AWS)
   year: 2021
+  certID: 08LF1XCJPFF1QS9S
   logo: ACP.png
 
 # Certification
-- cert: Physical Security Certification (expired)
+- cert: Physical Security Certification
   org: Defense Counterintelligence and Security Agency (DCSA)
   year: 2016
+  certID: Expired
   logo: dcsa.png
