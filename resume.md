@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![PhillProfile](./assets/images/PhillProfile.jpg){: .center-image style="width: 250px; height: 200px;border-radius: 50%;"}
+![PhillProfile](./assets/images/PhillProfile.jpg){: .center-image style="border-radius: 50%;"}
 
 # Phillip Kittelson
 
