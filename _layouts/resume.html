@@ -7,11 +7,11 @@ Phillip Kittelson
   <section>
     <h2>Experience</h2>
     {% for job in site.data.experience %}
-    <div>
+    <div style="background-color: blue;>
       <img src="./assets/images/resume/{{ job.logo }}" style="padding-right:5px;float:left;width:50px;height:50px;">
-      <div>{{ job.position }}<br>
+      <div style="background-color: red;"><b>{{ job.position }}</b><br>
         {{ job.company }} &bull; {{ job.duration }}<br>
-        <p>{{ job.summary }}</p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>{{ job.summary }}</p>
       </div>
     </div><!-- end of resume-item -->
     {% endfor %}
