@@ -30,8 +30,10 @@ layout: default
 
 ![LM](./assets/images/resume/lm.png){: style="width: 15px; height: 15px;"} Technical Support, Lockheed Martin<br>
 ![LM](./assets/images/resume/lm.png){: style="width: 15px; height: 15px;"} Security Assistant Senior, Lockheed Martin<br>
+
 ![USAF](./assets/images/resume/usaf.png){: style="width: 15px; height: 15px;"} Security Forces, United States Air Force<br>
 
+<i class="fa fa-star" aria-hidden="true"></i> Military Experience
 ![USAFR](./assets/images/resume/usafr.jpg){: style="width: 15px; height: 15px;"} 1D7, Cyber Defense, USAF Reserve<br>
 ![USAFR](./assets/images/resume/usafr.jpg){: style="width: 15px; height: 15px;"} 3D, Client Systems, USAF Reserve<br>
 ![USAFR](./assets/images/resume/usafr.jpg){: style="width: 15px; height: 15px;"} 3P, Security Forces, USAF Reserve<br>
