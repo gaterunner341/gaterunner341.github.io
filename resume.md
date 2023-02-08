@@ -18,4 +18,5 @@ layout: default
 
 <i class="fa fa-briefcase" aria-hidden="true" style="color:#191970"></i> Experience
 
-![MPG](./assets/images/resume/mpg.jpg){: style="width: 50px; height: 50px;"} MintPoint Group
+![MPG](./assets/images/resume/mpg.jpg){: style="width: 15px; height: 15px;"} MintPoint Group
+![RTX](./assets/images/resume/rtx.jpg){: style="width: 15px; height: 15px;"} Raytheon Technologies
