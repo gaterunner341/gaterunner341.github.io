@@ -25,9 +25,7 @@ layout: default
 ![MPG](./assets/images/resume/mpg.jpg){: style="width: 15px; height: 15px;"} Senior Counsultant, MindPoint Group<br>
 ![RTX](./assets/images/resume/rtx.jpg){: style="width: 15px; height: 15px;"} Sr. Cyber Threat Ops Technologist II, Raytheon Technologies<br>
 ![RTX](./assets/images/resume/rtx.jpg){: style="width: 15px; height: 15px;"} Sr. Cyber Defense Technologist I, Raytheon Technologies<br>
-
 ![Telos](./assets/images/resume/telos.png){: style="width: 15px; height: 15px;"} Client Systems Technician, Mid, Telos Corp.<br>
-
 ![LM](./assets/images/resume/lm.png){: style="width: 15px; height: 15px;"} Technical Support, Lockheed Martin<br>
 ![LM](./assets/images/resume/lm.png){: style="width: 15px; height: 15px;"} Security Assistant Senior, Lockheed Martin<br>
 
