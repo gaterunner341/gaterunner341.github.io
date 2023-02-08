@@ -8,7 +8,7 @@ layout: default
 
 <span style="font-size:20px"><i class="fa fa-graduation-cap" aria-hidden="true" style="color:#191970"></i> Education</span>
 
-![Champlain](./assets/images/resume/champlain.png){: style="width: 15px; height: 15px;"} BS, Computer Forensics and Digital Investigation, Champlain College, Burlington, VT<br>
+![Champlain](./assets/images/resume/champlain.png){: style="width: 15px; height: 15px;"} BS, Computer Forensics and Digital Investigation, Champlain College<br>
 ![CCAF](./assets/images/resume/ccaf.png){: style="width: 15px; height: 15px;"} AAS Criminal Justice, Community College of the Air Force<br>
 ![CCAF](./assets/images/resume/ccaf.png){: style="width: 15px; height: 15px;"} AAS Information Technology, Community College of the Air Force<br>
 
