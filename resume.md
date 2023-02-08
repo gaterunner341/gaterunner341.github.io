@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![PhillProfile](./assets/images/PhillProfile.jpg){: .center-image style="border-radius: 50%;"}
+![PhillProfile](./assets/images/PhillProfile.jpg){: style="border-radius: 50%;display: block;margin-left: auto;margin-right: auto;"}
 
 <span style="font-size:40px">Phillip Kittelson</span>
 
