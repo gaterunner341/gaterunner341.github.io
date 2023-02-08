@@ -41,3 +41,17 @@
   duration: Aug 2014 &mdash; Jun 2015
   summary: Job description.
   logo: lm.png
+
+# USAF
+- company: United States Air Force
+  position: Security Forces
+  duration: Mar 2003 &mdash; Aug 2014
+  summary: Job description.
+  logo: usaf.png
+
+# USAF
+- company: United States Air Force Reserve
+  position: Security Forcee/Client Systems/Cyber Defense
+  duration: Jun 2015 &mdash; Present
+  summary: Job description.
+  logo: usaf.png
