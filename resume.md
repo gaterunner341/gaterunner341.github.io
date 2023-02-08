@@ -35,6 +35,7 @@ layout: default
 - Security Forces
 
 <i class="fa fa-star" aria-hidden="true" style="color:#191970"></i> Military Experience<br>
+
 ![USAFR](./assets/images/resume/usafr.jpg){: style="width: 15px; height: 15px;"} USAF Reserve<br>
 - 1D7, Cyber Defense
 - 3D, Client Systems
