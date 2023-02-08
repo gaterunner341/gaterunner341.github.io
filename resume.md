@@ -17,3 +17,5 @@ layout: default
 <i class="fa fa-terminal" style="color:#191970" aria-hidden="true"></i> Projects
 
 <i class="fa fa-briefcase" aria-hidden="true" style="color:#191970"></i> Experience
+
+![MPG](./assets/images/resume/mpg.jpg){: style="width: 50px; height: 50px;"} MintPoint Group
