@@ -13,9 +13,9 @@ layout: default
 
 <i class="fa fa-certificate" aria-hidden="true" style="color:#191970"></i> Certifications
 
-<i class="fa fa-angle-double-right" aria-hidden="true"></i> Certified Information Systems Security Professional (CISSP) (ISC)<sup>2</sup><br>
-<i class="fa fa-angle-double-right" aria-hidden="true" style="color:#191970"></i> CompTIA Security+<br>
-<i class="fa fa-angle-double-right" aria-hidden="true" style="color:#191970"></i> AWS Cloud Practitioner
+![CISSP](./assets/images/resume/cissp.png){: style="width: 15px; height: 15px;"} Certified Information Systems Security Professional (CISSP) (ISC)<sup>2</sup><br>
+![Sec+](./assets/images/resume/sec.png){: style="width: 15px; height: 15px;"} CompTIA Security+<br>
+![ACP](./assets/images/resume/ACP.png){: style="width: 15px; height: 15px;"} AWS Cloud Practitioner<br>
 
 <i class="fa fa-terminal" style="color:#191970" aria-hidden="true"></i> Projects
 
