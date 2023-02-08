@@ -37,10 +37,10 @@ When it comes to studying you can always pick up a certification book to increas
 
 ## Resources
 
--**[DoD Approved 8570 Baseline Certifications](https://public.cyber.mil/cw/cwmp/dod-approved-8570-baseline-certifications/){: .hover-underline-animation target=”_blank”}**
--**[CompTIA Security+](https://www.comptia.org/certifications/security){: .hover-underline-animation target=”_blank”}**
--**[CompTIA CySA+](https://www.comptia.org/certifications/security){: .hover-underline-animation target=”_blank”}**
--**[(ISC)<sup>2</sup> CISSP](https://www.isc2.org/Certifications/CISSP){: .hover-underline-animation target=”_blank”}**
--**[CCNA Security](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html){: .hover-underline-animation target=”_blank”}**
--**[SANS GIAC Security Essentials (GSEC)](https://www.giac.org/certifications/security-essentials-gsec/){: .hover-underline-animation target=”_blank”}**
--**[EC-Council Certified Network Defender (C|ND)](https://www.eccouncil.org/programs/certified-network-security-course/){: .hover-underline-animation target=”_blank”}**
+- **[DoD Approved 8570 Baseline Certifications](https://public.cyber.mil/cw/cwmp/dod-approved-8570-baseline-certifications/){: .hover-underline-animation target=”_blank”}**
+- **[CompTIA Security+](https://www.comptia.org/certifications/security){: .hover-underline-animation target=”_blank”}**
+- **[CompTIA CySA+](https://www.comptia.org/certifications/security){: .hover-underline-animation target=”_blank”}**
+- **[(ISC)<sup>2</sup> CISSP](https://www.isc2.org/Certifications/CISSP){: .hover-underline-animation target=”_blank”}**
+- **[CCNA Security](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html){: .hover-underline-animation target=”_blank”}**
+- **[SANS GIAC Security Essentials (GSEC)](https://www.giac.org/certifications/security-essentials-gsec/){: .hover-underline-animation target=”_blank”}**
+- **[EC-Council Certified Network Defender (C|ND)](https://www.eccouncil.org/programs/certified-network-security-course/){: .hover-underline-animation target=”_blank”}**
