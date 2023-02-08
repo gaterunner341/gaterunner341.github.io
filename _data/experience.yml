@@ -49,16 +49,17 @@
   summary: Job description.
   logo: usaf.png
 
-# USAF
+# USAFR 1
+- company: United States Air Force Reserve
+  position: Client Systems/Cyber Defense
+  duration: Mar 2019 &mdash; Present
+  summary: Job description.
+  logo: usafr.jpg
+
+# USAFR 2
 - company: United States Air Force Reserve
   position: Security Forces
   duration: Jun 2015 &mdash; Mar 2019
   summary: Job description.
   logo: usafr.jpg
 
-# USAF
-- company: United States Air Force Reserve
-  position: Client Systems/Cyber Defense
-  duration: Mar 2019 &mdash; Present
-  summary: Job description.
-  logo: usafr.jpg
