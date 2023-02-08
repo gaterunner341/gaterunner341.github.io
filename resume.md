@@ -7,6 +7,7 @@ layout: default
 # Phillip Kittelson
 
 <i class="fa fa-graduation-cap" aria-hidden="true" style="color:#191970"></i> Education
+
 ![Champlain](./assets/images/resume/champlain.png){: style="width: 15px; height: 15px;"} Champlain College<br>
 ![CCAF](./assets/images/resume/ccaf.png){: style="width: 15px; height: 15px;"} Community College of the Air Force<br>
 
