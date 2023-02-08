@@ -22,11 +22,11 @@ Washington D.C. Metro Area
     <h2>Education</h2>
     {% for education in site.data.education %}
     <div style="width: 100%;">
-        <img src="./assets/images/resume/{{ education.logo }}" style="padding-right:5px;float:left;width:50px;height:50px;">
-        <div style="width:115%;">
+      <img src="./assets/images/resume/{{ education.logo }}" style="padding-right:5px;float:left;width:50px;height:50px;">
+      <div style="width:115%;">
         <b>{{ education.degree }}</b><br>
         {{ education.school}} &bull; {{ education.year }}
-        </div>
+      </div>
     </div>
     {% endfor %}
   </section>
