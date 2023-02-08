@@ -8,7 +8,7 @@ Phillip Kittelson
     <h2>Experience</h2>
     {% for job in site.data.experience %}
     <div>
-      <img src="./assets/images/resume/{{ job.logo }}" style="width:25px;height:25px;">
+      <img src="./assets/images/resume/{{ job.logo }}" style="float:left;width:25px;height:25px;">
       {{ job.position }}
       {{ job.company }} &bull; {{ job.duration }}
       <p>{{ job.summary }}</p>
