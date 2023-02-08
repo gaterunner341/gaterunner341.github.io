@@ -8,9 +8,9 @@ layout: default
 
 <i class="fa fa-graduation-cap" aria-hidden="true" style="color:#191970"></i> Education
 
-![Champlain](./assets/images/resume/champlain.png){: style="width: 15px; height: 15px;"} Bachelors of Science in Computer Forensics and Digital Investigation, Champlain College, Burlington, VT<br>
-![CCAF](./assets/images/resume/ccaf.png){: style="width: 15px; height: 15px;"} Associates in Applied Science in Criminal Justice, Community College of the Air Force<br>
-![CCAF](./assets/images/resume/ccaf.png){: style="width: 15px; height: 15px;"} Associates in Applied Science in Information Technology, Community College of the Air Force<br>
+![Champlain](./assets/images/resume/champlain.png){: style="width: 15px; height: 15px;"} BS, Computer Forensics and Digital Investigation, Champlain College, Burlington, VT<br>
+![CCAF](./assets/images/resume/ccaf.png){: style="width: 15px; height: 15px;"} AAS Criminal Justice, Community College of the Air Force<br>
+![CCAF](./assets/images/resume/ccaf.png){: style="width: 15px; height: 15px;"} AAS Information Technology, Community College of the Air Force<br>
 
 <i class="fa fa-certificate" aria-hidden="true" style="color:#191970"></i> Certifications
 
