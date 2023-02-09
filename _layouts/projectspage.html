@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>My Projects</h1>
+
+  <section>
+    {% for projects in site.data.projects %}
+    <div style="width:100%">
+      <h2><a href="{{ project.url }}">{{ project.projectname }}</a></h2>
+      <p style="text-align: justify">{{ project.description }}</p>
+    </div>
+    {% endfor %}
+  </section>
+  <br><br><br><br><br><br><br>
