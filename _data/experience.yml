@@ -6,6 +6,7 @@
   duration: Mar 2022 &mdash; Present
   summary: Tier II support to the Department of Justice’s Security Operations Center (JSOC), providing support for complex computer network exploitation and defense, identify, and investigate computer and network intrusions, incident response and remediation. Perform comprehensive computer surveillance and monitoring, identify vulnerabilities, evaluate secure network designs, and protection strategies, conduct audits of information technology infrastructure. Conduct research in open and closed-source exploitation tools, attack techniques, procedures, and trends. Provide technical support for a comprehensive risk management program, identifying mission-critical processes and systems, current and projected threats, and system vulnerabilities.
   logo: mpg.jpg
+  alt: MindPoint Group
 
 # Sr. Cyber Threat Ops Technologist II
 - company: Raytheon Technologies
@@ -13,6 +14,7 @@
   duration: Mar 2021 &mdash; Mar 2022
   summary: Monitor, assess and respond to cyber intrusion alerts as part of the Computer Incident Response Team (CIRT) for the Cybersecurity and Infrastructure Security Agency (CISA) National Cyber Protection System’s Security (NCPS) Security Operations Center (SOC).
   logo: rtx.jpg
+  alt: Raytheon Technologies
 
 # Sr. Cyber Defense Technologist I 
 - company: Raytheon Technologies
@@ -20,6 +22,7 @@
   duration: Aug 2019 &mdash; Mar 2021
   summary: Provide oversight of, develop, and implement cybersecurity policy and procedure in compliance with RMF (JSIG), ICD 503, DAAPM and NISPOM for classified information systems. Support 250 end-users and multiple systems with 12+ Department of Defense contracts. Started with Apex Systems and transitioned to FT Raytheon employee 3/2020.
   logo: rtx.jpg
+  alt: Raytheon Technologies
 
 # Client Support Technician, Mid 
 - company: Multiple Contracts
@@ -27,6 +30,7 @@
   duration: Sep 2017 &mdash; Aug 2019
   summary: Part of 9-person project team for federal contractor that collectively updated 19K laptops to Windows 10 for the United States Marine Corps (at Insight), 5K NIPRNet PCs and 500 SIPRNet classified PCs/laptops for the USAF (at Verigent) using System Center Configuration Manager (SCCM). Boot enabled CDs and hard disk drives to initiate upgrades from Windows 7 Enterprise. Regularly reviewed error logs to determine imaging failures.
   logo: work.jpg
+  alt: Work
 
 # Technical Support
 - company: Lockheed Martin
@@ -34,6 +38,7 @@
   duration: Jun 2015 &mdash; Sep 2017
   summary: Served as the central point of contact for facility maintenance, repair or capital improvement project needs for 150 personnel. Liaised with customer, to coordinate, communicate and schedule needs within 140K square foot, $49M facility that contained $100M in simulators, servers, data storage and $90K of desktop IT equipment. 
   logo: lm.png
+  alt: Lockheed Martin
 
 # Security Assistant Senior
 - company: Lockheed Martin
@@ -41,3 +46,4 @@
   duration: Aug 2014 &mdash; Jun 2015
   summary: Job description.
   logo: lm.png
+  alt: Lockheed Martin

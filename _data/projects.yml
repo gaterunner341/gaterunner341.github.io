@@ -1,9 +1,9 @@
-# Projects
-- projectname: WiFi Harvester
+# Project
+- name: WiFi Harvester
   url: wifiharvester.html
   description: WiFi Harvester is a Python script I developed as a forensics tool during my Python Forensics course at Champlain College.
 
-- projectname: PCAPa
+- name: PCAPa
   url: pcapa.html
   description: I wrote PCAP analyzer, a BASH-based script, while I was developing my BASH skills. PCAPa can be used to analyze PCAP network packet captures files. This is an adapted script based on a video tutorial from Packet Pioneer.
   
