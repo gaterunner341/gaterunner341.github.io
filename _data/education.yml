@@ -3,21 +3,25 @@
   school: Champlain College
   year: 2023
   logo: champlain.png
+  alt: Champlain College
 
 # Degree
 - degree: Bachelor of Science, Computer Forensics and Digital Investigation
   school: Champlain College
   year: 2018
   logo: champlain.png
+  alt: Champlain College
 
 # Degree
 - degree: Associates in Applied Science, Information Technology
   school: Community College of the Air Force
   year: 2022
   logo: ccaf.png
+  alt: CCAF
 
 # Degree
 - degree: Associates in Applied Science, Criminal Justice
   school: Community College of the Air Force
   year: 2016
   logo: ccaf.png
+  alt: CCAF
