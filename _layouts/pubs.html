@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>My Publications</h1>
+  <section>
+    {% for pubs in site.data.pubs %}
+    <div style="width:100%">
+      <h2><a href="./{{ pubs.url }}">{{ pubs.name }}</a></h2>
+      <p style="text-align: justify">{{ pubs.description }}</p>
+    </div>
+    {% endfor %}
+  </section>
+  <br><br><br><br><br><br><br>
