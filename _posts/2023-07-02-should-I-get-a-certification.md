@@ -8,7 +8,7 @@ date: 2023-02-07 19:00 -0500
 image: certified.jpg
 alt: Certified
 ---
-Ask any who works in cybersecurity if you pursue a certification, and you will get mixed results. The two main camps out there either say a certification is required for just about any position in the industry, or a certification is completely useless.
+Ask any who works in cybersecurity if you should pursue a certification, and you will get mixed results. The two main camps out there either say a certification is required for just about any position in the industry, or a certification is completely useless.
 
 Certifications can be either woefully inflated, or considered the “gold standard” in an industry. Take CompTIA’s Security+ certification, which their website states recommended experience as having the CompTIA Network+ certification and “two years of experience in IT administration with a security focus.” If you enlist in the military, especially the Air Force, most of your training will concentrate on getting you to pass the Security+ exam, without having any of the recommended experience.
 
