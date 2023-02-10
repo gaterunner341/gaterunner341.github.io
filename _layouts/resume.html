@@ -11,7 +11,7 @@ Summary text here.
     <h2>Experience</h2>
     {% for job in site.data.experience %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ job.logo }}" alt="{{ job.alt }}" style="padding-right:5px;float:left;width:50px;height:50px;">
+      <img src="./assets/images/resume/{{ job.logo }}" alt="{{ job.alt }}" style="padding-right:5px;float:left;width:45px;height:45px;">
       <div style="width:115%;">
         <b>{{ job.position }}</b><br>
         {{ job.company }} &bull; {{ job.duration }}<br><br>
@@ -25,7 +25,7 @@ Summary text here.
     <h2>Military Experience</h2>
     {% for job in site.data.military %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ job.logo }}" style="padding-right:5px;float:left;width:50px;height:50px;">
+      <img src="./assets/images/resume/{{ job.logo }}" style="padding-right:5px;float:left;width:45px;height:45px;">
       <div style="width:115%;">
         <b>{{ job.position }}</b><br>
         {{ job.company }} &bull; {{ job.duration }}<br><br>
@@ -39,7 +39,7 @@ Summary text here.
     <h2>Education</h2>
     {% for education in site.data.education %}
     <div style="width: 100%;">
-      <img src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}" style="padding-right:5px;float:left;width:50px;height:50px;">
+      <img src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}" style="padding-right:5px;float:left;width:45px;height:45px;">
       <div style="width:115%;">
         <b>{{ education.degree }}</b><br>
         {{ education.school }} &bull; {{ education.year }}<br><br>
@@ -52,7 +52,7 @@ Summary text here.
     <h2>Certifications</h2>
     {% for certification in site.data.certification %}
     <div style="width: 100%;">
-      <img src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}" style="padding-right:5px;float:left;width:50px;height:50px;">
+      <img src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}" style="padding-right:5px;float:left;width:45px;height:45px;">
       <div style="width:115%;">
         <b>{{ certification.cert }}</b> ({{ certification.certID }})<br>
         {{ certification.org }} &bull; {{ certification.year }}<br><br>
