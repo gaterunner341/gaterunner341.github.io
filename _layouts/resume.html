@@ -25,7 +25,7 @@ Summary text here.
     <h2>Military Experience</h2>
     {% for job in site.data.military %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ job.logo }}" style="padding-right:5px;float:left;width:45px;height:auto;">
+      <img src="./assets/images/resume/{{ job.logo }}" alt="{{ job.alt }}" style="padding-right:5px;float:left;width:45px;height:auto;">
       <div style="width:115%;">
         <b>{{ job.position }}</b><br>
         {{ job.company }} &bull; {{ job.duration }}<br><br>
