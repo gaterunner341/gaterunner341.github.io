@@ -29,3 +29,11 @@
   certID: Expired
   logo: dcsa.png
   alt: PSC
+
+  # SARTECH III
+  - cert: SARTECH III
+  org: National Association for Search and Rescue
+  year: 2009
+  certID: Expired
+  logo: nasar.png
+  alt: NASAR
