@@ -5,7 +5,6 @@
   certID: 830401
   logo: cissp.png
   alt: CISSP
-
 # Certification
 - cert: Security+
   org: CompTIA
@@ -13,7 +12,6 @@
   certID: COMP001021196902
   logo: sec.png
   alt: Security+
-
 # Certification
 - cert: Certified Cloud Practitioner
   org: Amazon Web Services (AWS)
@@ -21,7 +19,6 @@
   certID: 08LF1XCJPFF1QS9S
   logo: ACP.png
   alt: ACP
-
 # Certification
 - cert: Physical Security Certification
   org: Defense Counterintelligence and Security Agency (DCSA)
@@ -29,8 +26,7 @@
   certID: Expired
   logo: dcsa.png
   alt: PSC
-
-  # SARTECH III
+# SARTECH III
 - cert: SARTECH III
   org: National Association for Search and Rescue
   year: 2009
