@@ -56,6 +56,13 @@
   link: 
 
 - provider: DoD Cyber Crime Center
+  course: Cyber Threat and Techniques Seminar Pilot
+  date: 2018
+  logo: dc3.jpg
+  alt: DC3
+  link: 
+
+- provider: DoD Cyber Crime Center
   course: Network Intrusions Basics
   date: 2018
   logo: dc3.jpg
