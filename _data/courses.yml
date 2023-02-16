@@ -62,6 +62,13 @@
   alt: AFRC
   link: 
 
+- provider: Department of Defense
+  course: Senior Enlisted Joint Professional Military Education I
+  date: 2016
+  logo: dod.png
+  alt: DoD
+  link: 
+
 - provider: United States Air Force
   course: Senior Non-Commissioned Officer Academy
   date: 2016
