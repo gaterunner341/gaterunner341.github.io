@@ -1,20 +1,20 @@
 # Courses
 - provider: CrowdStrike
-  course: FHT240 Investigating and Mitigating Threats with Real Time Response
+  course: Investigating and Mitigating Threats with Real Time Response
   date: 2022
   logo: cs.jpg
   alt: CrowdStrike
   link: 
 
 - provider: CrowdStrike
-  course: FHT202 Investigating and Querying Event Data With Falcon EDR
+  course: Investigating and Querying Event Data With Falcon EDR
   date: 2022
   logo: cs.jpg
   alt: CrowdStrike
   link: 
 
 - provider: CrowdStrike
-  course: FHT201 Intermediate Falcon Platform for Responders
+  course: Intermediate Falcon Platform for Responders
   date: 2022
   logo: cs.jpg
   alt: CrowdStrike
