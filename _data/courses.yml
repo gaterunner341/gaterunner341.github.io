@@ -26,6 +26,12 @@
   logo: cs.jpg
   alt: CrowdStrike
   link: 
+- provider: CrowdStrike
+  course: FHT201 Intermediate Falcon Platform for Responders
+  date: 2022
+  logo: cs.jpg
+  alt: CrowdStrike
+  link: 
 - provider: 229th Cyberspace Operations Squadron
   course: Cyber Operations Fundamentals Course
   date: 2021
