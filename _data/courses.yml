@@ -1,8 +1,34 @@
 # Courses
-# (ISC)2 Exam Reviewer
+# AC
 - provider: Active CounterMeasures
   course: Cyber Threat Hunting Level 1
   date: 2021
   logo: ac.jpg
   alt: ACM
   link: https://www.activecountermeasures.com/hunt-training/
+# Splunk
+- provider: Splunk>
+  course: Splunk Fundamentals 1
+  date: 2021
+  logo: splunk.webp
+  alt: Splunk
+  link: 
+# CS
+- provider: CrowdStrike
+  course: FHT240 Investigating and Mitigating Threats with Real Time Response
+  date: 2022
+  logo: cs.jpg
+  alt: CrowdStrike
+  link: 
+- provider: CrowdStrike
+  course: FHT202 Investigating and Querying Event Data With Falcon EDR
+  date: 2022
+  logo: cs.jpg
+  alt: CrowdStrike
+  link: 
+- provider: 229th Cyberspace Operations Squadron
+  course: Cyber Operations Fundamentals Course
+  date: 2021
+  logo: 229.png
+  alt: 229
+  link: 
