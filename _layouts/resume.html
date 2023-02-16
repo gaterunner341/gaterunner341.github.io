@@ -73,4 +73,17 @@ Phillip is a security professional with 20 years of experience in physical, indu
     {% endfor %}
   </section>
 
+  <section>
+    <h2>Completed Courses</h2>
+    {% for courses in site.data.courses %}
+    <div style="width:100%">
+      <img src="./assets/images/resume/{{ courses.logo }}" alt="{{ courses.alt }}" style="padding-right:5px;float:left;width:45px;height:auto;">
+      <div style="width:115%;">
+        <b>{{ courses.course }}</b><br>
+        {{ courses.provider }} &bull; {{ courses.date }}<br><br>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
   <br><br><br><br><br><br><br>
