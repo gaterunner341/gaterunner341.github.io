@@ -38,3 +38,94 @@
   logo: 229.png
   alt: 229
   link: 
+
+- provider: United States Air Force
+  course: Client Systems Course
+  date: 2021
+  logo: usaf.png
+  alt: USAF
+  link: 
+
+- provider: United States Air Force
+  course: Information Technology Fundamentals
+  date: 2021
+  logo: usaf.png
+  alt: USAF
+  link: 
+
+- provider: Air Force Reserve Command
+  course: Senior Non-Commissioned Officer Leadership Course
+  date: 2017
+  logo: AFR_Shield.png
+  alt: AFRC
+  link: 
+  
+- provider: United States Air Force
+  course: Senior Non-Commissioned Officer Academy
+  date: 2016
+  logo: au.png
+  alt: Air University
+  link: 
+
+- provider: Glendale (AZ) Police Department
+  course: Tactical Police Bicycle Course
+  date: 2013
+  logo: gpd.jpg
+  alt: Glendale Police Department
+  link: 
+
+- provider: United States Air Force
+  course: Base Security Operations Course
+  date: 2011
+  logo: usaf.png
+  alt: USAF
+  link: 
+
+- provider: K9 Tactical Operations and Consulting Services
+  course: SWAT ad K9 Interacting During Deployment Course - Canine Tactical School
+  date: 2010
+  logo: skidz.png
+  alt: SKIDDS-CATS
+  link: 
+
+- provider: United States Air Force
+  course: Security Forces Craftsman Course
+  date: 2010
+  logo: usaf.png
+  alt: USAF
+  link: 
+
+- provider: Taser
+  course: Taser X26 Certified User
+  date: 2008
+  logo: taser.png
+  alt: Taser
+  link: 
+
+- provider: United States Marine Corps
+  course: Military Working Dog Pre-Deployment Course
+  date: 2007
+  logo: usmc.png
+  alt: USMC
+  link: 
+
+- provider: United States Air Force
+  course: Airmen Leadership School
+  date: 2007
+  logo: usaf.png
+  alt: USAF
+  link: 
+
+- provider: United States Air Force
+  course: Military Working Dog Handler Course
+  date: 2006
+  logo: usaf.png
+  alt: USAF
+  link: 
+
+- provider: United States Air Force
+  course: Security Forces Apprentice Course
+  date: 2017
+  logo: usaf.png
+  alt: USAF
+  link: 
