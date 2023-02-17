@@ -2,11 +2,14 @@
 # (ISC)2 Exam Reviewer
 - org: (ISC)<sup>2</sup>
   duty: CISSP Exam Reviewer
-  duration: 2022
+  startyear: 2022
+  endyear: False
   logo: isc2.avif
   alt: (ISC)2
 - org: Civil Air Patrol
   duty: Volunteer Senior Member
+  startyear: 2007
+  endyear: 2013
   duration: 2007 &mdash; 2013
   logo: cap.png
   alt: CAP
