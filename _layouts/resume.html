@@ -49,7 +49,8 @@ Phillip is a security professional with 20 years of experience in physical, indu
 
   <section>
     <h2>Certifications</h2>
-    {% for certification in site.data.certification %}
+    {% assign certname = site.data.certification | sort: 'year' | reverse %}
+    {% for certification in certname %}
     <div style="width: 100%;">
       <img src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}" style="padding-right:8px;float:left;width:45px;height:auto;">
       <div style="width:115%;">
