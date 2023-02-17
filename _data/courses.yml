@@ -2,21 +2,21 @@
 - provider: CrowdStrike
   course: Investigating and Mitigating Threats with Real Time Response
   date: 2022
-  logo: cs.jpg
+  logo: cs.png
   alt: CrowdStrike
   link: 
 
 - provider: CrowdStrike
   course: Investigating and Querying Event Data With Falcon EDR
   date: 2022
-  logo: cs.jpg
+  logo: cs.png
   alt: CrowdStrike
   link: 
 
 - provider: CrowdStrike
   course: Intermediate Falcon Platform for Responders
   date: 2022
-  logo: cs.jpg
+  logo: cs.png
   alt: CrowdStrike
   link: 
 
