@@ -11,7 +11,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <h2>Experience</h2>
     {% for job in site.data.experience %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ job.logo }}" alt="{{ job.alt }}" style="padding-right:8px;float:left;width:45px;height:auto;">
+      <img src="./assets/images/resume/{{ job.logo }}" alt="{{ job.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         <b>{{ job.position }}</b><br>
         {{ job.company }} &bull; {{ job.duration }}<br><br>
@@ -25,7 +25,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <h2>Military Experience</h2>
     {% for job in site.data.military %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ job.logo }}" alt="{{ job.alt }}" style="padding-right:8px;float:left;width:45px;height:auto;">
+      <img src="./assets/images/resume/{{ job.logo }}" alt="{{ job.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         <b>{{ job.position }}</b><br>
         {{ job.company }} &bull; {{ job.duration }}<br><br>
@@ -38,7 +38,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <h2>Education</h2>
     {% for education in site.data.education %}
     <div style="width: 100%;">
-      <img src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}" style="padding-right:8px;float:left;width:45px;height:auto;">
+      <img src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         <b>{{ education.degree }}, {{ education.subject }}</b><br>
         {{ education.school }} &bull; {{ education.year }}<br><br>
@@ -69,7 +69,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <h2>Volunteer Experience</h2>
     {% for volunteer in site.data.volunteer %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ volunteer.logo }}" alt="{{ volunteer.alt }}" style="padding-right:8px;float:left;width:45px;height:auto;">
+      <img src="./assets/images/resume/{{ volunteer.logo }}" alt="{{ volunteer.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         <b>{{ volunteer.duty }}</b><br>
         {{ volunteer.org }} &bull;
@@ -88,7 +88,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     {% assign crse = site.data.courses | sort: 'date' | reverse %}
     {% for coursename in crse %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ coursename.logo }}" alt="{{ coursename.alt }}" style="padding-right:8px;float:left;width:45px;height:auto;">
+      <img src="./assets/images/resume/{{ coursename.logo }}" alt="{{ coursename.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         <b>{{ coursename.course }}</b><br>
         {{ coursename.provider }} &bull; {{ coursename.date }}<br><br>
