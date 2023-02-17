@@ -5,6 +5,7 @@
   certID: 830401
   logo: cissp.png
   alt: CISSP
+  url: https://www.credly.com/badges/1d3668c9-52c6-424d-91b0-95e17780fe26
 # Certification
 - cert: Security+
   org: CompTIA
@@ -12,6 +13,7 @@
   certID: COMP001021196902
   logo: sec.png
   alt: Security+
+  url: https://www.credly.com/badges/d9894d81-0c04-4985-8f9e-f1832a965872
 # Certification
 - cert: Certified Cloud Practitioner
   org: Amazon Web Services (AWS)
@@ -19,6 +21,7 @@
   certID: 08LF1XCJPFF1QS9S
   logo: ACP.png
   alt: ACP
+  url: https://www.credly.com/badges/05a58aaa-9fdb-4e15-9d4c-7a924816fbd3
 # Certification
 - cert: Physical Security Certification
   org: Defense Counterintelligence and Security Agency (DCSA)
@@ -26,6 +29,7 @@
   certID: Expired
   logo: dcsa.png
   alt: PSC
+  url: False
 # SARTECH III
 - cert: SARTECH III
   org: National Association for Search and Rescue
@@ -33,3 +37,11 @@
   certID: Expired
   logo: nasar.png
   alt: NASAR
+  url: False
+- cert: AWS Partner, Accredidation (Technical)
+  org: Amazon Web Services (AWS)
+  year: 2021
+  certID: 
+  logo: awsp.png
+  alt: AWS Partner
+  url: https://www.credly.com/badges/34e04e90-61c5-451d-bc12-3ae220743f15
