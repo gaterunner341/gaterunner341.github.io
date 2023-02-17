@@ -152,3 +152,10 @@
   logo: usaf.png
   alt: USAF
   link: 
+
+- provider: United States Army
+  course: Physical Security Course
+  date: 2004
+  logo: usa.png
+  alt: US Army
+  link: 
