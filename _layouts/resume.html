@@ -75,12 +75,13 @@ Phillip is a security professional with 20 years of experience in physical, indu
 
   <section>
     <h2>Certificate Courses</h2>
-    {% for courses in site.data.courses %}
+    {% assign crse = site.data.courses | sort: 'date' | reverse %}
+    {% for coursename in crse %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ courses.logo }}" alt="{{ courses.alt }}" style="padding-right:8px;float:left;width:45px;height:auto;">
+      <img src="./assets/images/resume/{{ coursename.logo }}" alt="{{ coursename.alt }}" style="padding-right:8px;float:left;width:45px;height:auto;">
       <div style="width:115%;">
-        <b>{{ courses.course }}</b><br>
-        {{ courses.provider }} &bull; {{ courses.date }}<br><br>
+        <b>{{ coursename.course }}</b><br>
+        {{ coursename.provider }} &bull; {{ coursename.date }}<br><br>
       </div>
     </div>
     {% endfor %}
