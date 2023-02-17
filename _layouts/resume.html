@@ -59,7 +59,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
         {% else %}
         <b>{{ certification.cert }}</b> (<a href="{{ certification.url }}" target="_blank" class="hover-underline-animation">{{ certification.certID }}</a>)<br>
         {% endif %}
-        {{ certification.org }} &bull; {{ certification.year | date: '%Y' }}<br><br>
+        {{ certification.org }} &bull; {{ certification.year }}<br><br>
       </div>
     </div>
     {% endfor %}
