@@ -8,7 +8,7 @@ layout: default
 
 ![PhillK9](./assets/images/k9.jpg){: style="float: right; padding-left: 20px"}Phillip's military experience includes Air Force Security Forces, nuclear weapons security, K9 operations, Client Systems, and Cyber Defense. Phillip is a veteran of Operation Iraqi Freedom (OIF), and Operation Enduring Freedom (OEF), and has deployed to Iraq and Afghanistan, and worked with units including the 10th Mountain Division, 3rd US Army, 32nd Infantry Division, U.S. Forces-Iraq, and U.S. Forces-Afghanistan. Phillip currently serves as a Master Sergeant in the Air Force Reserve's Cyber Defense speciality.
 
-Phillip has has degrees in criminal justice, information technology, and digital forensics. Phillip's certificaitons include Certified Information System Security Professional (CISSP) and AWS Cloud Practitioner.
+Phillip has has degrees in criminal justice, information technology, and digital forensics. Phillip's certifications include Certified Information System Security Professional (CISSP) and AWS Cloud Practitioner.
 
 For more information about Phillip's background, check out his **_[resume](./resume.html){: .hover-underline-animation}_**.
 
