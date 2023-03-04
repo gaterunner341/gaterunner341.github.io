@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Security Tools Part 1: Selecting Email Security Solutions
+title: Security Tools Part 1 - Selecting Email Security Solutions
 author: Phillip Kittelson
 categories: cybersecurity
 tags: [ cybersecurity, security tools, email security, email filtering ]
