@@ -8,7 +8,7 @@ date: 2023-03-23 12:00 -0500
 image: confidential.jpg
 alt: Confidential
 ---
-[Virus Total](https://www.virustotal.com) is an amazing tool, used by cybersecurity professionals across the world, and across the many industries in the government and private sectors. But beware, just like the saying anything posted on the Internet will be there forever. Analyst might routinely upload documents to Virus Total to detect known malicious code.
+[Virus Total](https://www.virustotal.com){: .hover-underline-animation target="_blank"} is an amazing tool, used by cybersecurity professionals across the world, and across the many industries in the government and private sectors. But beware, just like the saying anything posted on the Internet will be there forever. Analyst might routinely upload documents to Virus Total to detect known malicious code.
 
 ![VTImage](https://www.phillipkittelson.com/assets/images/VTResults.png)
 
