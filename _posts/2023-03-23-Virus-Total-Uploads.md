@@ -10,7 +10,7 @@ alt: Confidential
 ---
 [Virus Total](https://www.virustotal.com) is an amazing tool, used by cybersecurity professionals across the world, and across the many industries in the government and private sectors. But beware, just like the saying anything posted on the Internet will be there forever. Analyst might routinely upload documents to Virus Total to detect known malicious code.
 
-![VTImage](./assets/images/blog_photos/VTResults.png)
+![VTImage](./assets/images/VTResults.png)
 
 The average user who browses and searches Virus Total may only see indicators such as IP addresses, hashes, and file names, however, anyone with an enterprise account can download the uploaded content.
 
