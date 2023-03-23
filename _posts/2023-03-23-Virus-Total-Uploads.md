@@ -18,4 +18,4 @@ Virus Total supports search modifiers which allow tailoring search results to in
 
 A savvy searcher with an enterprise account could locate PDF, Word Document, Excel, and other file types which could include words such as _restricted_, _proprietary_, _confidential_, _Confidential PII_, _Attorney-Client Privileged_, _Restricted_, and just about any label a company may use to label its confidential data, in its file name. Further narrowing searches down could narrow result in finding data from specific organizations, or industries. Simple Google searches can reveal how a company labels its internal confidential data via their guides. [Here is an example](https://www.premera.com/documents/030658.pdf){: .hover-underline-animation target="_blank"}.
 
-Security analyst should be cautious when uploading any file to any third party, regardless of the intent or purpose.
+Security analyst should be cautious when uploading files to any third party, regardless of the intent or purpose.
