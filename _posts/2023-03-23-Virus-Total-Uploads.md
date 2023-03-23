@@ -12,7 +12,7 @@ alt: Confidential
 
 ![VTImage](https://www.phillipkittelson.com/assets/images/VTResults.png)
 
-The average user who browses and searches Virus Total may only see indicators such as IP addresses, hashes, and file names, however, anyone with an enterprise account can download the uploaded content.
+The average user who browses and searches Virus Total may only see indicators such as IP addresses, hashes, and file names, however, anyone with an enterprise account can download the uploaded content. That includes users outside of your organization.
 
 Virus Total supports search modifiers which allow tailoring search results to including file type and file name or labels, and more here on [VT's support poral](https://support.virustotal.com/hc/en-us/articles/360001385897-File-search-modifiers){: .hover-underline-animation target="_blank"}.
 
