@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Companies Beware of Proprietary Data puloaded to Virus Total
+title: Companies Beware of Proprietary Data Uploaded to Virus Total
 author: Phillip Kittelson
 categories: cybersecurity
 tags: [ cybersecurity, data labeling, data classification, Virus Total, proprietary  ]
