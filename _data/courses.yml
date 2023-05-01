@@ -159,3 +159,10 @@
   logo: usa.png
   alt: US Army
   link: 
+
+  - provider: DC3 Cyber Training Academy
+  course: Log Analysis Course
+  date: 2023
+  logo: dc3.jpg
+  alt: DC3
+  link: 
