@@ -90,7 +90,12 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <div style="width:100%">
       <img src="./assets/images/resume/{{ coursename.logo }}" alt="{{ coursename.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
+
+        {% if coursename.url == false %}
         <b>{{ coursename.course }}</b><br>
+        {% else %}
+        <a href="{{ course.url }}" target="_blank" class="hover-underline-animation">{{ coursename.course }}</a><br>
+        {% endif %}
         {{ coursename.provider }} &bull; {{ coursename.date }}<br><br>
       </div>
     </div>
