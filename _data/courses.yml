@@ -4,165 +4,165 @@
   date: 2022
   logo: cs.png
   alt: CrowdStrike
-  link: 
+  url: False
 
 - provider: CrowdStrike
   course: Investigating and Querying Event Data With Falcon EDR
   date: 2022
   logo: cs.png
   alt: CrowdStrike
-  link: 
+  url: False
 
 - provider: CrowdStrike
   course: Intermediate Falcon Platform for Responders
   date: 2022
   logo: cs.png
   alt: CrowdStrike
-  link: 
+  url: False
 
 - provider: Active CounterMeasures
   course: Cyber Threat Hunting Level 1
   date: 2021
   logo: ac.jpg
   alt: ACM
-  link: https://www.activecountermeasures.com/hunt-training/
+  url: https://www.activecountermeasures.com/hunt-training/
 
 - provider: Splunk>
   course: Splunk Fundamentals 1
   date: 2021
   logo: splunk.webp
   alt: Splunk
-  link: 
+  url: False
 
 - provider: 229th Cyberspace Operations Squadron
   course: Cyber Operations Fundamentals Course
   date: 2021
   logo: 229.png
   alt: 229
-  link: 
+  url: False
 
 - provider: United States Air Force
   course: Client Systems Course
   date: 2021
   logo: usaf.png
   alt: USAF
-  link: 
+  url: False
 
 - provider: United States Air Force
   course: Information Technology Fundamentals Course
   date: 2021
   logo: usaf.png
   alt: USAF
-  link: 
+  url: False
 
 - provider: DC3 Cyber Training Academy
   course: Cyber Threat and Techniques Seminar Pilot
   date: 2018
   logo: dc3.jpg
   alt: DC3
-  link: 
+  url: False
 
 - provider: DC3 Cyber Training Academy
   course: Network Intrusions Basics
   date: 2018
   logo: dc3.jpg
   alt: DC3
-  link: 
+  url: False
 
 - provider: Air Force Reserve Command
   course: Senior Non-Commissioned Officer Leadership Course
   date: 2017
   logo: AFR_Shield.png
   alt: AFRC
-  link: 
+  url: False
 
 - provider: Department of Defense
   course: Senior Enlisted Joint Professional Military Education I
   date: 2016
   logo: dod.png
   alt: DoD
-  link: 
+  url: False
 
 - provider: United States Air Force
   course: Senior Non-Commissioned Officer Academy
   date: 2016
   logo: au.png
   alt: Air University
-  link: 
+  url: False
 
 - provider: Glendale (AZ) Police Department
   course: Tactical Police Bicycle Course
   date: 2013
   logo: gpd.jpg
   alt: Glendale Police Department
-  link: 
+  url: False
 
 - provider: United States Air Force
   course: Base Security Operations Course
   date: 2011
   logo: usaf.png
   alt: USAF
-  link: 
+  url: False
 
 - provider: K9 Tactical Operations and Consulting Services
   course: SWAT ad K9 Interacting During Deployment Course - Canine Tactical School
   date: 2010
   logo: skidz.png
   alt: SKIDDS-CATS
-  link: 
+  url: False
 
 - provider: United States Air Force
   course: Security Forces Craftsman Course
   date: 2010
   logo: usaf.png
   alt: USAF
-  link: 
+  url: False
 
 - provider: Taser
   course: Taser X26 Certified User
   date: 2008
   logo: taser.png
   alt: Taser
-  link: 
+  url: False
 
 - provider: United States Marine Corps
   course: Military Working Dog Pre-Deployment Course
   date: 2007
   logo: usmc.png
   alt: USMC
-  link: 
+  url: False
 
 - provider: United States Air Force
   course: Airmen Leadership School
   date: 2007
   logo: usaf.png
   alt: USAF
-  link: 
+  url: False
 
 - provider: United States Air Force
   course: Military Working Dog Handler Course
   date: 2006
   logo: usaf.png
   alt: USAF
-  link: 
+  url: False
 
 - provider: United States Air Force
   course: Security Forces Academy
   date: 2003
   logo: usaf.png
   alt: USAF
-  link: 
+  url: False
 
 - provider: United States Army
   course: Physical Security Course
   date: 2004
   logo: usa.png
   alt: US Army
-  link: 
+  url: False
 
 - provider: DC3 Cyber Training Academy
   course: Log Analysis Course
   date: 2023
   logo: dc3.jpg
   alt: DC3
-  link: https://www.credly.com/badges/805c8315-2baa-4173-a318-cc8fb94b9103/public_url
+  url: https://www.credly.com/badges/805c8315-2baa-4173-a318-cc8fb94b9103/public_url
