@@ -11,14 +11,14 @@
   date: 2022
   logo: cs.png
   alt: CrowdStrike
-  url: False
+  url: https://www.crowdstrike.com/resources/data-sheets/crowdstrike-university-fht-202-course-syllabus/
 
 - provider: CrowdStrike
   course: Intermediate Falcon Platform for Responders
   date: 2022
   logo: cs.png
   alt: CrowdStrike
-  url: False
+  url: https://www.crowdstrike.com/wp-content/uploads/2020/03/fht-201-course-syllabus.pdf
 
 - provider: Active CounterMeasures
   course: Cyber Threat Hunting Level 1
@@ -109,7 +109,7 @@
   date: 2010
   logo: skidz.png
   alt: SKIDDS-CATS
-  url: False
+  url: https://k9tacops.com/training/
 
 - provider: United States Air Force
   course: Security Forces Craftsman Course
