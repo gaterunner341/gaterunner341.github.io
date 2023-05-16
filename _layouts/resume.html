@@ -40,7 +40,11 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <div style="width: 100%;">
       <img src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
+        {% if education.url == false %}
         <b>{{ education.degree }}, {{ education.subject }}</b><br>
+        {% else %}
+        </b><a href="{{ education.url }}" target="_blank" class="hover-underline-animation">{{ education.degree }}, {{ education.subject }}</a><br>
+        {% endif %}
         {{ education.school }} &bull; {{ education.year }}<br><br>
       </div>
     </div>
