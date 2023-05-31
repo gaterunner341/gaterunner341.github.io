@@ -166,3 +166,10 @@
   logo: dc3.jpg
   alt: DC3
   url: https://www.credly.com/badges/805c8315-2baa-4173-a318-cc8fb94b9103
+
+- provider: Cyborg Security
+  course: Threat Hunting - Exfiltration (Level 1)
+  date: 2023
+  logo: cyborg.png
+  alt: Threat Hunting - Exfiltration (Level 1)
+  url: https://www.credly.com/badges/6869953e-585f-4ebb-92c9-589c336348d0/public_url
