@@ -13,14 +13,11 @@ layout: default
       <div style="width:115%;">
         {% if training.url == false %}
         <b>{{ training.title }}</b><br>
-
         {% else %}
         <b><a href="{{ training.url }}" target="_blank" class="hover-underline-animation">{{ training.title }}</a></b><br>
         {% endif %}
-
-
-        {{ training.source }} &bull; {{ training.category }}<br><br>
-        <p style="text-align: justify">{{ training.summary }}</p>
+        {{ training.source }} &bull; {{ training.type }}<br><br>
+        Description: {{ training.summary }}<br>
       </div>
     </div>
     {% endfor %}
