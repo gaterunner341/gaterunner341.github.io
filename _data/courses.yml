@@ -146,13 +146,6 @@
   alt: USAF
   url: False
 
-- provider: United States Air Force
-  course: Security Forces Academy
-  date: 2003
-  logo: usaf.png
-  alt: USAF
-  url: False
-
 - provider: United States Army
   course: Physical Security Course
   date: 2004
@@ -193,4 +186,11 @@
   date: 2003
   logo: usaf.png
   alt: Basic Military Training
+  url: False
+
+- provider: United States Air Force
+  course: Security Forces Academy
+  date: 2003
+  logo: usaf.png
+  alt: USAF
   url: False
