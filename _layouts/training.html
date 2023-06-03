@@ -9,7 +9,7 @@ layout: default
     <h2>Course</h2>
     {% for training in site.data.training_path_threathunter %}
     <div style="width:100%">
-      <img src="./assets/images/training/{{ training.logo }}" alt="{{ job.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
+      <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         <b>{{ training.title }}</b><br>
         {{ training.source }} &bull; {{ training.category }}<br><br>
