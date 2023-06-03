@@ -180,3 +180,10 @@
   logo: cyborg.png
   alt: Threat Hunting - Execution (Level 1)
   url: https://www.credly.com/badges/dba86444-a3fa-4c97-8782-2540538fbddc/public_url
+
+- provider: United States Air Force
+  course: Non-Commissioned Officer Academy
+  date: 2014
+  logo: au.png
+  alt: Non-Commissioned Officer Academy
+  url: False
