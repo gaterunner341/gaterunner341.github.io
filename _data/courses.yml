@@ -187,3 +187,10 @@
   logo: au.png
   alt: Non-Commissioned Officer Academy
   url: False
+
+- provider: United States Air Force
+  course: Basic Military Training
+  date: 2003
+  logo: usaf.png
+  alt: Basic Military Training
+  url: False
