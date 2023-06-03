@@ -9,9 +9,16 @@ layout: default
     <h2>Course</h2>
     {% for training in site.data.training_path_threathunter %}
     <div style="width:100%">
-      <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
+      <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:4px;float:left;width:20px;height:auto;">
       <div style="width:115%;">
+        {% if training.url == false %}
         <b>{{ training.title }}</b><br>
+
+        {% else %}
+        <b><a href="{{ training.url }}" target="_blank" class="hover-underline-animation">{{ training.title }}</a></b><br>
+        {% endif %}
+
+
         {{ training.source }} &bull; {{ training.category }}<br><br>
         <p style="text-align: justify">{{ training.summary }}</p>
       </div>

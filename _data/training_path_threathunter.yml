@@ -3,7 +3,8 @@
 - source: Cyborg Security
   title: Begin Your Hunt The Threat Hunting Workshop
   type: Workshop
-  category: workshop
+  category: foundational
   summary: Threat hunting workshop
   logo: cyborg.png
   alt: Begin Your Hunt The Threat Hunting Workshop
+  url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
