@@ -4,7 +4,7 @@
   title: Begin Your Hunt The Threat Hunting Workshop
   type: Workshop
   category: foundational
-  summary: Threat hunting workshop
+  summary: To begin, you have to know what threat hunting is. Ask 10 people in cybersecurity what threat hunting is, and you'll get 10 different answers.
   logo: cyborg.png
   alt: Begin Your Hunt The Threat Hunting Workshop
   url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
@@ -13,7 +13,7 @@
   title: How to Build a Malwware Lab
   type: YouTube Play List
   category: foundational
-  summary: How to build a malware lab
+  summary: A good threat hunter has a virtual environment, or lab, where they can handle malicous artifacts and code. You'll need to be able to reset this when you mess it up, and you will mess it up.
   logo: fox.jpg
   alt: How to Build a Malwware Lab
   url: https://www.youtube.com/playlist?list=PLiFO-R_BI-kAqDPqtnOq2n70mtAZ6xg5N
