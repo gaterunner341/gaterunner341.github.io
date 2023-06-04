@@ -42,7 +42,7 @@
   logo: tti.png
   alt: Intro to Regular Expressions
   icon: false
-  url: https://samsclass.info/152/IR2020.htm
+  url: https://learn.taggart-tech.com/p/intro-to-regular-expressions
 
 - source: Elastic
   title: Elastic Fundamentals
@@ -61,7 +61,8 @@
   summary: Splunk is another popular SIEM, more often used by government agencies, to collect log data.
   logo: splunk.webp
   alt: Splunk Fundamentals
-  icon: false
+  icons:
+    - iconname: stamp
   url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
 
 
