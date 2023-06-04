@@ -32,6 +32,16 @@
   icon: false
   url: https://bowneconsultingcontent.com/pub/EH/proj/H420.htm
 
+- source: Sam's Class
+  title: VirusTotal & Wireshark
+  type: Course
+  category: foundational
+  summary: Learn how to upload, and work with artifacts in Virus Total.
+  logo: course.png
+  alt: VirusTotal & Wireshark
+  icon: false
+  url: https://samsclass.info/152/proj/IR304.htm
+
 - source: Neil Fox
   title: How to Build a Malware Lab
   type: YouTube Play List
