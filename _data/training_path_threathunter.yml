@@ -22,6 +22,16 @@
     - iconname: stamp
   url: https://www.activecountermeasures.com/hunt-training/
 
+  - source: Bowne Consulting
+  title: Wireshark
+  type: Course
+  category: foundational
+  summary: Threat hunters often pivot to PCAP analysis to find artifacts, phishing emails, and other bad stuff.
+  logo: course.png
+  alt: Wireshark
+  icon: false
+  url: https://bowneconsultingcontent.com/pub/EH/proj/H420.htm
+
 - source: Neil Fox
   title: How to Build a Malware Lab
   type: YouTube Play List
