@@ -65,4 +65,13 @@
     - iconname: stamp
   url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
 
-
+- source: Active Counter Measures
+  title: Threat Hunting Training Course
+  type: Courses
+  category: foundational
+  summary: Threat hunting course from AC, highly recommended.
+  logo: ac.jpg
+  alt: Threat Hunting Training Course
+  icons:
+    - iconname: stamp
+  url: https://www.activecountermeasures.com/hunt-training/
