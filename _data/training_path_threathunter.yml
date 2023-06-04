@@ -35,3 +35,12 @@
   logo: tti.png
   alt: Intro to Regular Expressions
   url: https://samsclass.info/152/IR2020.htm
+
+- source: Elastic
+  title: Elastic Fundamentals
+  type: Courses
+  category: siem
+  summary: Elastic is a popular SIEM tool used by threat hunters to find bad stuff. Know how to use it.
+  logo: elastic.jpg
+  alt: Elastic Fundamentals
+  url: https://www.elastic.co/training/free#fundamentals

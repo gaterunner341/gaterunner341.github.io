@@ -23,6 +23,25 @@ layout: default
     </div>
     {% endif %}
     {% endfor %}
+
+    <h3>SIEM Hunting</h3>
+    {% for training in site.data.training_path_threathunter %}
+    {% if training.category == "siem" %}
+    <div style="width:100%">
+      <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:4px;float:left;width:20px;height:auto;">
+      <div style="width:115%;">
+        {% if training.url == false %}
+        <b>{{ training.title }}</b><br>
+        {% else %}
+        <b><a href="{{ training.url }}" target="_blank" class="hover-underline-animation">{{ training.title }}</a></b><br>
+        {% endif %}
+        {{ training.source }} &bull; {{ training.type }}<br>
+        <b>Description:</b> {{ training.summary }}<br>
+      </div>
+      <br>
+    </div>
+    {% endif %}
+    {% endfor %}
   </section>
 
 
