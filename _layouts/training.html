@@ -21,7 +21,7 @@ layout: default
         {% else %}
         {{ training.source }} &bull; {{ training.type }} &bull;
         {% for entry in training.icons %}
-        {{ entry.iconname }}
+        <i class "fa-solid fa-{{ entry.iconname }}"></i>
         {% endfor %}
         <br>
         {% endif %}
