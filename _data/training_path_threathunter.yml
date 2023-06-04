@@ -31,7 +31,7 @@
   title: Intro to Regular Expressions
   type: Course
   category: foundational
-  summary: Gain an understanding of the common vernacular used in cybersecurity and threat hunting.
+  summary: REGEX is used across many niches of cybersecurity and threat hunting, know how to leverage REGEX when hunting for bad stuff.
   logo: tti.png
   alt: Intro to Regular Expressions
   url: https://samsclass.info/152/IR2020.htm
