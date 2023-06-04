@@ -17,3 +17,12 @@
   logo: fox.jpg
   alt: How to Build a Malwware Lab
   url: https://www.youtube.com/playlist?list=PLiFO-R_BI-kAqDPqtnOq2n70mtAZ6xg5N
+
+- source: Sams Class
+  title: Incident Response and the ATT&CK Matrix
+  type: Course
+  category: foundational
+  summary: Gain an understanding of the common vernacular used in cybersecurity and threat hunting.
+  logo: course.png
+  alt: Incident Response and the ATT&CK Matrix
+  url: https://samsclass.info/152/IR2020.htm
