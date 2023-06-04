@@ -18,14 +18,14 @@
   alt: How to Build a Malwware Lab
   url: https://www.youtube.com/playlist?list=PLiFO-R_BI-kAqDPqtnOq2n70mtAZ6xg5N
 
-- source: Sams Class
-  title: Incident Response and the ATT&CK Matrix
+- source: Cybrary
+  title: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
   type: Course
   category: foundational
   summary: Gain an understanding of the common vernacular used in cybersecurity and threat hunting.
-  logo: course.png
-  alt: Incident Response and the ATT&CK Matrix
-  url: https://samsclass.info/152/IR2020.htm
+  logo: cybrary.png
+  alt: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
+  url: https://www.cybrary.it/course/mitre-attack-defender-mad-attack-fundamentals
 
 - source: Taggart Tech
   title: Intro to Regular Expressions
