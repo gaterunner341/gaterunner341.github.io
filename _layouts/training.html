@@ -5,8 +5,9 @@ layout: default
 
 <h2>Cyber Threat Hunter</h2>
   <section>
-    <h3>Course</h3>
+    <h3>Foundational</h3>
     {% for training in site.data.training_path_threathunter %}
+    {% if training.category == "foundational" %}
     <div style="width:100%">
       <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:4px;float:left;width:20px;height:auto;">
       <div style="width:115%;">
@@ -19,6 +20,7 @@ layout: default
         Description: {{ training.summary }}<br>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
   </section>
 
