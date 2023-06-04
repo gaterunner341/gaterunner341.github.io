@@ -97,3 +97,15 @@
   icons:
     - iconname: stamp
   url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
+
+- source: Cyborg Security
+  title: Persistence is Futile
+  type: Workshop
+  category: lab
+  summary: Threat hunt workshop for adversary persistence using Elastic.
+  logo: cyborg.png
+  alt: Persistence is Futile
+  icon: true
+  icons:
+    - iconname: certificate
+  url: https://www.cyborgsecurity.com/our-webinars/webinars/upcoming-threat-hunting-workshop-persistence-is-futile/
