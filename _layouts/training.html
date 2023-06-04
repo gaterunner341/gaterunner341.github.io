@@ -4,10 +4,10 @@ layout: default
 <span style="font-size: 37px;font-weight: strong;">Curated Training Links</span>
 
 Legend:
-<i class="fa-solid fa-stamp" style="color:#191970" aria-hidden="true" title="File Certificate"></i>File Certificate<br>
-<i class="fa-solid fa-certificate" style="color:#191970" aria-hidden="true"></i>Digital Badge<br>
-<i class="fa-brands fa-youtube" style="color:#191970" aria-hidden="true"></i>YouTube Video<br>
-<i class="fa-light fa-rectangle-list" style="color:#191970" aria-hidden="true"></i>YouTube Playlist<br>
+<i class="fa-solid fa-stamp" style="color:#191970" aria-hidden="true" title="File Certificate"></i> File Certificate<br>
+<i class="fa-solid fa-certificate" style="color:#191970" aria-hidden="true"></i> Digital Badge<br>
+<i class="fa-brands fa-youtube" style="color:#191970" aria-hidden="true"></i> YouTube Video<br>
+<i class="fa-solid fa-list" style="color:#191970" aria-hidden="true"></i> YouTube Playlist<br>
 
 <h2>Cyber Threat Hunter</h2>
   <section>
@@ -49,7 +49,15 @@ Legend:
         {% else %}
         <b><a href="{{ training.url }}" target="_blank" class="hover-underline-animation">{{ training.title }}</a></b><br>
         {% endif %}
+        {% if training.icon == false %}
         {{ training.source }} &bull; {{ training.type }}<br>
+        {% else %}
+        {{ training.source }} &bull; {{ training.type }} &bull;
+        {% for entry in training.icons %}
+        <i class="fa-solid fa-{{ entry.iconname }}" style="color:#191970" aria-hidden="true"></i>
+        {% endfor %}
+        <br>
+        {% endif %}
         <b>Description:</b> {{ training.summary }}<br>
       </div>
       <br>
