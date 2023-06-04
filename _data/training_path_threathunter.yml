@@ -10,6 +10,18 @@
   icon: false
   url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
 
+- source: Active Counter Measures
+  title: Threat Hunting Training Course
+  type: Course
+  category: foundational
+  summary: Threat hunting course from AC, highly recommended.
+  logo: ac.jpg
+  alt: Threat Hunting Training Course
+  icon: true
+  icons:
+    - iconname: stamp
+  url: https://www.activecountermeasures.com/hunt-training/
+
 - source: Neil Fox
   title: How to Build a Malware Lab
   type: YouTube Play List
@@ -61,17 +73,7 @@
   summary: Splunk is another popular SIEM, more often used by government agencies, to collect log data.
   logo: splunk.webp
   alt: Splunk Fundamentals
+  icon: true
   icons:
     - iconname: stamp
   url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
-
-- source: Active Counter Measures
-  title: Threat Hunting Training Course
-  type: Courses
-  category: foundational
-  summary: Threat hunting course from AC, highly recommended.
-  logo: ac.jpg
-  alt: Threat Hunting Training Course
-  icons:
-    - iconname: stamp
-  url: https://www.activecountermeasures.com/hunt-training/
