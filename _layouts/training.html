@@ -16,7 +16,10 @@ layout: default
         {% else %}
         <b><a href="{{ training.url }}" target="_blank" class="hover-underline-animation">{{ training.title }}</a></b><br>
         {% endif %}
+        {% if training.icon == false %}
         {{ training.source }} &bull; {{ training.type }}<br>
+        {% else %}
+        {{ training.source }} &bull; {{ training.type }} &bull;<br>
         <b>Description:</b> {{ training.summary }}<br>
       </div>
       <br>
