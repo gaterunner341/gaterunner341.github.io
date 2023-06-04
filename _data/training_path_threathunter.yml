@@ -10,7 +10,7 @@
   url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
 
 - source: Neil Fox
-  title: How to Build a Malwware Lab
+  title: How to Build a Malware Lab
   type: YouTube Play List
   category: foundational
   summary: A good threat hunter has a virtual environment, or lab, where they can handle malicous artifacts and code. You'll need to be able to reset this when you mess it up, and you will mess it up.
@@ -25,4 +25,13 @@
   summary: Gain an understanding of the common vernacular used in cybersecurity and threat hunting.
   logo: course.png
   alt: Incident Response and the ATT&CK Matrix
+  url: https://samsclass.info/152/IR2020.htm
+
+- source: Taggart Tech
+  title: Intro to Regular Expressions
+  type: Course
+  category: foundational
+  summary: Gain an understanding of the common vernacular used in cybersecurity and threat hunting.
+  logo: tti.png
+  alt: Intro to Regular Expressions
   url: https://samsclass.info/152/IR2020.htm
