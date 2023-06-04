@@ -19,7 +19,11 @@ layout: default
         {% if training.icon == false %}
         {{ training.source }} &bull; {{ training.type }}<br>
         {% else %}
-        {{ training.source }} &bull; {{ training.type }} &bull;<br>
+        {{ training.source }} &bull; {{ training.type }} &bull;
+        {% for entry in training.icons %}
+        {{ entry.iconname }}
+        {% endfor %}
+        <br>
         {% endif %}
         <b>Description:</b> {{ training.summary }}<br>
       </div>
