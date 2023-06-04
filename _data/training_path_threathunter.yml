@@ -29,7 +29,7 @@
   alt: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
   icon: true
   icons:
-    - iconname: certificate
+    - iconname: file-certificate
   url: https://www.cybrary.it/course/mitre-attack-defender-mad-attack-fundamentals
 
 - source: Taggart Tech
