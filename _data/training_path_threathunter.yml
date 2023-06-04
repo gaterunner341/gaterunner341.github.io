@@ -7,6 +7,7 @@
   summary: To begin, you have to know what threat hunting is. Ask 10 people in cybersecurity what threat hunting is, and you'll get 10 different answers.
   logo: cyborg.png
   alt: Begin Your Hunt The Threat Hunting Workshop
+  icon: false
   url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
 
 - source: Neil Fox
@@ -16,6 +17,7 @@
   summary: A good threat hunter has a virtual environment, or lab, where they can handle malicous artifacts and code. You'll need to be able to reset this when you mess it up, and you will mess it up.
   logo: fox.jpg
   alt: How to Build a Malwware Lab
+  icon: false
   url: https://www.youtube.com/playlist?list=PLiFO-R_BI-kAqDPqtnOq2n70mtAZ6xg5N
 
 - source: Cybrary
@@ -25,6 +27,8 @@
   summary: Gain an understanding of the common vernacular used in cybersecurity and threat hunting.
   logo: cybrary.png
   alt: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
+  icon: true
+    - iconname: certificate
   url: https://www.cybrary.it/course/mitre-attack-defender-mad-attack-fundamentals
 
 - source: Taggart Tech
@@ -34,6 +38,7 @@
   summary: REGEX is used across many niches of cybersecurity and threat hunting, know how to leverage REGEX when hunting for bad stuff.
   logo: tti.png
   alt: Intro to Regular Expressions
+  icon: false
   url: https://samsclass.info/152/IR2020.htm
 
 - source: Elastic
@@ -43,6 +48,7 @@
   summary: Elastic is a popular SIEM tool used by threat hunters to find bad stuff. Know how to use it.
   logo: elastic.jpg
   alt: Elastic Fundamentals
+  icon: false
   url: https://www.elastic.co/training/free#fundamentals
 
 - source: Splunk
@@ -52,6 +58,7 @@
   summary: Splunk is another popular SIEM, more often used by government agencies, to collect log data.
   logo: splunk.webp
   alt: Splunk Fundamentals
+  icon: false
   url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
 
 
