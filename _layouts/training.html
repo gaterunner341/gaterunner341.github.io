@@ -16,11 +16,13 @@ layout: default
         {% else %}
         <b><a href="{{ training.url }}" target="_blank" class="hover-underline-animation">{{ training.title }}</a></b><br>
         {% endif %}
-        {{ training.source }} &bull; {{ training.type }}
         {% if training.icon == true %}
+        {{ training.source }} &bull; {{ training.type }} &bull;
         {% for entry in training.icon %}
-          <i class="fa-solid fa-{{ entry }}"></i>
+          <i class="fa-solid fa-{{ entry.iconname }}"></i>
         {% endfor %}
+        {% else %}
+        {{ training.source }} &bull; {{ training.type }}
         {% endif %}
         
         <br>
