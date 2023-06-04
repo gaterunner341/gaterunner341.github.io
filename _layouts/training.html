@@ -17,7 +17,7 @@ layout: default
         <b><a href="{{ training.url }}" target="_blank" class="hover-underline-animation">{{ training.title }}</a></b><br>
         {% endif %}
         {{ training.source }} &bull; {{ training.type }}
-        {% if training.icon == ture %}
+        {% if training.icon == true %}
         {% for entry in training.icon %}
           <i class="fa-solid fa-{{ entry }}"></i>
         {% endfor %}
