@@ -44,3 +44,14 @@
   logo: elastic.jpg
   alt: Elastic Fundamentals
   url: https://www.elastic.co/training/free#fundamentals
+
+- source: Splunk
+  title: Splunk Fundamentals
+  type: Courses
+  category: siem
+  summary: Splunk is another popular SIEM, more often used by government agencies, to collect log data.
+  logo: splunk.webp
+  alt: Splunk Fundamentals
+  url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
+
+
