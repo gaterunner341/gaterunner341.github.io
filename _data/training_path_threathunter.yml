@@ -17,7 +17,9 @@
   summary: A good threat hunter has a virtual environment, or lab, where they can handle malicous artifacts and code. You'll need to be able to reset this when you mess it up, and you will mess it up.
   logo: fox.jpg
   alt: How to Build a Malwware Lab
-  icon: false
+  icon: true
+  icons:
+    - iconname: list
   url: https://www.youtube.com/playlist?list=PLiFO-R_BI-kAqDPqtnOq2n70mtAZ6xg5N
 
 - source: Cybrary
