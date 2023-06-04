@@ -109,3 +109,75 @@
   icons:
     - iconname: certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/upcoming-threat-hunting-workshop-persistence-is-futile/
+
+- source: Cyborg Security
+  title: Execution
+  type: Workshop
+  category: lab
+  summary: Threat hunt workshop for adversary execution using Elastic.
+  logo: cyborg.png
+  alt: Execution
+  icon: true
+  icons:
+    - iconname: certificate
+  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-execution/
+
+- source: Cyborg Security
+  title: Defense Evasion
+  type: Workshop
+  category: lab
+  summary: Threat hunt workshop for adversary evasion using Elastic.
+  logo: cyborg.png
+  alt: Defense Evasion
+  icon: true
+  icons:
+    - iconname: certificate
+  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-4-hunting-for-defense-evasion/
+
+- source: Cyborg Security
+  title: Credential Access
+  type: Workshop
+  category: lab
+  summary: Threat hunt workshop for credential access using Elastic.
+  logo: cyborg.png
+  alt: Credential Access
+  icon: true
+  icons:
+    - iconname: certificate
+  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-credential-access/
+
+- source: Cyborg Security
+  title: Lateral Movement
+  type: Workshop
+  category: lab
+  summary: Threat hunt workshop for adversary lateral movement access using Elastic.
+  logo: cyborg.png
+  alt: Lateral Movement
+  icon: true
+  icons:
+    - iconname: certificate
+  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-lateral-movement/
+
+- source: Cyborg Security
+  title: Hunting for Impact
+  type: Workshop
+  category: lab
+  summary: Threat hunt workshop designed to teach you to hunt for the impact.
+  logo: cyborg.png
+  alt: Hunting for Impact
+  icon: true
+  icons:
+    - iconname: certificate
+  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-impact/
+
+- source: Cyborg Security
+  title: Exfiltration
+  type: Workshop
+  category: lab
+  summary: Threat hunt workshop for data exfiltration.
+  logo: cyborg.png
+  alt: Hunting for Impact
+  icon: true
+  icons:
+    - iconname: certificate
+  url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-8-hunting-for-exfiltration/
