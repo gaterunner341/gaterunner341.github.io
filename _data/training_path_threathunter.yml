@@ -8,3 +8,12 @@
   logo: cyborg.png
   alt: Begin Your Hunt The Threat Hunting Workshop
   url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
+
+- source: Neil Fox
+  title: How to Build a Malwware Lab
+  type: YouTube Play List
+  category: foundational
+  summary: How to build a malware lab
+  logo: fox.jpg
+  alt: How to Build a Malwware Lab
+  url: https://www.youtube.com/playlist?list=PLiFO-R_BI-kAqDPqtnOq2n70mtAZ6xg5N
