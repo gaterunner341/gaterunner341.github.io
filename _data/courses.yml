@@ -201,3 +201,24 @@
   logo: cybrary.png
   alt: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
   url: https://app.cybrary.it/courses/api/certificate/CC-d0a7b6da-fa87-4d39-8fe0-bb9ec3c96f66/view
+
+- provider: Cyborg Security
+  course: Foundational Threat Hunting KPIs & Metrics
+  date: 2023
+  logo: cyborgkpi.png
+  alt: Foundational Threat Hunting KPIs & Metrics
+  url: https://www.credly.com/badges/2ebe3141-9e0a-4e18-bd57-bf311aad7ed0/public_url
+
+- provider: Cyborg Security
+  course: Threat Hunting Reporting & Communication
+  date: 2023
+  logo: cyborgreporting.png
+  alt: Threat Hunting Reporting & Communication
+  url: https://www.credly.com/badges/0db6c4fe-d4ad-4e4a-a34f-486301b682ac/public_url
+
+- provider: Cyborg Security
+  course: Foundational Threat Hunting Management
+  date: 2023
+  logo: ctborgmanagement.png
+  alt: Foundational Threat Hunting Management
+  url: https://www.credly.com/badges/71303ccf-1240-47ba-a0a8-3885d34d3422/public_url
