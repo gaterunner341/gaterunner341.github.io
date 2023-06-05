@@ -66,6 +66,34 @@ layout: default
     {% endif %}
     {% endfor %}
 
+
+    <h3>Phishing Analysis</h3>
+    {% for training in site.data.training_path_threathunter %}
+    {% if training.category == "phishing" %}
+    <div style="width:100%">
+      <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:4px;float:left;width:20px;height:auto;">
+      <div style="width:115%;">
+        {% if training.url == false %}
+        <b>{{ training.title }}</b><br>
+        {% else %}
+        <b><a href="{{ training.url }}" target="_blank" class="hover-underline-animation">{{ training.title }}</a></b><br>
+        {% endif %}
+        {% if training.icon == false %}
+        {{ training.source }} &bull; {{ training.type }}<br>
+        {% else %}
+        {{ training.source }} &bull; {{ training.type }} &bull;
+        {% for entry in training.icons %}
+        <i class="fa-solid fa-{{ entry.iconname }}" style="color:#191970" aria-hidden="true"></i>
+        {% endfor %}
+        <br>
+        {% endif %}
+        <b>Description:</b> {{ training.summary }}<br>
+      </div>
+      <br>
+    </div>
+    {% endif %}
+    {% endfor %}
+
     <h3>Hunting Labs or Workshops</h3>
     {% for training in site.data.training_path_threathunter %}
     {% if training.category == "lab" %}

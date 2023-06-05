@@ -181,3 +181,15 @@
   icons:
     - iconname: certificate
   url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-8-hunting-for-exfiltration/
+
+- source: Proof Point
+  title: Hiding in Plain Sight - Obfuscation Techniques in Phishing Attacks
+  type: White Paper
+  category: phishing
+  summary: Understand how obfuscation has made detecting phishing emails harder.
+  logo: proof.png
+  alt: Hiding in Plain Sight - Obfuscation Techniques in Phishing Attacks
+  icon: true
+  icons:
+    - iconname: paperclip
+  url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-8-hunting-for-exfiltration/
