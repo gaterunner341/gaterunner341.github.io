@@ -194,3 +194,10 @@
   logo: usaf.png
   alt: USAF
   url: False
+
+- provider: Cybrary
+  course: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
+  date: 2023
+  logo: cybrary.png
+  alt: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
+  url: https://app.cybrary.it/courses/api/certificate/CC-d0a7b6da-fa87-4d39-8fe0-bb9ec3c96f66/view
