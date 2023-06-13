@@ -14,7 +14,7 @@ I wrote PCAP analyzer, a BASH-based script, while I was developing my BASH skill
 
 ## [Hunt Queries](./HuntQ.md){: .hover-underline-animation}
 
-Threat Hunting queries.
+Threat Hunting queries to find bad stuff.
 
 
 <i class="fa-solid fa-backward" style="padding-right: 0.3em;margin-left: -0.9em;color: #8B0000;"></i>[Back...](./){: .hover-underline-animation}
