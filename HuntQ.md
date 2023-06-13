@@ -4,7 +4,7 @@ layout: default
 
 ## Hunt Queries
 
-<i class="fa-solid fa-crosshairs-simple"></i> Threat Hunting Queries.
+<i class="fa-solid fa-bullseye" style="color:#191970" aria-hidden="true"></i> Threat Hunting Queries.
 
 __T1176: Browser Extensions__
 __MITRE Description__: Adversaries may abuse Internet browser extensions to establish persistent access to victim systems. Browser extensions or plugins are small programs that can add functionality and customize aspects of Internet browsers. They can be installed directly or through a browser's app store and generally have access and permissions to everything that the browser can access
