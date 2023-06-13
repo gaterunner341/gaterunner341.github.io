@@ -6,4 +6,7 @@
 - name: PCAPa
   url: PCAPa.html
   description: I wrote PCAP analyzer, a BASH-based script, while I was developing my BASH skills. PCAPa can be used to analyze PCAP network packet captures files. This is an adapted script based on a video tutorial from Packet Pioneer.
-  
+
+- name: <i class="fa-solid fa-bullseye" style="color:#191970" aria-hidden="true"></i> Threat Hunting Queries
+  url: HuntQ.html
+  description: Threat Hunting queries to find bad stuff.
