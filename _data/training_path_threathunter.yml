@@ -19,7 +19,7 @@
   alt: Threat Hunting Training Course
   icon: true
   icons:
-    - iconname: stamp
+    - iconname: fa-solid fa-stamp
   url: https://www.activecountermeasures.com/hunt-training/
 
 - source: Bowne Consulting
@@ -51,7 +51,7 @@
   alt: How to Build a Malwware Lab
   icon: true
   icons:
-    - iconname: list
+    - iconname: fa-solid fa-list
   url: https://www.youtube.com/playlist?list=PLiFO-R_BI-kAqDPqtnOq2n70mtAZ6xg5N
 
 - source: Cybrary
@@ -63,7 +63,7 @@
   alt: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
   icon: true
   icons:
-    - iconname: stamp
+    - iconname: fa-solid fa-stamp
   url: https://www.cybrary.it/course/mitre-attack-defender-mad-attack-fundamentals
 
 - source: Taggart Tech
@@ -95,7 +95,7 @@
   alt: Splunk Fundamentals
   icon: true
   icons:
-    - iconname: stamp
+    - iconname: fa-solid fa-stamp
   url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
 
 - source: Cyborg Security
@@ -107,7 +107,7 @@
   alt: Persistence is Futile
   icon: true
   icons:
-    - iconname: certificate
+    - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/upcoming-threat-hunting-workshop-persistence-is-futile/
 
 - source: Cyborg Security
@@ -119,7 +119,7 @@
   alt: Execution
   icon: true
   icons:
-    - iconname: certificate
+    - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-execution/
 
 - source: Cyborg Security
@@ -131,7 +131,7 @@
   alt: Defense Evasion
   icon: true
   icons:
-    - iconname: certificate
+    - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-4-hunting-for-defense-evasion/
 
 - source: Cyborg Security
@@ -143,7 +143,7 @@
   alt: Credential Access
   icon: true
   icons:
-    - iconname: certificate
+    - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-credential-access/
 
 - source: Cyborg Security
@@ -155,7 +155,7 @@
   alt: Lateral Movement
   icon: true
   icons:
-    - iconname: certificate
+    - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-lateral-movement/
 
 - source: Cyborg Security
@@ -167,7 +167,7 @@
   alt: Hunting for Impact
   icon: true
   icons:
-    - iconname: certificate
+    - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-impact/
 
 - source: Cyborg Security
@@ -179,7 +179,7 @@
   alt: Hunting for Impact
   icon: true
   icons:
-    - iconname: certificate
+    - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-8-hunting-for-exfiltration/
 
 - source: Proof Point
@@ -191,7 +191,7 @@
   alt: Hiding in Plain Sight - Obfuscation Techniques in Phishing Attacks
   icon: true
   icons:
-    - iconname: paperclip
+    - iconname: fa-solid fa-paperclip
   url: https://www.proofpoint.com/sites/default/files/proofpoint-obfuscation-techniques-phishing-attacks-threat-insight-en-v1.pdf
 
 - source: Shark Fest
@@ -203,5 +203,5 @@
   alt: Shark Fest Intrusion Analysis and Threat Hunting with Suricata
   icon: true
   icons:
-    - iconname: youtube
+    - iconname: fa-brands fa-youtube
   url: https://www.youtube.com/watch?v=0WgyiOxCFzE
