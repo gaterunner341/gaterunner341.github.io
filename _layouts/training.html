@@ -16,7 +16,7 @@ layout: default
     {% for training in site.data.trainingtype %}
       {% for cat in training.category %}
         <h3>{{ cat }}</h3>
-          {% if cat.category == cat  %}
+          {% if training.category == cat  %}
             {{ training.title }}<br>
           {% endif %}
       {% endfor %}
