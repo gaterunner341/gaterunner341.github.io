@@ -24,7 +24,7 @@ layout: default
         <b><a href="{{ training.url }}" target="_blank" class="hover-underline-animation">{{ training.title }}</a></b><br>
         {% endif %}
         {% if training.icon == false %}
-        {{ training.source }} &bull; {{ training.type }}<br>
+        {{ training.source }} &bull; {{ training.type }} &bull;
         {% else %}
         {{ training.source }} &bull; {{ training.type }} &bull;
         {% for entry in training.icons %}
