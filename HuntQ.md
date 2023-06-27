@@ -23,7 +23,7 @@ event_platform=win CommandLine IN (*--load-extension*) NOT (*[known exclusion]*)
 | sort + count
 ```
 
-__Splunk__
+__Splunk__ ![CSLogo](./assets/images/resume/cs.png){: style="float: right; padding-left: 20px; width:10px;height:auto;"}
 
 ```
 sourcetype=WinEventLog EventCode=4688 Process_Command_Line IN (*--load extension)
