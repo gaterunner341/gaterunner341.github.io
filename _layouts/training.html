@@ -14,8 +14,8 @@ layout: default
   <section>
     <h3>Foundational</h3>
     {% for training in site.data.training_path_threathunter %}
-    {% for training.category %}
-      <h3>{{ training.category }}</h3>
+    {% for cat in training.category %}
+      <h3>{{ cat }}</h3>
     {% endfor %}
     {% if training.category == "foundational" %}
     <div style="width:100%">
