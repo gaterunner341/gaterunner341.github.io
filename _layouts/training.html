@@ -14,9 +14,9 @@ layout: default
   <section>
     <h3>Foundational</h3>
     {% for training in site.data.trainingtype %}
-    {% for cat training.category %}
-      <h3>{{ cat }}</h3>
-    {% endfor %}
+      {% for cat in training.category %}
+        <h3>{{ cat }}</h3>
+      {% endfor %}
     {% if training.category == "foundational" %}
     <div style="width:100%">
       <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:4px;float:left;width:20px;height:auto;">
