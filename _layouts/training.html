@@ -26,7 +26,7 @@ layout: default
         {% if training.icon == false %}
         {{ training.source }} &bull; {{ training.type }}<br>
         {% else %}
-        {{ training.source }} &bull; {{ training.type }}&bull;
+        {{ training.source }} &bull; {{ training.type }} &bull;
         {% for entry in training.icons %}
         <i class="{{ entry.iconname }}" style="color:#191970" aria-hidden="true"></i>
         {% endfor %}
