@@ -9,7 +9,7 @@ __MITRE Description__: Adversaries may abuse Internet browser extensions to esta
 
 __Analysis__: Browser extensions are a huge pain for any organization. Users are constantly looking for solutions to make their work easier, faster, or more productive. Browser extensions are a great way to integrate different software and add more capabilities. However, browser extensions are also a threat vector, and are often exploited by adversaries in the wild, including extensions not in a browser’s official webstore. Execution of non-webstore browsing extensions can also be launched through a short cut parameter. The below hunt query allows for the detection for and grouping and sorting of this type of behavior.
 
-__Crowd Strike__:
+__Crowd Strike__ ![CSLogo](./assets/images/resume/cs.png){: style="width:20px;height:auto"}:
 ```
 event_platform=win CommandLine IN (*--load-extension*) NOT (*[known exclusion]*)
 | eval CommandLine=lower(CommandLine)
@@ -23,7 +23,7 @@ event_platform=win CommandLine IN (*--load-extension*) NOT (*[known exclusion]*)
 | sort + count
 ```
 
-__Splunk__ ![CSLogo](./assets/images/resume/cs.png){: style="float: right; padding-left: 20px; width:10px;height:auto;"}
+__Splunk__
 
 ```
 sourcetype=WinEventLog EventCode=4688 Process_Command_Line IN (*--load extension)
