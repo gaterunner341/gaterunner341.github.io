@@ -1,6 +1,12 @@
 # Jobs
 # (ISC)2 Exam Reviewer
 - org: (ISC)<sup>2</sup>
+  duty: CISSP Exam Mapping, Reference Updates
+  startyear: 2023
+  endyear: False
+  logo: isc2.jpeg
+  alt: (ISC)2
+- org: (ISC)<sup>2</sup>
   duty: CISSP Exam Reviewer
   startyear: 2022
   endyear: False
