@@ -75,7 +75,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <div style="width:100%">
       <img src="./assets/images/resume/{{ volunteer.logo }}" alt="{{ volunteer.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
-        {{% if volunteer.url == false %}}
+        {% if volunteer.url == false %}
           <b>{{ volunteer.duty }}</b><br>
           {% else %}
           <b><a href="{{ volunteer.url }}" target="_blank" class="hover-underline-animation">{{ volunteer.duty }}</a></b><br>
