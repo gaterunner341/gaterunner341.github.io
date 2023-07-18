@@ -222,3 +222,10 @@
   logo: cyborgmanagement.png
   alt: Foundational Threat Hunting Management
   url: https://www.credly.com/badges/71303ccf-1240-47ba-a0a8-3885d34d3422/public_url
+
+- provider: Project Management Institute
+  course: Project Management Professional
+  date: 2023
+  logo: pmi.svg
+  alt: Project Manage Professional Training
+  url: False
