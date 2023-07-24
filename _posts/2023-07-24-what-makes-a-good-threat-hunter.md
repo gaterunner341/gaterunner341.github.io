@@ -26,4 +26,4 @@ A well-rounded threat hunting team (or any cybersecurity team in reality) is a t
 
 A T-shaped person develops some broad or complimentary skill to help contribute to the team, however, they do not lose their defined and recognized specialization or primary role. The same is true for a threat hunter, who should have a basic understanding of the different concepts involving cybersecurity but should have some niche specialization.
 
-With that, I’ve taken on the task of finding and publishing a curated threat hunter training resource. I have a working list published in my **[Curated Training](./training.html){: .hover-underline-animation target=”_blank”}** page.
+With that, I’ve taken on the task of finding and publishing a curated threat hunter training resource. I have a working list published in my **[Curated Training](https://www.phillipkittelson.com/training.html){: .hover-underline-animation target=”_blank”}** page.
