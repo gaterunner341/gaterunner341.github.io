@@ -3,7 +3,7 @@ layout: post
 title: What makes a good Threat Hunter? My answer may not be what you expect.
 author: Phillip Kittelson
 categories: cybersecurity, threat hunting
-tags: [ cybersecurity, threat hunting ]
+tags: [ cybersecurity]
 date: 2023-07-24 12:00 -0500
 image: hunt.jpg
 alt: What Makes a Good Threat Hunter?
