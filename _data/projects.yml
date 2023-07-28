@@ -10,3 +10,7 @@
 - name: <i class="fa-solid fa-bullseye" style="color:#191970" aria-hidden="true"></i> Threat Hunting Queries
   url: HuntQ.html
   description: Threat Hunting queries to find bad stuff.
+
+- name: <i class="fa-solid fa-kitchen-set" style="color:#191970" aria-hidden="true"></i> CyberChef Recipies
+  url: CyberChef.html
+  description: Useful recipies for one of my favorite tools - CyberChef.
