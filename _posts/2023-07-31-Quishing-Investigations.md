@@ -15,7 +15,7 @@ A task which should be familiar in cybersecurity is phising email analysis. Norm
 ### [CyberChef](https://gchq.github.io/CyberChef/){: .hover-underline-animation target=”_blank”}
 While you can Google QR code reader, or QR code decoder, and find any dozens of sites (maybe reputable, maybe not), one you should be using more is CyberChef.
 
-CyberChef is a tool developed by the GCHQ, the UK’s intelligence, security, and cyber agency. The tool is hosted on Github and allows you to download a stand-alone version of the site for use on non-internet connected analyst environments. CyberChef allows you to use, and chain together, different data operations, which includes an operation to parse QR codes.
+CyberChef is a tool developed by the GCHQ, the UK’s intelligence, security, and cyber agency. The tool is hosted on Github and allows you to download a stand-alone version of the site for use on non-internet connected analyst environments. CyberChef allows you to use, and chain together, different data operations, which includes an operation to [parse QR codes](https://gchq.github.io/CyberChef/#recipe=Parse_QR_Code(false)Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')){: .hover-underline-animation target=”_blank”}.
 
 Most quishing emails will have an attached or embedded image file, which can be saved locally. Once saved, you should confirm the file itself does not contain any malicious code. After that, use the Parse QR Code operation, and click either use the option to Open file as input, or simply click and drag the image file into the empty input panel. You do not need to crop the image, CyberChef can handled the entire image, and will ignore anything no a QR code for this operation.
 
