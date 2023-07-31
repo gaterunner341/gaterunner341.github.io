@@ -2,7 +2,7 @@
 layout: post
 title: Quishing Investigations
 author: Phillip Kittelson
-categories: cybersecurity, threat hunting, phishing, quishing, cyberchef
+categories: cybersecurity
 tags: [ cybersecurity ]
 date: 2023-07-31 12:00 -0500
 image: chef.jpg
@@ -71,4 +71,4 @@ if __name__ == '__main__':
     decode(file_name)
 ```
 
-Check out my list of useful **[CyberChef Recipies](https://www.phillipkittelson.com/CyberChef.html){: .hover-underline-animation target="_blank"}**
+Check out my list of useful **[CyberChef Recipies](https://www.phillipkittelson.com/CyberChef.html){: .hover-underline-animation}**
