@@ -40,7 +40,7 @@ if __name__ == '__main__':
     decode(file_name)
 ```
 
-I’m a major fan of mixing BASH and Python together, which gives you more options to run outputs through different tools. In my example below, I’m using BASH to store the Python script output into a variable and pipe it into a tool called **[IOC-Fanger](https://ioc-fang.github.io/){: .hover-underline-animation target=”_blank”}** using the defang option. I have the scripts available on my **[GitHub](https://github.com/gaterunner341/QRDecode/tree/main){: .hover-underline-animation target=”_blank”}**.
+I’m a major fan of mixing BASH and Python together, which gives you more options to run outputs through different tools. In my example below, I’m using BASH to store the Python script output into a variable and pipe it into a tool called **[IOC-Fanger](https://ioc-fang.github.io/){: .hover-underline-animation target="_blank"}** using the defang option. I have the scripts available on my **[GitHub](https://github.com/gaterunner341/QRDecode/tree/main){: .hover-underline-animation target="_blank"}**.
 
 Here is the command syntax:
 ```
@@ -71,4 +71,4 @@ if __name__ == '__main__':
     decode(file_name)
 ```
 
-Check out my list of useful **[CyberChef Recipies](https://www.phillipkittelson.com/CyberChef.html){: .hover-underline-animation target=”_blank”}**
+Check out my list of useful **[CyberChef Recipies](https://www.phillipkittelson.com/CyberChef.html){: .hover-underline-animation target="_blank"}**
