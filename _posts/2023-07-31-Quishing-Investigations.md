@@ -8,6 +8,8 @@ date: 2023-07-31 12:00 -0500
 image: chef.jpg
 alt: Quishing Investigations
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0MCfDzq-R0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Quishing, or phishing involving QR codes has been on the rise. My opinion is: adversaries will take advantage of just about anything they can. Since COVID, a lot more people know what a QR code is and how to use them, just enough knowledge to be dangerous. I would wager you’ve probably walked into a restaurant sometime in the last three years and used your phone to scan a QR code to see the menu, or even place your order online. So have a lot of your users, especially the click happy ones, who will become QR scanning happy.
 
 A task which should be familiar in cybersecurity is phising email analysis. Normally, these emails contain either a link, or attachment with a link, you can run through your favorite open-source intelligence tools, or try and download the malicious code to analyze in a sandbox environment. However, you may be confused when you receive a QR code-based quishing email. After all, it’s not just a simple link you can copy and paste. There are a few tools and methods you can use to help you get over the initial difference of how the URL is delivered to the user.
