@@ -205,3 +205,15 @@
   icons:
     - iconname: fa-brands fa-youtube
   url: https://www.youtube.com/watch?v=0WgyiOxCFzE
+
+- source: VirusTotal
+  title: Writing YARA rules
+  type: Documentation
+  category: foundational
+  summary: "The basics of writing YARA rules."
+  logo: VT.jpg
+  alt: Writing YARA Rules
+  icon: true
+  icons:
+    - iconname: fa-solid fa-square-virus
+  url: https://yara.readthedocs.io/en/stable/gettingstarted.html
