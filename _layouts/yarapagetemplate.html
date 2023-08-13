@@ -5,7 +5,7 @@ layout: default
   <section>
     {% for rule in site.data.yara %}
     <div style="width:100%">
-      <h2><a href="{{ rule.url }}" target="_blank">{{ rule.name }} <i class="{{ rule.style }} {{ rule.icon }}" style="{{ rule.iconcolor }}" aria-hidden="{{ rule.aria }}"></i></a></h2>
+      <h2><a href="{{ rule.url }}" target="_blank">{{ rule.name }} <i class="{{ rule.style }} {{ rule.icon }}" style="color:#191970" aria-hidden="{{ rule.aria }}"></i></a></h2>
     </div>
     {% endfor %}
   </section>
