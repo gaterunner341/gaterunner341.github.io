@@ -4,7 +4,7 @@ title: Anti-forensics YARA rules
 author: Phillip Kittelson
 categories: cybersecurity
 tags: [ cybersecurity ]
-date: 2023-08-13 09:00 -0500
+date: 2023-08-12 09:00 -0500
 image: yara.jpg
 alt: Anti-forensics YARA rules
 ---
