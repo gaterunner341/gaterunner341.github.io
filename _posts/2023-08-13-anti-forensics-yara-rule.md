@@ -8,6 +8,8 @@ date: 2023-08-12 09:00 -0500
 image: yara.jpg
 alt: Anti-forensics YARA rules
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qZ2lyrX3JBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Recently, **[Xavier Mertens](https://isc.sans.edu/handler_list.html#xavier-mertens){: .hover-underline-animation target="_blank"}**, of the **[SANS Internet Storm Center](https://isc.sans.edu/){: .hover-underline-animation target="_blank"}** Mertens, **[posted](https://isc.sans.edu/diary/Show+me+All+Your+Windows/30116/){: .hover-underline-animation target="_blank"}** about a python script he found which uses the Windows API with a call to **`GetWindowText()`**. With my education in digital forensics, I find anti-forensics methods interesting. Anti-forensics includes methods designed to prevent, slow down, or impede static of dynamic analysis.
 
 The code of interest is shown below. The defined **`check_windows()`** method further defines **`winEnumHandler`**, with calls to **`GetWindowTextA()`**, and checks for a list of stings from an array. These strings are common debugging or forensics tools which could are often installed in a forensics virtual machine or sandbox. After checking for the tools, the code attempts to determine the **`ProcessID`** of the window, and terminate it with **`TerminateProcess()`**:
