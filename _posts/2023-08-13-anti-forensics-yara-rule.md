@@ -67,9 +67,11 @@ For my conditions, I want to find binaries which are referencing my tool list, a
 Using two different tools, I confirmed my rule would alert on the sample:
 
 **VirusTotal:**
-![VTImage](https://www.phillipkittelson.com/assets/images/blog_photos/20230813-YARA-Rules/yararesults2.png){: width="800px";height="auto"}
+
+![VTImage](https://www.phillipkittelson.com/assets/images/blog_photos/20230813-YARA-Rules/yararesults1.png){: width="800px";height="auto"}
 
 **CyberChef:**
+
 ![CCImage](https://www.phillipkittelson.com/assets/images/blog_photos/20230813-YARA-Rules/yararesults2.png){: width="800px";height="auto"}
 
 
