@@ -14,3 +14,6 @@ __Description:__ Decodes data in a QR code, and parses out the URI components of
 
 ### **[YARA Rule Checker](https://gchq.github.io/CyberChef/#recipe=YARA_Rules('',false,false,false,true,true,true)){: .hover-underline-animation target="_blank"}** <i class="fa-solid fa-virus" style="color:#191970" aria-hidden="true"></i>
 __Description:__ Check if your YARA rules will work.
+
+### **[YARA Rule Checker - Show meta/strings/lengths/counts](https://gchq.github.io/CyberChef/#recipe=YARA_Rules('',true,true,true,true,true,true)){: .hover-underline-animation target="_blank"}** <i class="fa-solid fa-virus" style="color:#191970" aria-hidden="true"></i>
+__Description:__ Check if your YARA rules will work, and display the matching strings, show string lengths and counts, and include meta data.
