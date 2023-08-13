@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>YARA Rules</h1>
+  <section>
+    {% for rule in site.data.yara %}
+    <div style="width:100%">
+      <h2><a href="{{ rule.url }}" target="_blank">{{ rule.name }} <i class="{{ rule.style }} {{ rule.icon }}" style="{{ rule.iconcolor }}" aria-hidden="{{ rule.aria }}"></i></a></h2>
+    </div>
+    {% endfor %}
+  </section>
+  <i class="fa-solid fa-backward" style="padding-right: 0.3em;margin-left: -0.9em;color: #8B0000;"></i><a href="./" .hover-underline-animation>Back...</a>
+  <br><br><br><br><br><br><br>
