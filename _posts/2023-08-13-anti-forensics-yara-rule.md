@@ -68,11 +68,11 @@ Using two different tools, I confirmed my rule would alert on the sample:
 
 **VirusTotal:**
 
-![VTImage](https://www.phillipkittelson.com/assets/images/blog_photos/20230813-YARA-Rules/yararesults1.png){: width="800px";height="auto"}
+![VTImage](https://www.phillipkittelson.com/assets/images/blog_photos/20230813-YARA-Rules/yararesults1.png){: width="900px";height="auto"}
 
 **CyberChef:**
 
-![CCImage](https://www.phillipkittelson.com/assets/images/blog_photos/20230813-YARA-Rules/yararesults2.png){: width="800px";height="auto"}
+![CCImage](https://www.phillipkittelson.com/assets/images/blog_photos/20230813-YARA-Rules/yararesults2.png){: width="900px";height="auto"}
 
 
 Other YARA rules I come up with will be available on both my projects page, and this **[GitHub repo](https://github.com/gaterunner341/YaraRules/tree/main){: .hover-underline-animation target="_blank"}**.
