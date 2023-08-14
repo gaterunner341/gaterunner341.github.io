@@ -1,0 +1,6 @@
+# CyberChef Recipies
+- name: Parse QR Code and Defang URL
+  url: https://gchq.github.io/CyberChef/#recipe=Parse_QR_Code(false)Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')
+  description: Decodes data in a QR code, and defangs the URL. This recipie can be useful investigating quishing (phishing attacks involving a QR code) emails.
+  style: fa-solid
+  icon: fa-qrcode
