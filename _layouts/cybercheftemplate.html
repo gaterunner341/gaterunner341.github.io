@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h2>Useful CyberChe Recipies</h2>
+  <section>
+    {% for recipie in site.data.cyberchef %}
+    <div style="width:100%">
+      <h3><a href="{{ recipie.url }}" target="_blank">{{ recipie.name }} <i class="{{ recipie.style }} {{ recipie.icon }}" style="color:#191970" aria-hidden="true"></i></a></h3>
+    </div>
+    {% endfor %}
+  </section>
+  <br>
+  <i class="fa-solid fa-backward" style="padding-right: 0.3em;margin-left: -0.9em;color: #8B0000;"></i><a href="./" .hover-underline-animation>Back...</a>
+  <br><br><br><br><br><br><br>

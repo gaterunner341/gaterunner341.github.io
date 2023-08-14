@@ -1,0 +1,7 @@
+# YARA
+- name: Anti-Forensics Title Enumeration
+  url: https://github.com/gaterunner341/YaraRules/tree/main/Anti_Forensics_Window_Enumeration
+  style: fa-solid
+  icon: fa-magnifying-glass
+  iconcolor: #191970
+  aria: true

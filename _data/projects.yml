@@ -12,7 +12,7 @@
   description: Threat Hunting queries to find bad stuff.
 
 - name: <i class="fa-solid fa-kitchen-set" style="color:#191970" aria-hidden="true"></i> CyberChef Recipies
-  url: CyberChef.html
+  url: cyberchefpage.html
   description: Useful recipies for one of my favorite tools - CyberChef.
 
 - name: <i class="fa-solid fa-virus" style="color:#191970" aria-hidden="true"></i> YARA rules
