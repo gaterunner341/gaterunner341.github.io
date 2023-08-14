@@ -4,3 +4,18 @@
   description: Decodes data in a QR code, and defangs the URL. This recipie can be useful investigating quishing (phishing attacks involving a QR code) emails.
   style: fa-solid
   icon: fa-qrcode
+- name: Parse QR Code and Parse URI
+  url: https://gchq.github.io/CyberChef/#recipe=Parse_QR_Code(true)Parse_URI()
+  description: Decodes data in a QR code, and defangs the URL. This recipie can be useful investigating quishing (phishing attacks involving a QR code) emails.
+  style: fa-solid
+  icon: fa-qrcode
+- name: YARA Rule Checker
+  url: https://gchq.github.io/CyberChef/#recipe=YARA_Rules('',false,false,false,true,true,true)
+  description: Decodes data in a QR code, and defangs the URL. This recipie can be useful investigating quishing (phishing attacks involving a QR code) emails.
+  style: fa-solid
+  icon: fa-virus
+- name: YARA Rule Checker - Show meta/strings/lengths/counts
+  url: https://gchq.github.io/CyberChef/#recipe=YARA_Rules('',true,true,true,true,true,true)
+  description: Decodes data in a QR code, and defangs the URL. This recipie can be useful investigating quishing (phishing attacks involving a QR code) emails.
+  style: fa-solid
+  icon: fa-virus
