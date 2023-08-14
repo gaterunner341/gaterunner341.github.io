@@ -6,6 +6,7 @@ layout: default
     {% for recipie in site.data.cyberchef %}
     <div style="width:100%">
       <h3><a href="{{ recipie.url }}" target="_blank">{{ recipie.name }} <i class="{{ recipie.style }} {{ recipie.icon }}" style="color:#191970" aria-hidden="true"></i></a></h3>
+      <b>Description:</b> {{ reipie.description }}
     </div>
     {% endfor %}
   </section>
