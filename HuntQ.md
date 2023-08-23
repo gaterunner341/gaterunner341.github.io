@@ -23,9 +23,24 @@ event_platform=win CommandLine IN (*--load-extension*) NOT (*[known exclusion]*)
 | sort + count
 ```
 
-![CSLogo](./assets/images/resume/splunk.webp){: style="width:20px;height:auto"} __Splunk__
+![SplunkLogo](./assets/images/resume/splunk.webp){: style="width:20px;height:auto"} __Splunk__
 
 ```
 sourcetype=WinEventLog EventCode=4688 Process_Command_Line IN (*--load extension)
 | stats dc(ComputerName) by Process_Command_Line
+```
+
+
+
+
+### __Potential CAPTCHA Bypass__ <i class="fa-brands fa-edge-legacy" style="color:#191970" aria-hidden="true"></i> <i class="fa-brands fa-chrome" style="color:#191970" aria-hidden="true"></i>
+__Analysis__: Web scrapers are always trolling the web, look for traffic specific to potential scrapers hitting CAPTCHA pages.
+
+![SplunkLogo](./assets/images/resume/splunk.webp){: style="width:20px;height:auto"} __Splunk__
+```
+TERM(captcha) index=[proxy_index]url_domain=[domain_of_interest]
+| bucket _time spam=10m
+| stats count by _time c_ip action cs_method http_user_agent url
+| where count > 5
+| sort - count
 ```
