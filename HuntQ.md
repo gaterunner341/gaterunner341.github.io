@@ -34,7 +34,7 @@ sourcetype=WinEventLog EventCode=4688 Process_Command_Line IN (*--load extension
 
 
 ### __Potential CAPTCHA Bypass__ <i class="fa-solid fa-spider" style="color:#191970" aria-hidden="true"></i>
-__Analysis__: Web scrapers are always trolling the web, look for traffic specific to potential scrapers hitting CAPTCHA pages.
+__Analysis__: Web scrapers are always trolling the web, look for traffic specific to potential scrapers hitting CAPTCHA pages. Further investigation should be performed on IP addresses found.
 
 ![SplunkLogo](./assets/images/resume/splunk.webp){: style="width:20px;height:auto"} __Splunk__
 ```
