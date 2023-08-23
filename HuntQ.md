@@ -38,7 +38,7 @@ __Analysis__: Web scrapers are always trolling the web, look for traffic specifi
 
 ![SplunkLogo](./assets/images/resume/splunk.webp){: style="width:20px;height:auto"} __Splunk__
 ```
-TERM(captcha) index=[proxy_index]url_domain=[domain_of_interest]
+TERM(captcha) index=[proxy_index] url_domain=[domain_of_interest]
 | bucket _time spam=10m
 | stats count by _time c_ip action cs_method http_user_agent url
 | where count > 5
