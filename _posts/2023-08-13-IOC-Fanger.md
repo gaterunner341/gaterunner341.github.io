@@ -8,7 +8,7 @@ date: 2023-08-27 09:00 -0500
 image: fang.jpg
 alt: Threat Hunting Tool Highlight - IOC-Fanger
 ---
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mU47YHOj-kY?si=KglhFcFi05LKqqfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 One of my favorite CommandLine tools is **[IOC-Fanger](https://github.com/ioc-fang/ioc-fanger){: .hover-underline-animation target="_blank"}**. I work with potentially malicious links and IP addresses, often obtain Indicators of Compromise (IOCs) or have to generate a report for others to read, where I do not want users to click on the links, or automated tools to resolve the hostname or IP address.
 IOC-Fanger is a Python library, and can be installed using pip **`pip install ioc-fanger`**.
