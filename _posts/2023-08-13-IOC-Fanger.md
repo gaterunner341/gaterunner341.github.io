@@ -64,3 +64,5 @@ output ->   www[.]malware[.]com
 - IOCs with **`[dot]`**
 - Email addresses with **`[@]`** brackets, example **`me[@]me.com`** -> **`me@me.com`**
 - Email addresses with **`[at]`** brackets, example **`me[at]me.com`** -> **`me@me.com`**
+- **`hXXps://`**
+- **`hXXp://`**
