@@ -56,11 +56,11 @@ output ->   www[.]malware[.]com
 ## Handles Operations (not a comprehensive list):
 
 ### Defang
-- IOCs with **`[dot]`**
 - **`https://`**
 - **`http://`**
 - Email addresses turn **`@`** in to **`[at]`**, example **`me@me.com`** -> **`me[at]me.com`**
 
 ### Fang
+- IOCs with **`[dot]`**
 - Email addresses with **`[@]`** brackets, example **`me[@]me.com`** -> **`me@me.com`**
 - Email addresses with **`[at]`** brackets, example **`me[at]me.com`** -> **`me@me.com`**
