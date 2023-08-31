@@ -21,12 +21,14 @@ event_simpleName=ProcessRollup2 (ParentBaseFileName=winrar.exe FileName=cmd.exe)
 
 After a colleague of mine discovered a **[proof of concept](https://github.com/BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc){: .hover-underline-animation target="_blank"}** (POC) for the CVE, I wanted to find out a way to detect the execution. I had to find a vulnerable version of WinRAR, and the official WinRAR site, of course, removed previously vulnerable versions. So, I turned to the WayBack Machine, and browsed for a previously published day I could find links to the older versions, and counted on the link still working. I was correct, and settled on version 6.11.
 
-![FinalResult](./assets/images/blog_photos/20230831-WinRAR/wayback.png){: width="900px";height="auto"}
+![FinalResult](https://www.phillipkittelson.com/assets/images/blog_photos/20230831-WinRAR/wayback.png){: width="900px";height="auto"}
 
 After installing WinRAR 6.11 in a sandbox, I modified the RAR archive I found in the POC to simply open MSPaint with **`start mspaint`** command in a **`.cmd`** file, and executed the payload.
 
 The POC also states **`.bat`** files work as well, so I changed the file extension and re-detonated.
-After that, I turned to my trusty EDR/SEIM tool, and plugged in a simple search: `winrar.exe`.
+After that, I turned to my trusty EDR/SEIM tool, and plugged in a simple search:
+
+**`winrar.exe`**.
 
 This of course, found the installation of WinRAR, my detonations above, and other event noise logged with 25 events. Twentyfive may not be a big issue, but in an enterprise environment, you’ll have thousands of results from this query. I wanted to only see the results of just the exploitation, so I modified my query to show new processes running:
 
@@ -45,4 +47,4 @@ This gave me my two events, the **`.cmd`** and the **`.bat`** executions. Now I 
 **` | stats count by ParentBaseFileName FileName CommandLine`**
 
 
-![FinalResult](./assets/images/blog_photos/20230831-WinRAR/WinRARCVE.png){: width="900px";height="auto"}
+![FinalResult](https://www.phillipkittelson.com/assets/images/blog_photos/20230831-WinRAR/WinRARCVE.png){: width="900px";height="auto"}
