@@ -1,19 +1,22 @@
 # Jobs
 # Threat Hunter
+- company: Southern New Hampshire University
+  position: Adjunct Instructor
+  duration: Oct 2023 &mdash; Present
+  summary: Instructor for CYB-240, CYB-250, CYB-260, ISE-510, ISE-620, and ISE-640.
+  logo: snhu.png
+  alt: SNHU
+
 - company: MindPoint Group
   position: Senior Consultant (Cyber Threat Hunter)
-  startdate: 
-  enddate:
   duration: Mar 2023 &mdash; Present
   summary: Actively hunt for Indicators of Compromise (IOC) and Advanced Persistent Threat (APT) Tactics, Techniques, and Procedures (TTP) across client’s network using tools including Endpoint Detection and Response (EDR), Security Event and Incident Management (SEIM). Collect and conduct analysis on forensics artifacts including disc images, security logs, browser history, email messages, attachments, and other digital evidence. Search network flow, PCAP, logs, and sensors for evidence of cyber-attack patterns, and hunt for APTs. Create detailed Incident Reports and contribute to lessons learned in collaboration with the appropriate teams. Collaborate with the Security Operations Center (SOC) and other Threat Analysts to contain and investigate major incidents. Provide simple and reusable hunt tactics and techniques to a team of security engineers, SIEM specialists, and SOC analysts. Work with leadership and the engineering team to improve and expand available toolsets. Analyze network perimeter data, flow, packet filtering, proxy firewalls, and IPS/IDS to create and implement a concrete plan of action to harden the defensive posture. Monitor open source and commercial threat intelligence for IOCs, new vulnerabilities, software weaknesses, and other attacker TTPs.
   logo: mpg.jpg
   alt: MindPoint Group
 
-# Soc Analyst
+# SOC Analyst
 - company: MindPoint Group
   position: Senior Consultant (Tier II SOC Analyst)
-  startdate: 
-  enddate:
   duration: Mar 2022 &mdash; Mar 2023
   summary: Tier II support to the Department of Justice’s Security Operations Center (JSOC), providing support for complex computer network exploitation and defense, identify, and investigate computer and network intrusions, incident response and remediation. Perform comprehensive computer surveillance and monitoring, identify vulnerabilities, evaluate secure network designs, and protection strategies, conduct audits of information technology infrastructure. Conduct research in open and closed-source exploitation tools, attack techniques, procedures, and trends. Provide technical support for a comprehensive risk management program, identifying mission-critical processes and systems, current and projected threats, and system vulnerabilities.
   logo: mpg.jpg
