@@ -229,3 +229,17 @@
   logo: pmi.svg
   alt: Project Manage Professional Training
   url: False
+
+- provider: Southern New Hampshire University
+  course: ADJ-101 Online Faculty Training
+  date: 2023
+  logo: snhu.png
+  alt: Adjunct Training
+  url: False
+
+- provider: Southern New Hampshire University
+  course: ADJ-275 Beyond the Bulleten Board
+  date: 2023
+  logo: snhu.png
+  alt: Adjunct Training
+  url: False
