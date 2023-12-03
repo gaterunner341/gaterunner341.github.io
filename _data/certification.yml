@@ -54,7 +54,7 @@
 
 # ISC Associate
 - cert: Associate of (ISC)<sup>2</sup>
-  org: (ISC)<sup>2</sup>
+  org: ISC2
   year: 2020
   certID: Expired
   logo: isc2_associate.png
@@ -66,7 +66,7 @@
   org: PMI
   year: 2023
   certID: 3710143
-  logo: pmi.svg
+  logo: pmp.png
   alt: PMP
   url: https://www.credly.com/badges/38640824-ecf7-4ceb-af4e-effed0fe692e/public_url
 
