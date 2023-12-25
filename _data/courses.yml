@@ -233,20 +233,20 @@
 - provider: Southern New Hampshire University
   course: ADJ-101 Online Faculty Training
   date: 2023
-  logo: snju.png
+  logo: snhu.png
   alt: Adjunct Training
   url: False
 
 - provider: Southern New Hampshire University
   course: ADJ-275 Beyond the Bulletin Board
   date: 2023
-  logo: snju.png
+  logo: snhu.png
   alt: Adjunct Training
   url: False
 
 - provider: National Security Space Institute (NSSI)
   course: Space 100
   date: 2023
-  logo: nssi
+  logo: nssi.png
   alt: Space 100
   url: https://nssi.spaceforce.mil/
