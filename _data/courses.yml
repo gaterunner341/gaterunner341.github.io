@@ -250,3 +250,10 @@
   logo: nssi.png
   alt: Space 100
   url: https://nssi.spaceforce.mil/
+
+- provider: SANS
+  course: LDR514 Security Strategic Planning, Policy, and Leadership
+  date: 2024
+  logo: sans.png
+  alt: LDR514 Security Strategic Planning, Policy, and Leadership
+  url: https://www.sans.org/cyber-security-courses/strategic-security-planning-policy-leadership/
