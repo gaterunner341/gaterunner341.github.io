@@ -58,14 +58,14 @@
 - provider: DC3 Cyber Training Academy
   course: Cyber Threat and Techniques Seminar Pilot
   date: 2018
-  logo: dc3.jpg
+  logo: dc3.png
   alt: DC3
   url: False
 
 - provider: DC3 Cyber Training Academy
   course: Network Intrusions Basics
   date: 2018
-  logo: dc3.jpg
+  logo: dc3.png
   alt: DC3
   url: False
 
@@ -156,7 +156,7 @@
 - provider: DC3 Cyber Training Academy
   course: Log Analysis Course
   date: 2023
-  logo: dc3.jpg
+  logo: dc3.png
   alt: DC3
   url: https://www.credly.com/badges/805c8315-2baa-4173-a318-cc8fb94b9103
 
