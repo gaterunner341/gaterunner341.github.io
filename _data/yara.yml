@@ -5,3 +5,10 @@
   icon: fa-magnifying-glass
   iconcolor: #191970
   aria: true
+
+- name: Business Email Uploaded to VirusTotal
+  url: https://github.com/gaterunner341/YaraRules/blob/main/Business_Email_Uploaded_to_VirusTotal
+  style: fa-regular
+  icon: fa-envelope
+  iconcolor: #191970
+  aria: true
