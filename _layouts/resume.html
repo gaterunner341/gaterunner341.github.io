@@ -16,8 +16,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <b>{{ company.company }}</b><br>
       <div>
         {% for position in company.positions %}
-        <b>{{ position.position }}<b>
-        <p><strong>Duration:</strong> {{ position.duration }}</p>
+        <b>{{ position.position }}<b> &bull; {{ position.duration }}
         {% endfor %}
       </div>
     </div>
