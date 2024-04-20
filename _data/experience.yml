@@ -1,25 +1,5 @@
 # Jobs
 # Team Lead
-
-employers:
-  - name: Mindpoint Group
-    logo: mpg.jpg
-    jobs: 
-      - title: Team Lead (SOC Manager)
-        duration: Dec 2023 &mdash; Present 
-      - title: Senior Consultant (Cyber Threat Hunter)
-        duration: Mar 2023 &mdash; Dec 2023
-      - title: Senior Consultant (Tier II SOC Analyst)
-        duration: Mar 2022 &mdash; Mar 2023
-
-  - name: Raytheon Technologies
-    logo: rtx.jpg
-    jobs:
-      - title: Principal Specialist, Cyber Incident Response
-        duration: Mar 2021 &mdash; Mar 2022
-      - title: Principal Specialist, Cybersecurity & Risk Management
-        duration: Aug 2019 &mdash; Mar 2021
-
 - company: MindPoint Group
   position: Team Lead (SOC Manager)
   duration: Dec 2023 &mdash; Present
