@@ -1,28 +1,4 @@
 # USAFR 1
-- company: United States Air Force Reserve
-  position: Cyber Defense, 1D7, MSgt
-  duration: Jan 2022 &mdash; Present
-  summary: Job description.
-  logo: usafr.jpg
-  alt: USAFR
-
-# USAFR 1
-- company: United States Air Force Reserve
-  position: Client Systems, 3D, MSgt
-  duration: Mar 2019 &mdash; Jan 2022
-  summary: Installs, configures, and repairs computer, voice, video, and data systems. Provides remote or in-person customer care and performs account management activities. Evaluates systems for performance and security and makes corrections as needed.
-  logo: usafr.jpg
-  alt: USAFR
-
-# USAFR 2
-- company: United States Air Force Reserve
-  position: Security Forces, 3P, MSgt
-  duration: Jun 2015 &mdash; Mar 2019
-  summary: Leads, manages, supervises, and performs force protection duties, including use of deadly force to protect personnel and resources. Protects nuclear and conventional weapons systems and other resources. Performs air base defense functions contributing to the force protection mission. Controls and secures terrain inside and outside military installations. Defends personnel, equipment, and resources from hostile forces. Operates in various field environments, performs individual, and team patrol movements, both mounted and dismounted, tactical drills, battle procedures, convoys, military operations other than war, antiterrorism duties, and other special duties. Operates communications equipment, vehicles, intrusion detection equipment, crew-served weapons, and other special purpose equipment. Applies self-aid buddy care, life saving procedures, including cardiopulmonary resuscitation, as first responder to accident and disaster scenes.
-  logo: usafr.jpg
-  alt: USAFR
-
-  # USAF
 - company: United States Air Force
   position: Security Forces, 3P, Amn-TSgt
   duration: Mar 2003 &mdash; Aug 2014
