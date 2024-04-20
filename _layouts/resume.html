@@ -10,7 +10,8 @@ Phillip is a security professional with 20 years of experience in physical, indu
 <section>
   <h2>Experience</h2>
   {% for company in site.data.experience %}
-  <div class="company">
+  <div style="width:100" class="company">
+    <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
     <b>{{ company.company }}</b><br>
     <img src="{{ company.logo }}" alt="{{ company.alt }}">
     {% for position in company.positions %}
@@ -24,7 +25,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
 </section>
 
 
-  <section>
+<!--  <section>
     <h2>Experience</h2>
     {% for company in site.data.experience %}
     <div style="width:100%">
@@ -32,14 +33,15 @@ Phillip is a security professional with 20 years of experience in physical, indu
       <div style="width:115%;">
         <b>{{ company.company }}</b><br>
           {% for position in company.positions %}
-            <!--{{ job.position }} &bull; {{ job.duration }}<br><br>-->
+            {{ job.position }} &bull; {{ job.duration }}<br><br>
             {{ position.position }} &bull; {{ position.duration }}<br><br>
           {% endfor %}
-        <!--<p style="text-align: justify">{{ job.summary }}</p>-->
+        <p style="text-align: justify">{{ job.summary }}</p>
       </div>
     </div>
     {% endfor %}
   </section>
+-->
 
   <section>
     <h2>Military Experience</h2>
