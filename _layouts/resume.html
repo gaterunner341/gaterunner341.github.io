@@ -14,7 +14,10 @@ Phillip is a security professional with 20 years of experience in physical, indu
       <img src="./assets/images/resume/{{ job.logo }}" alt="{{ job.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         <b>{{ job.company }}</b><br>
-        {{ job.position }} &bull; {{ job.duration }}<br><br>
+        {% for role in job.company %}
+          <!--{{ job.position }} &bull; {{ job.duration }}<br><br>-->
+          {{ role.position }} &bull; {{ role.duration }}<br><br>
+        {% endfor %}
         <!--<p style="text-align: justify">{{ job.summary }}</p>-->
       </div>
     </div>
