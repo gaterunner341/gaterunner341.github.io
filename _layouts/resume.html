@@ -7,6 +7,24 @@ layout: default
 <h2>Summary</h2>
 Phillip is a security professional with 20 years of experience in physical, industrial, personnel, and cybersecurity. Skilled with securing, defending, and countering threats to government and military networks. CISSP certification holder, ISC Exam Developer, and Adjunct Instructor.
 
+<section>
+  <h2>Experience</h2>
+  {% for company in site.data.experience %}
+  <div class="company">
+    <b>{{ company.company }}</b>
+    <img src="{{ company.logo }}" alt="{{ company.alt }}">
+    {% for position in company.positions %}
+    <div class="position">
+      <h3>{{ position.position }}</h3>
+      <p><strong>Duration:</strong> {{ position.duration }}</p>
+      <p>{{ position.summary | markdownify }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</section>
+
+
   <section>
     <h2>Experience</h2>
     {% for company in site.data.experience %}
@@ -14,7 +32,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
       <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         <b>{{ company.company }}</b><br>
-          {% for position company.positions %}
+          {% for position in company.positions %}
             <!--{{ job.position }} &bull; {{ job.duration }}<br><br>-->
             {{ position.position }} &bull; {{ position.duration }}<br><br>
           {% endfor %}
