@@ -3,6 +3,7 @@
 - company: MindPoint Group
   logo: mpg.jpg
   alt: MindPoint Group
+  lateststart: Dec 2023
   positions:
   - position: Team Lead (SOC Manager)
     duration: Dec 2023 &mdash; Present
@@ -14,6 +15,7 @@
 - company: United States Air Force Reserve
   logo: usafr.jpg
   alt: USAFR
+  lateststart: Jan 2022
   positions:
   - position: Cyber Defense, 1D7, MSgt
     duration: Jan 2022 — Present
@@ -25,6 +27,7 @@
 - company: Raytheon Technologies
   logo: rtx.jpg
   alt: Raytheon Technologies
+  lateststart: Mar 2021
   positions:
   - position: Principal Specialist, Cyber Incident Response
     duration: Mar 2021 &mdash; Mar 2022
@@ -34,6 +37,7 @@
 - company: Multiple Contracts
   logo: work.jpg
   alt: Work
+  lateststart: 
   positions:
   - position: Traveling Technician
     duration: Sep 2017 &mdash; Aug 2019
@@ -41,8 +45,17 @@
 - company: Lockheed Martin
   logo: lm.jpg
   alt: Lockheed Martin
+  lateststart: Jun 2015
   positions:
   - position: Technical Support
     duration: Jun 2015 &mdash; Sep 2017
   - position: Security Assistant, Senior
     duration: Aug 2014 &mdash; Jun 2015
+
+- company: United States Air Force
+  logo: usaf.png
+  alt: USAF
+  lateststart: Mar 2003
+  positions:
+  - position: Security Forces, 3P, Amn-TSgt
+    duration: Jun 2015 &mdash; Sep 2017

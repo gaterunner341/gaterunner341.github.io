@@ -7,68 +7,36 @@ layout: default
 <h2>Summary</h2>
 Phillip is a security professional with 20 years of experience in physical, industrial, personnel, and cybersecurity. Skilled with securing, defending, and countering threats to government and military networks. CISSP certification holder, ISC Exam Developer, and Adjunct Instructor.
 
-<section>
-  <h2>Adjunct Experience</h2>
-  {% for company in site.data.teaching %}
-  <div style="width:100%">
-    <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
-    <div style="margin-left:50px; width:calc(100% - 50px);">
-      <b style="font-size: 18px;">{{ company.company }}</b><br>
-      <div>
-        {% for position in company.positions %}
-        &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
-        {% endfor %}
-      </div>
-    </div><br>
-  </div>
-  {% endfor %}
-</section>
-
-<section>
-  <h2>Experience</h2>
-  {% for company in site.data.experience %}
-  <div style="width:100%">
-    <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
-    <div style="margin-left:50px; width:calc(100% - 50px);">
-      <b style="font-size: 18px;">{{ company.company }}</b><br>
-      <div>
-        {% for position in company.positions %}
-        &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
-        {% endfor %}
-      </div>
-    </div><br>
-  </div>
-  {% endfor %}
-</section>
-
-
-<!--  <section>
-    <h2>Experience</h2>
-    {% for company in site.data.experience %}
+  <section>
+    <h2>Instructor Experience Experience</h2>
+    {% for company in site.data.teaching %}
     <div style="width:100%">
       <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
-      <div style="width:115%;">
-        <b>{{ company.company }}</b><br>
+      <div style="margin-left:50px; width:calc(100% - 50px);">
+        <b style="font-size: 18px;">{{ company.company }}</b><br>
+        <div>
           {% for position in company.positions %}
-            {{ job.position }} &bull; {{ job.duration }}<br><br>
-            {{ position.position }} &bull; {{ position.duration }}<br><br>
+          &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
           {% endfor %}
-        <p style="text-align: justify">{{ job.summary }}</p>
-      </div>
+        </div>
+      </div><br>
     </div>
     {% endfor %}
   </section>
--->
 
   <section>
-    <h2>Military Experience</h2>
-    {% for job in site.data.military %}
+    <h2>Professional Experience</h2>
+    {% for company in site.data.experience %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ job.logo }}" alt="{{ job.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
-      <div style="width:115%;">
-        <b>{{ job.position }}</b><br>
-        {{ job.company }} &bull; {{ job.duration }}<br><br>
-      </div>
+      <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
+      <div style="margin-left:50px; width:calc(100% - 50px);">
+        <b style="font-size: 18px;">{{ company.company }}</b><br>
+        <div>
+          {% for position in company.positions %}
+          &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
+          {% endfor %}
+        </div>
+      </div><br>
     </div>
     {% endfor %}
   </section>
