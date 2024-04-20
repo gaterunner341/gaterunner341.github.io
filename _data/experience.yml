@@ -1,11 +1,16 @@
 # Jobs
 # Team Lead
 - company: MindPoint Group
-  position: Team Lead (SOC Manager)
-  duration: Dec 2023 &mdash; Present
-  summary: Oversee client Security Operations Center (SOC) activities, managing technical delivery and driving continuous process improvement. Develop workflows and integration points across SOC teams, execute transition plans, and coordinate with third-party vendors. Supervise the development of detection use cases and serve as a technical expert to law enforcement. Coordinate with intelligence analysts, write after-action reviews, and identify security gaps. Notify relevant parties of suspected cyber incidents and provide cybersecurity recommendations based on threats and vulnerabilities. Work on incident resolution, advise on Disaster Recovery and Continuity of Operations Plans, document and escalate incidents, and perform trend analysis. Provide daily reports on network events, analyze alerts, and use cyber defense tools for continual monitoring and analysis. Research, analyze, and correlate data sets, assist in constructing signatures, and monitor external sources for cyber threat conditions.
   logo: mpg.jpg
   alt: MindPoint Group
+  positions:
+  - position: Team Lead (SOC Manager)
+    duration: Dec 2023 &mdash; Present
+    summary: Oversee client Security Operations Center (SOC) activities, managing technical delivery and driving continuous process improvement. Develop workflows and integration points across SOC teams, execute transition plans, and coordinate with third-party vendors. Supervise the development of detection use cases and serve as a technical expert to law enforcement. Coordinate with intelligence analysts, write after-action reviews, and identify security gaps. Notify relevant parties of suspected cyber incidents and provide cybersecurity recommendations based on threats and vulnerabilities. Work on incident resolution, advise on Disaster Recovery and Continuity of Operations Plans, document and escalate incidents, and perform trend analysis. Provide daily reports on network events, analyze alerts, and use cyber defense tools for continual monitoring and analysis. Research, analyze, and correlate data sets, assist in constructing signatures, and monitor external sources for cyber threat conditions.
+  - position: Senior Consultant (Cyber Threat Hunter)
+    duration: Mar 2023 &mdash; Dec 2023
+    summary: Actively hunt for Indicators of Compromise (IOC) and Advanced Persistent Threat (APT) Tactics, Techniques, and Procedures (TTP) across client’s network using tools including Endpoint Detection and Response (EDR), Security Event and Incident Management (SEIM). Collect and conduct analysis on forensics artifacts including disc images, security logs, browser history, email messages, attachments, and other digital evidence. Search network flow, PCAP, logs, and sensors for evidence of cyber-attack patterns, and hunt for APTs. Create detailed Incident Reports and contribute to lessons learned in collaboration with the appropriate teams. Collaborate with the Security Operations Center (SOC) and other Threat Analysts to contain and investigate major incidents. Provide simple and reusable hunt tactics and techniques to a team of security engineers, SIEM specialists, and SOC analysts. Work with leadership and the engineering team to improve and expand available toolsets. Analyze network perimeter data, flow, packet filtering, proxy firewalls, and IPS/IDS to create and implement a concrete plan of action to harden the defensive posture. Monitor open source and commercial threat intelligence for IOCs, new vulnerabilities, software weaknesses, and other attacker TTPs.
+  
 
 # Adjunct
 - company: Southern New Hampshire University
