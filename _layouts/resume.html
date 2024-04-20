@@ -11,13 +11,12 @@ Phillip is a security professional with 20 years of experience in physical, indu
   <h2>Experience</h2>
   {% for company in site.data.experience %}
   <div class="company">
-    <b>{{ company.company }}</b>
+    <b>{{ company.company }}</b><br>
     <img src="{{ company.logo }}" alt="{{ company.alt }}">
     {% for position in company.positions %}
     <div class="position">
-      <h3>{{ position.position }}</h3>
+      <b>{{ position.position }}<b>
       <p><strong>Duration:</strong> {{ position.duration }}</p>
-      <p>{{ position.summary | markdownify }}</p>
     </div>
     {% endfor %}
   </div>
