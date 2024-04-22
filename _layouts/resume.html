@@ -29,7 +29,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
 
   <section>
     <h2>Professional Experience</h2>
-    {% assign experience = site.data.experience | sort: 'lateststart' %}
+    {% assign experience = site.data.experience | sort: 'lateststart' | reverse %}
     {% for company in experience %}
     <div style="width:100%">
       <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
