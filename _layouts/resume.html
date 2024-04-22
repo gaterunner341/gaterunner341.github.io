@@ -7,23 +7,25 @@ layout: default
 <h2>Summary</h2>
 Phillip is a security professional with 20 years of experience in physical, industrial, personnel, and cybersecurity. Skilled with securing, defending, and countering threats to government and military networks. CISSP certification holder, ISC Exam Developer, and Adjunct Instructor.
 
-  <section>
-    <h2>Instructor Experience</h2>
-    {% for company in site.data.teaching %}
-    <div style="width:100%">
-      <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
-      <div style="margin-left:50px; width:calc(100% - 50px);">
-        <b style="font-size: 18px;">{{ company.company }}</b><br>
+<section>
+  <h2>Instructor Experience</h2>
+  {% for company in site.data.teaching %}
+  <div style="width:100%">
+    <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
+    <div style="margin-left:50px; width:calc(100% - 50px);">
+      <b style="font-size: 18px;">{{ company.company }}</b><br>
+      <div>
+        {% for position in company.positions %}
         <div>
-          {% for position in company.positions %}
           &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
-            <b>Courses:</b> {{ position.courses }}
-          {% endfor %}
+          <b>Courses:</b> {{ position.courses }}
         </div>
-      </div><br>
-    </div>
-    {% endfor %}
-  </section>
+        {% endfor %}
+      </div>
+    </div><br>
+  </div>
+  {% endfor %}
+</section>
 
   <section>
     <h2>Professional Experience</h2>
