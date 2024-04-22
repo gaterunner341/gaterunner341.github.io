@@ -6,10 +6,13 @@
   lateststart: Dec 2023
   positions:
   - position: Team Lead (SOC Manager)
+    unit: False
     duration: Dec 2023 &mdash; Present
   - position: Senior Consultant (Cyber Threat Hunter)
+    unit: False
     duration: Mar 2023 &mdash; Dec 2023
   - position: Senior Consultant (Tier II SOC Analyst)
+    unit: False
     duration: Mar 2022 &mdash; Mar 2023
 
 - company: United States Air Force Reserve
@@ -18,14 +21,24 @@
   lateststart: Jan 2022
   positions:
   - position: Section Chief, Cyber Operations (1D7)
+    unit: 507th Communications Flight
+    location: Tinker AFB, OK
     duration: Updating
   - position: NCOIC, Client Systems (3D)
+    unit: 507th Communications Flight
+    location: Tinker AFB, OK
     duration: Updating
   - position: NCOIC, Operations (3P)
+    unit: 720th Security Forces Squadron
+    locaiton: Davis-Montan AFB, AZ
     duration: Updating
   - position: Operations Superintendent (3P)
+    unit: 720th Security Forces Squadon
+    location: Davis-Monthan AFB, AZ
     duration: Updating
   - position: Squad Leader (3P)
+    unit: 720th Security Forces Squadron
+    location: Davis-Monthan AFB, AZ
     duration: Updating
 
 - company: Raytheon Technologies
@@ -34,8 +47,10 @@
   lateststart: Mar 2021
   positions:
   - position: Principal Specialist, Cyber Incident Response
+    unit: False
     duration: Mar 2021 &mdash; Mar 2022
   - position: Principal Specialist, Cybersecurity & Risk Management
+    unit: False
     duration: Aug 2019 &mdash; Mar 2021
 
 - company: Multiple Contracts
@@ -44,6 +59,7 @@
   lateststart: Sep 2017
   positions:
   - position: Traveling Technician
+    unit: False
     duration: Sep 2017 &mdash; Aug 2019
 
 - company: Lockheed Martin
@@ -52,8 +68,10 @@
   lateststart: Jun 2015
   positions:
   - position: Technical Support
+    unit: False
     duration: Jun 2015 &mdash; Sep 2017
   - position: Security Assistant, Senior
+    unit: False
     duration: Aug 2014 &mdash; Jun 2015
 
 - company: United States Air Force
@@ -62,18 +80,34 @@
   lateststart: Mar 2003
   positions:
   - position: NCOIC, Security Forces Stan Eval
+    unit: 56th Security Forces Squadron
+    location: Luke AFB, AZ
     duration: Updating
   - position: Element Leader
+    unit: 56th Security Forces Squadron
+    location: Luke AFB, AZ
     duration: Updating
   - position: Military Working Dog Handler
+    unit: 56th Security Forces Squadron
+    location: Luke AFB, AZ
     duration: Updating
   - position: Security Response Team Leader
+    unit: 341st Missile Security Forces Squadron
+    location: Malmstrom AFB, MT
     duration: Updating
   - position: Law Enforcement Patrolman
+    unit: 341st Security Forces Squadron
+    location: Malmstrom AFB, MT
     duration: Updating
   - position: Assistant NCOIC, Security Forces Armory
+    unit: 31st Security Forces Squadron
+    location: Aviano AB, Italy
     duration: Updating
   - position: Security Response Team Member
+    unit: 31st Security Forces Squadron
+    location: Aviano AB, Italy
     duration: Updating 
   - position: Installation Entry Controller
+    unit: 341st Security Forces Squadron
+    location: Malmstrom AFB, MT
     duration: Updating
