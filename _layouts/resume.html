@@ -34,7 +34,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <div style="width:100%">
       <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="margin-left:50px; width:calc(100% - 50px);">
-        {% if company.unit == false %}
+        {% if company.url == false %}
         <b style="font-size: 18px;">{{ company.company }}</b><br>
         {% else %}
         <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
