@@ -17,6 +17,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
         <div>
           {% for position in company.positions %}
           &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
+          -- <b>Courses:</b> {{ position.courses }}<br>
           {% endfor %}
         </div>
       </div><br>
@@ -33,7 +34,12 @@ Phillip is a security professional with 20 years of experience in physical, indu
         <b style="font-size: 18px;">{{ company.company }}</b><br>
         <div>
           {% for position in company.positions %}
-          &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
+			      {% if position.unit == false %}
+			      &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
+			      {% else %}
+			      &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
+			      -- {{ position.unit }}, {{ position.location }}<br>
+			      {% endif %}
           {% endfor %}
         </div>
       </div><br>

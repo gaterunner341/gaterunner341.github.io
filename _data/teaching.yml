@@ -1,8 +1,16 @@
-# JHigher Education Roles
+# Higher Education Roles
 
 - company: Southern New Hampshire University
   logo: snhu.png
   alt: SNHU
   positions:
   - position: Cybersecurity and Digital Forensics Adjunct Instructor
+    courses: ISE-510, CYB-250
     duration: Oct 2023 &mdash; Present
+- company: Red Cross
+  log: placeholder.jpg
+  alt: Red Cross
+  positions:
+  - position: Instructor
+    courses: First Aid, CPR, AED
+    duration: Updating
