@@ -4,13 +4,22 @@
   logo: snhu.png
   alt: SNHU
   positions:
-  - position: Cybersecurity and Digital Forensics Adjunct Instructor
-    courses: CYB-240 Application Security, CYB-250 Cyber Defense, CYB-260 Legal and Human Factors of Cybersecurity, ISE-510 Security Risk Analysis and Planning, ISE-620 Incident Detection and Response, ISE-640 Investigation and Digital Forensics
+  - position: Adjunct Instructor
     duration: Oct 2023 &mdash; Present
+    - course: CYB-240 Application Security
+    - course: CYB-250 Cyber Defense
+    - course: CYB-260 Legal and Human Factors of Cybersecurity
+    - course: ISE-510 Security Risk Analysis and Planning
+    - course: ISE-620 Incident Detection and Response
+    - course: ISE-640 Investigation and Digital Forensics
+    
 - company: Red Cross
   logo: redcross.png
   alt: Red Cross
   positions:
   - position: Instructor
-    courses: First Aid, CPR, AED
     duration: Updating
+    - course: First Aid
+    - course: CPR
+    - course: AED
+    
