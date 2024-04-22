@@ -1,5 +1,5 @@
 # Degree
-- degree: MS
+- degree: Master of Science
   subject: Digital Forensic Science
   school: Champlain College
   year: 2023
@@ -8,7 +8,7 @@
   url: https://www.parchment.com/u/award/25ab4a269c1c3506de51604454dc70fd
 
 # Degree
-- degree: BS
+- degree: Bachelor of Science
   subject: Computer Forensics and Digital Investigation
   school: Champlain College
   year: 2018
@@ -17,7 +17,7 @@
   url: false
 
 # Degree
-- degree: AAS
+- degree: Associates in Applied Science
   subject: Information Technology
   school: Community College of the Air Force
   year: 2022
@@ -26,7 +26,7 @@
   url: false
 
 # Degree
-- degree: AAS
+- degree: Associates in Applied Science
   subject: Criminal Justice
   school: Community College of the Air Force
   year: 2016
