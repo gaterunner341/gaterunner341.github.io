@@ -1,6 +1,7 @@
 # Jobs
 # Team Lead
 - company: MindPoint Group
+  url: https://www.mindpointgroup.com/
   logo: mpg.jpg
   alt: MindPoint Group
   lateststart: Dec 2023
@@ -16,6 +17,7 @@
     duration: Mar 2022 &mdash; Mar 2023
 
 - company: United States Air Force Reserve
+  url: https://www.afrc.af.mil/
   logo: usafr.jpg
   alt: USAFR
   lateststart: Jan 2022
@@ -42,6 +44,7 @@
     duration: Updating
 
 - company: Raytheon Technologies
+  url: https://www.rtx.com/
   logo: rtx.jpg
   alt: Raytheon Technologies
   lateststart: Mar 2021
@@ -54,6 +57,7 @@
     duration: Aug 2019 &mdash; Mar 2021
 
 - company: Multiple Contracts
+  url: False
   logo: work.jpg
   alt: Work
   lateststart: Sep 2017
@@ -63,6 +67,7 @@
     duration: Sep 2017 &mdash; Aug 2019
 
 - company: Lockheed Martin
+  url: https://www.lockheedmartin.com/
   logo: lm.jpg
   alt: Lockheed Martin
   lateststart: Jun 2015
@@ -75,6 +80,7 @@
     duration: Aug 2014 &mdash; Jun 2015
 
 - company: United States Air Force
+  url: https://www.af.mil/
   logo: usaf.png
   alt: USAF
   lateststart: Mar 2003
