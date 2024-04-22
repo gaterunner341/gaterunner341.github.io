@@ -40,8 +40,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
 			      &bull;
             <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
 			      {% else %}
-			      &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
-			      -- {{ position.unit }}, {{ position.location }}<br>
+			      &bull; <b>{{ position.position }}</b>, {{ position.unit }}, {{ position.location }} &bull; {{ position.duration }}<br>
 			      {% endif %}
           {% endfor %}
         </div>
