@@ -127,10 +127,10 @@ Phillip is a security professional with 20 years of experience in physical, indu
           <b>{{ volunteer.duty }}</b><br>
         {% endif %}
         {{ volunteer.org }} &bull;
-        {% if volunteer.endyear == false %}
-          {{ volunteer.startyear }}<br><br>
-          {% else %}
+        {% if volunteer.endyear %}
           {{ volunteer.startyear }} &mdash; {{ volunteer.endyear }}<br><br>
+          {% else %}
+          {{ volunteer.startyear }}<br><br>
         {% endif %}
       </div>
     </div>
