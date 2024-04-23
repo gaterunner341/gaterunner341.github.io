@@ -45,6 +45,13 @@ Phillip is a security professional with 20 years of experience in physical, indu
 </section>
 
 <section>
+  <h2>Publications</h2>
+  {% for publication in site.data.pubs %}
+  <b>{{ publication.name }}</b>, {{ publication.type }} {{ publication.date }}
+  {% endfor %}
+</section>
+
+<section>
   <h2>Professional Experience</h2>
   {% assign experience = site.data.experience | sort: 'lateststart' | reverse %}
   {% for company in experience %}
