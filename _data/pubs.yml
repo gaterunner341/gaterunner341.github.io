@@ -15,6 +15,7 @@
   alt: Published Books
   pubs:
   - title: Test Book 1
+    author: Author, Test
     publisher: Test Publisher
     url: False
     date: "2023"
