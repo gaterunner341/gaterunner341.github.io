@@ -1,6 +1,7 @@
 # Higher Education Roles
 
 - company: Southern New Hampshire University
+  certification: False
   logo: snhu.png
   alt: SNHU
   positions:
@@ -8,6 +9,7 @@
     duration: Oct 2023 &mdash; Present
     courses: CYB-240 Application Security, CYB-250 Cyber Defense, CYB-260 Legal and Human Factors of Cybersecurity, ISE-510 Security Risk Analysis and Planning, ISE-620 Incident Detection and Response, ISE-640 Investigation and Digital Forensics
 - company: Red Cross
+  certification: False
   logo: redcross.png
   alt: Red Cross
   positions:
@@ -16,6 +18,7 @@
     courses: First Aid, CPR, AED
 
 - company: ISC2
+  certification: True
   logo: isc2.jpeg
   alt: ISC2
   positions:
