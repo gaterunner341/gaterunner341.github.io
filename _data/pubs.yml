@@ -10,3 +10,11 @@
   - title: Test paper 2
     publisher: Champlain College
     date: "2023"
+- type: Book
+  logo: book.jpg
+  alt: Published Books
+  pubs:
+  - title: Test Book 1
+    publisher: Test Publisher
+    url: False
+    date: "2023"
