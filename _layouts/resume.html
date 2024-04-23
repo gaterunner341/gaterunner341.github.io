@@ -63,12 +63,6 @@ Phillip is a security professional with 20 years of experience in physical, indu
           <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
           <div style="position: relative; padding-left: 10px;">
             <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
-            {% if position.accomplishment %}
-            <ul>
-              {% for action in position.accomplishment %}
-              <li>{{ action }}</li>
-              {% endfor %}
-            {% endif %}
           </div>
         </div>
         {% else %}
