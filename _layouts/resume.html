@@ -22,9 +22,9 @@ Phillip is a security professional with 20 years of experience in physical, indu
           <div style="position: relative; padding-left: 10px;">
             <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
             {% if position.certification == True %}
-            <b>Certification:</b> {{ position.courses }}
+            Certification: <b>{{ position.courses }}</b>
             {% else %}
-            <b>Course:</b> {{ position.courses }}
+            <b>Courses:</b> {{ position.courses }}
             {% endif %}
           </div>
         </div>
