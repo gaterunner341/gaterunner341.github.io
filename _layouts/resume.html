@@ -45,14 +45,14 @@ Phillip is a security professional with 20 years of experience in physical, indu
         <div style="position: relative;">
           <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
           <div style="position: relative; padding-left: 10px;">
-            &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
+            <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
           </div>
         </div>
         {% else %}
         <div style="position: relative;">
           <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
           <div style="position: relative; padding-left: 10px;">
-            &bull; <b>{{ position.position }}</b>, {{ position.unit }}, {{ position.location }} &bull; {{ position.duration }}<br>
+            <b>{{ position.position }}</b>, {{ position.unit }}, {{ position.location }} &bull; {{ position.duration }}<br>
           </div>
         </div>
         {% endif %}
