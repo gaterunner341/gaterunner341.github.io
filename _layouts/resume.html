@@ -57,9 +57,9 @@ Phillip is a security professional with 20 years of experience in physical, indu
           <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
           <div style="position: relative; padding-left: 10px;">
             {% if item.url $}
-            <b><a href="{{ item.url }}" target="_blank" class="hover-underline-animation">{{ item.title }}</a></b><br>
+              <b><a href="{{ item.url }}" target="_blank" class="hover-underline-animation">{{ item.title }}, {{ item.publisher }}</a></b><br>
             {% else %}
-            <b>{{ item.title }}</b>
+              <b>{{ item.title }}</b>
             {% endif %}
           </div>
         </div>
