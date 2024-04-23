@@ -91,9 +91,9 @@ Phillip is a security professional with 20 years of experience in physical, indu
       <img src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         {% if certification.url == false %}
-        <b>{{ certification.cert }}</b> ({{ certification.certID }})<br>
+        <b>{{ certification.cert }}</b><br>
         {% else %}
-        <b>{{ certification.cert }}</b> (<a href="{{ certification.url }}" target="_blank" class="hover-underline-animation">{{ certification.certID }}</a>)<br>
+        <b>(<a href="{{ certification.url }}" target="_blank" class="hover-underline-animation">{{ certification.cert }}</a>)</b><br>
         {% endif %}
         {{ certification.org }} &bull; {{ certification.year }}<br><br>
       </div>
