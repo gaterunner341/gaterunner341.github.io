@@ -47,11 +47,22 @@ Phillip is a security professional with 20 years of experience in physical, indu
 <section>
   <h2>Publications and Papers</h2>
   {% for publication in site.data.pubs %}
-  {% if publication.url %}
-  <b><a href="{{ publication.url }}" target="_blank" class="hover-underline-animation">{{ publication.name }}</a></b>, {{ publication.type }} {{ publication.date }}<br>
-  {% else %}
-  <b>{{ publication.name }}</b>, {{ publication.type }} {{ publication.date }}<br>
-  {% endif %}
+  <div style="width:100%; position: relative;">
+    <img src="./assets/images/publicationicons/{{ publication.logo }}" alt="{{ publication.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
+    <div style="margin-left:50px; width:calc(100% - 50px);">
+      <b style="font-size: 18px;">{{ publication.type }}</b><br>
+      <div style="position: relative; margin-left: 8px;">
+        {% for items in publication.pubs %}
+        <div style="position: relative;">
+          <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
+          <div style="position: relative; padding-left: 10px;">
+            <b>{{ item.title }}</b>
+          </div>
+        </div>
+        {% endfor %}
+      </div><br>
+    </div>
+  </div>
   {% endfor %}
 </section>
 
