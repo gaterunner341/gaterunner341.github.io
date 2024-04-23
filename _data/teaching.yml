@@ -2,6 +2,7 @@
 
 - company: Southern New Hampshire University
   certification: False
+  lateststart: "2023"
   logo: snhu.png
   alt: SNHU
   positions:
@@ -10,6 +11,7 @@
     courses: CYB-240 Application Security, CYB-250 Cyber Defense, CYB-260 Legal and Human Factors of Cybersecurity, ISE-510 Security Risk Analysis and Planning, ISE-620 Incident Detection and Response, ISE-640 Investigation and Digital Forensics
 - company: Red Cross
   certification: False
+  lateststart: "2019"
   logo: redcross.png
   alt: Red Cross
   positions:
@@ -19,6 +21,7 @@
 
 - company: ISC2
   certification: True
+  lateststart: "2024"
   logo: isc2.jpeg
   alt: ISC2
   positions:

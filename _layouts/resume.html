@@ -9,7 +9,8 @@ Phillip is a security professional with 20 years of experience in physical, indu
 
 <section>
   <h2>Instructor and Exem Development Experience</h2>
-  {% for company in site.data.teaching %}
+  {% assign experience = site.data.teaching | sort: 'lateststart' | reverse %}
+  {% for company in experience %}
   <div style="width:100%; position: relative;">
     <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
     <div style="margin-left:50px; width:calc(100% - 50px);">
@@ -20,10 +21,10 @@ Phillip is a security professional with 20 years of experience in physical, indu
           <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
           <div style="position: relative; padding-left: 10px;">
             <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
-            {% if position.certification == false %}
-            <b>Courses:</b> {{ position.courses }}
-            {% else %}
+            {% if position.certification == True %}
             <b>Certification:</b> {{ position.courses }}
+            {% else %}
+            <b>Course:</b> {{ position.courses }}
             {% endif %}
           </div>
         </div>
