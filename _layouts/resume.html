@@ -48,7 +48,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
   <h2>Publications</h2>
   {% for publication in site.data.pubs %}
   {% if publication.url %}
-  <b style="font-size: 18px;"><a href="{{ publication.url }}" target="_blank" class="hover-underline-animation">{{ publication.name }}</a></b>, {{ publication.type }} {{ publication.date }}<br>
+  <b><a href="{{ publication.url }}" target="_blank" class="hover-underline-animation">{{ publication.name }}</a></b>, {{ publication.type }} {{ publication.date }}<br>
   {% else %}
   <b>{{ publication.name }}</b>, {{ publication.type }} {{ publication.date }}<br>
   {% endif %}
