@@ -10,22 +10,25 @@ Phillip is a security professional with 20 years of experience in physical, indu
 <section>
   <h2>Instructor Experience</h2>
   {% for company in site.data.teaching %}
-  <div style="width:100%">
-    <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
+  <div style="width:100%; position: relative;">
+    <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
     <div style="margin-left:50px; width:calc(100% - 50px);">
       <b style="font-size: 18px;">{{ company.company }}</b><br>
-      <div>
+      <div style="position: relative; margin-left: 8px;">
         {% for position in company.positions %}
-        <div>
-          <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
-          <b>Courses:</b> {{ position.courses }}
+        <div style="position: relative;">
+          <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
+          <div style="position: relative; padding-left: 10px;">
+            <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
+            <b>Courses:</b> {{ position.courses }}
+          </div>
         </div>
         {% endfor %}
       </div>
     </div><br>
   </div>
   {% endfor %}
-</section>
+  </section>
 
 <section>
   <h2>Professional Experience</h2>
