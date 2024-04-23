@@ -1,26 +1,5 @@
 # Jobs
 # (ISC)2 Exam Reviewer
-- org: ISC2
-  duty: Certified in Cybersecurity Question Writer
-  startyear: 2024
-  endyear: False
-  logo: isc2.jpeg
-  alt: ISC2
-  url: False
-- org: ISC2
-  duty: CISSP Exam Development Work
-  startyear: 2023
-  endyear: False
-  logo: isc2.jpeg
-  alt: ISC2
-  url: https://www.credly.com/badges/d1ca5cc5-2346-423b-af71-e85b0a004eb1/public_url
-- org: ISC2
-  duty: CISSP Exam Reviewer
-  startyear: 2022
-  endyear: False
-  logo: isc2.jpeg
-  alt: ISC2
-  url: False
 - org: Civil Air Patrol
   duty: Volunteer Senior Member
   startyear: 2007

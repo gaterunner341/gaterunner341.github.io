@@ -3,6 +3,7 @@
 - company: Southern New Hampshire University
   lateststart: "2023"
   logo: snhu.png
+  url: https://www.snhu.edu/
   alt: SNHU
   positions:
   - position: Adjunct Instructor
@@ -12,16 +13,17 @@
 - company: Red Cross
   lateststart: "2019"
   logo: redcross.png
+  url: https://www.redcross.org/
   alt: Red Cross
   positions:
   - position: Instructor
     certification: False
     duration: Updating
     courses: First Aid, CPR, AED
-
 - company: ISC2
   lateststart: "2024"
   logo: isc2.jpeg
+  url: https://www.isc2.org/
   alt: ISC2
   positions:
   - position: Exam Author
