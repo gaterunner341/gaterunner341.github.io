@@ -28,8 +28,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
             {% if position.certification %}
             Certification: <b>{{ position.courses }}</b>
             {% else %}
-            <b>Courses:</b>
-            <ul>
+            <b>Courses:</b><ul>
               {% assign courses = position.courses | split: ", " %}
               {% for course in courses %}
               <li>{{ course }}</li>
