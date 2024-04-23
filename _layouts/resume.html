@@ -104,10 +104,10 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <div style="width: 100%;">
       <img src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
-        {% if certification.url == false %}
-        <b>{{ certification.cert }}</b><br>
-        {% else %}
+        {% if certification.url %}
         <b><a href="{{ certification.url }}" target="_blank" class="hover-underline-animation">{{ certification.cert }}</a></b><br>
+        {% else %}
+        <b>{{ certification.cert }}</b><br>
         {% endif %}
         {{ certification.org }} &bull; {{ certification.year }}<br><br>
       </div>
@@ -121,10 +121,10 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <div style="width:100%">
       <img src="./assets/images/resume/{{ volunteer.logo }}" alt="{{ volunteer.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
-        {% if volunteer.url == false %}
-          <b>{{ volunteer.duty }}</b><br>
-          {% else %}
+        {% if volunteer.url %}
           <b><a href="{{ volunteer.url }}" target="_blank" class="hover-underline-animation">{{ volunteer.duty }}</a></b><br>
+          {% else %}
+          <b>{{ volunteer.duty }}</b><br>
         {% endif %}
         {{ volunteer.org }} &bull;
         {% if volunteer.endyear == false %}
@@ -144,10 +144,10 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <div style="width:100%">
       <img src="./assets/images/resume/{{ coursename.logo }}" alt="{{ coursename.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
-        {% if coursename.url == false %}
-        <b>{{ coursename.course }}</b><br>
-        {% else %}
+        {% if coursename.url %}
         <b><a href="{{ coursename.url }}" target="_blank" class="hover-underline-animation">{{ coursename.course }}</a></b><br>
+        {% else %}
+        <b>{{ coursename.course }}</b><br>
         {% endif %}
         {{ coursename.provider }} &bull; {{ coursename.date }}<br><br>
       </div>
