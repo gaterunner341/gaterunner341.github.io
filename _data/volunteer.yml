@@ -1,7 +1,14 @@
 # Jobs
 # (ISC)2 Exam Reviewer
 - org: ISC2
-  duty: Cybersecurity Exam Development Volunteer
+  duty: Certified in Cybersecurity Question Writer
+  startyear: 2024
+  endyear: False
+  logo: isc2.jpeg
+  alt: ISC2
+  url: False
+- org: ISC2
+  duty: CISSP Exam Development Work
   startyear: 2023
   endyear: False
   logo: isc2.jpeg
