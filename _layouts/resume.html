@@ -8,7 +8,7 @@ layout: default
 Phillip is a security professional with 20 years of experience in physical, industrial, personnel, and cybersecurity. Skilled with securing, defending, and countering threats to government and military networks. CISSP certification holder, ISC Exam Developer, and Adjunct Instructor.
 
 <section>
-  <h2>Instructor and Exem Development Experience</h2>
+  <h2>Instructor and Exam Development Experience</h2>
   {% assign experience = site.data.teaching | sort: 'lateststart' | reverse %}
   {% for company in experience %}
   <div style="width:100%; position: relative;">
@@ -28,12 +28,13 @@ Phillip is a security professional with 20 years of experience in physical, indu
             {% if position.certification %}
             Certification: <b>{{ position.courses }}</b>
             {% else %}
-            <b>Courses:</b><ul>
+            <b>Courses:</b>
+            <div style="display: inline;">
               {% assign courses = position.courses | split: ", " %}
               {% for course in courses %}
-              <li>{{ course }}</li>
+              <span style="display: inline;">{{ course }}</span>{% unless forloop.last %}, {% endunless %}
               {% endfor %}
-            </ul>
+            </div>
             {% endif %}
           </div>
         </div>
@@ -43,6 +44,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
   </div>
   {% endfor %}
 </section>
+
 
 <section>
   <h2>Professional Experience</h2>
