@@ -7,36 +7,42 @@ layout: default
 <h2>Summary</h2>
 Phillip is a security professional with 20 years of experience in physical, industrial, personnel, and cybersecurity. Skilled with securing, defending, and countering threats to government and military networks. CISSP certification holder, ISC Exam Developer, and Adjunct Instructor.
 
-<section>
-  <h2>Instructor and Exam Development Experience</h2>
-  {% assign experience = site.data.teaching | sort: 'lateststart' | reverse %}
-  {% for company in experience %}
-  <div style="width:100%; position: relative;">
-    <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
-    <div style="margin-left:50px; width:calc(100% - 50px);">
-      {% if company.url == false %}
-      <b style="font-size: 18px;">{{ company.company }}</b><br>
-      {% else %}
-      <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
-      {% endif %}
-      <div style="position: relative; margin-left: 8px;">
-        {% for position in company.positions %}
-        <div style="position: relative;">
-          <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
-          <div style="position: relative; padding-left: 10px;">
-            <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
-            {% if position.certification == true %}
-            Certification: <b>{{ position.courses }}</b>
-            {% else %}
-            <b>Courses:</b> {{ position.courses }}
-            {% endif %}
+  <section>
+    <h2>Instructor and Exam Development Experience</h2>
+    {% assign experience = site.data.teaching | sort: 'lateststart' | reverse %}
+    {% for company in experience %}
+    <div style="width:100%; position: relative;">
+      <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
+      <div style="margin-left:50px; width:calc(100% - 50px);">
+        {% if company.url == false %}
+        <b style="font-size: 18px;">{{ company.company }}</b><br>
+        {% else %}
+        <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
+        {% endif %}
+        <div style="position: relative; margin-left: 8px;">
+          {% for position in company.positions %}
+          <div style="position: relative;">
+            <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
+            <div style="position: relative; padding-left: 10px;">
+              <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
+              {% if position.certification == true %}
+              Certification: <b>{{ position.courses }}</b>
+              {% else %}
+              <b>Courses:</b>
+              <ul style="list-style-type: none; padding-left: 0;">
+                {% assign courses = position.courses | split: ',' %}
+                {% for course in courses %}
+                <li>{{ course | strip }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
           </div>
+          {% endfor %}
         </div>
-        {% endfor %}
-      </div>
-    </div><br>
-  </div>
-  {% endfor %}
+      </div><br>
+    </div>
+    {% endfor %}
   </section>
 
 <section>
