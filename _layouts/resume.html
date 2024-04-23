@@ -27,32 +27,41 @@ Phillip is a security professional with 20 years of experience in physical, indu
   {% endfor %}
 </section>
 
-  <section>
-    <h2>Professional Experience</h2>
-    {% assign experience = site.data.experience | sort: 'lateststart' | reverse %}
-    {% for company in experience %}
-    <div style="width:100%">
-      <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
-      <div style="margin-left:50px; width:calc(100% - 50px);">
-        {% if company.url == false %}
-        <b style="font-size: 18px;">{{ company.company }}</b><br>
-        {% else %}
-        <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
-        {% endif %}
-        <div>
-          {% for position in company.positions %}
-			      {% if position.unit == false %}
-			      &bull;
-            <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
-			      {% else %}
-			      &bull; <b>{{ position.position }}</b>, {{ position.unit }}, {{ position.location }} &bull; {{ position.duration }}<br>
-			      {% endif %}
-          {% endfor %}
+<section>
+  <h2>Professional Experience</h2>
+  {% assign experience = site.data.experience | sort: 'lateststart' | reverse %}
+  {% for company in experience %}
+  <div style="width:100%; position: relative;">
+    <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
+    <div style="margin-left:50px; width:calc(100% - 50px);">
+      {% if company.url == false %}
+      <b style="font-size: 18px;">{{ company.company }}</b><br>
+      {% else %}
+      <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
+      {% endif %}
+      <div style="position: relative; margin-left: 8px;">
+        {% for position in company.positions %}
+        {% if position.unit == false %}
+        <div style="position: relative;">
+          <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
+          <div style="position: relative; padding-left: 10px;">
+            &bull; <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
+          </div>
         </div>
-      </div><br>
+        {% else %}
+        <div style="position: relative;">
+          <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
+          <div style="position: relative; padding-left: 10px;">
+            &bull; <b>{{ position.position }}</b>, {{ position.unit }}, {{ position.location }} &bull; {{ position.duration }}<br>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
     </div>
-    {% endfor %}
-  </section>
+  </div>
+  {% endfor %}
+</section>
 
   <section>
     <h2>Education</h2>
