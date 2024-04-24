@@ -26,16 +26,16 @@
   url: https://www.isc2.org/
   alt: ISC2
   positions:
-  - position: Exam Author
+  - position: Exam Developer - Question Author
     certification: True
     duration: 2024
     courses: Certified in Cybersecurity (CC)
     certification: True
-  - position: Domain Mapping / Reference Verification
+  - position: Exam Developer - Domain Mapping, Reference Validation & Update
     certification: True
     duration: 2023
     courses: CISSP
-  - position: Group Review
+  - position: Exam Developer - Group Review
     certification: True
     duration: 2022
     courses: CISSP
