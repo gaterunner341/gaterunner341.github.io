@@ -7,15 +7,3 @@
     publisher: Champlain College
     url: https://github.com/gaterunner341/Papers/blob/7ae90a3d417fcf7740c84b530c12d1d87e2f3941/Drone%20Forensics%20Thesis.pdf
     date: "2018"
-  - title: Test paper 2
-    publisher: Champlain College
-    date: "2023"
-- type: Books
-  logo: book.jpg
-  alt: Published Books
-  pubs:
-  - title: Test Book 1
-    author: Author, Test
-    publisher: Test Publisher
-    url: False
-    date: "2023"
