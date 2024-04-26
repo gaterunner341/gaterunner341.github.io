@@ -91,11 +91,28 @@ Phillip is a security professional with 20 years of experience in physical, indu
             {% assign dates = job.duration | split: ' &mdash; ' %}
             {% assign start_date = dates[0] | date: '%b %Y' %}
             {% assign end_date = dates[1] | date: '%b %Y' %}
-            <b>{{ position.position }}</b>{% if position.unit %}, {{ position.unit }}, {{ position.location }}{% endif %} &bull; {{ start_date }} - {{ end_date }}<br>
+            <b>{{ position.position }}</b>{% if position.unit %}, {{ position.unit }}, {{ position.location }}{% endif %} &bull; {{ position.duration }}<br>
             
-            {% assign diff_years = end_date | date: '%Y' | minus: start_date | date: '%Y' %}
-            {% assign diff_months = end_date | date: '%m' | minus: start_date | date: '%m' %}
-            Time Employed: {{ diff_years }} years, {{ diff_months }} months<br>
+
+            {% assign dates = job.duration | split: ' &mdash; ' %}
+            {% assign start_date = dates[0] | date: '%Y-%m-%d' %}
+            {% assign end_date = dates[1] | date: '%Y-%m-%d' %}
+            
+            Start Date: {{ start_date | date: '%b %Y' }} <br>
+            End Date: {{ end_date | date: '%b %Y' }} <br>
+            
+            {% capture start_timestamp %}{{ start_date | date: '%s' | plus: 0 }}{% endcapture %}
+            {% capture end_timestamp %}{{ end_date | date: '%s' | plus: 0 }}{% endcapture %}
+            
+            {% assign diff_seconds = end_timestamp | minus: start_timestamp %}
+            {% assign diff_months = diff_seconds | divided_by: 2628000 %}
+            
+            {% assign years = diff_months | divided_by: 12 %}
+            {% assign months = diff_months | modulo: 12 %}
+            
+            Time Employed: {{ years }} years, {{ months }} months
+
+            <br>
             {% if position.accomplishments %}
             <ul>
               {% for accomplishment in position.accomplishments %}
