@@ -9,13 +9,19 @@
     - position: Team Lead (SOC Manager)
       unit: False
       duration: 2023-12-01 &mdash; Present
+      startdate: 2023-12-01
+      enddate: Present
       accomplishments:
     - position: Senior Consultant (Cyber Threat Hunter)
       unit: False
       duration: 2023-03-01 &mdash; 2023-12-01
+      startdate: 2023-03-01
+      enddate: 2023-12-01
     - position: Senior Consultant (Tier II SOC Analyst)
       unit: False
       duration: 2022-03-01 &mdash; 2023-03-01
+      startdate: 2022-03-01
+      enddate: 2023-03-01
 
   - company: United States Air Force Reserve
     url: https://www.afrc.af.mil/

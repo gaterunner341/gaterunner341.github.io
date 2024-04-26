@@ -89,27 +89,6 @@ Phillip is a security professional with 20 years of experience in physical, indu
           <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
           <div style="position: relative; padding-left: 10px;">
             <b>{{ position.position }}</b>{% if position.unit %}, {{ position.unit }}, {{ position.location }}{% endif %} &bull; {{ position.duration }}<br>
-            
-
-            {% assign dates = job.duration | split: ' &mdash; ' %}
-            {% assign start_date = dates[0] | date: '%Y-%m-%d' %}
-            {% assign end_date = dates[1] | date: '%Y-%m-%d' %}
-            
-            Start Date: {{ start_date | date: '%b %Y' }} <br>
-            End Date: {{ end_date | date: '%b %Y' }} <br>
-            
-            {% capture start_timestamp %}{{ start_date | date: '%s' | plus: 0 }}{% endcapture %}
-            {% capture end_timestamp %}{{ end_date | date: '%s' | plus: 0 }}{% endcapture %}
-            
-            {% assign diff_seconds = end_timestamp | minus: start_timestamp %}
-            {% assign diff_months = diff_seconds | divided_by: 2628000 %}
-            
-            {% assign years = diff_months | divided_by: 12 %}
-            {% assign months = diff_months | modulo: 12 %}
-            
-            Time Employed: {{ years }} years, {{ months }} months
-
-            <br>
             {% if position.accomplishments %}
             <ul>
               {% for accomplishment in position.accomplishments %}
