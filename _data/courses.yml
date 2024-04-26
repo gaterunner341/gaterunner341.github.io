@@ -257,3 +257,10 @@
   logo: sans.png
   alt: LDR514 Security Strategic Planning, Policy, and Leadership
   url: https://www.sans.org/cyber-security-courses/strategic-security-planning-policy-leadership/
+
+- provider: Splunk
+  course: BOSS of the SOC
+  date: 2021
+  logo: boss.png
+  alt: Splunk BOSS of the SOC
+  url: https://bots.splunk.com/login?redirect=/
