@@ -88,7 +88,14 @@ Phillip is a security professional with 20 years of experience in physical, indu
         <div style="position: relative;">
           <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
           <div style="position: relative; padding-left: 10px;">
-            <b>{{ position.position }}</b>{% if position.unit %}, {{ position.unit }}, {{ position.location }}{% endif %} &bull; {{ position.duration }}<br>
+            {% assign dates = job.duration | split: ' &mdash; ' %}
+            {% assign start_date = dates[0] | date: '%b %Y' %}
+            {% assign end_date = dates[1] | date: '%b %Y' %}
+            <b>{{ position.position }}</b>{% if position.unit %}, {{ position.unit }}, {{ position.location }}{% endif %} &bull; {{ start_date }} - {{ end_date }}<br>
+            
+            {% assign diff_years = end_date | date: '%Y' | minus: start_date | date: '%Y' %}
+            {% assign diff_months = end_date | date: '%m' | minus: start_date | date: '%m' %}
+            Time Employed: {{ diff_years }} years, {{ diff_months }} months<br>
             {% if position.accomplishments %}
             <ul>
               {% for accomplishment in position.accomplishments %}
@@ -104,7 +111,6 @@ Phillip is a security professional with 20 years of experience in physical, indu
   </div>
   {% endfor %}
 </section>
-
 
   <section>
     <h2>Education</h2>
