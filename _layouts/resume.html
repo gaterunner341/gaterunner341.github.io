@@ -4,6 +4,22 @@ layout: default
 <span style="font-size: 37px;font-weight: strong;">Phillip Kittelson</span>
 <br>Washington D.C. Metro Area
 
+<style>
+  .rounded-image {
+      border-radius: 10px; /* Adjust the value to change the roundness */
+      padding-right: 8px;
+      float: left;
+      width: 40px;
+      height: auto;
+  }
+
+  .company-details {
+      margin-left: 50px;
+      width: calc(100% - 50px);
+  }
+</style>
+
+
 <h2>Summary</h2>
 Phillip is a security professional with 20 years of experience in physical, industrial, personnel, and cybersecurity. Skilled with securing, defending, and countering threats to government and military networks. CISSP certification holder, ISC Exam Developer, and Adjunct Instructor.
 
@@ -76,31 +92,31 @@ Phillip is a security professional with 20 years of experience in physical, indu
   {% assign experience = site.data.experience | sort: 'lateststart' | reverse %}
   {% for company in experience %}
   <div style="width:100%; position: relative;">
-    <img src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
-    <div style="margin-left:50px; width:calc(100% - 50px);">
-      {% if company.url %}
-      <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
-      {% else %}
-      <b style="font-size: 18px;">{{ company.company }}</b><br>
-      {% endif %}
-      <div style="position: relative; margin-left: 8px;">
-        {% for position in company.positions %}
-        <div style="position: relative;">
-          <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
-          <div style="position: relative; padding-left: 10px;">
-            <b>{{ position.position }}</b>{% if position.unit %}, {{ position.unit }}, {{ position.location }}{% endif %} &bull; {{ position.duration }}<br>
-            {% if position.accomplishments %}
-            <ul>
-              {% for accomplishment in position.accomplishments %}
-              <li>{{ accomplishment }}</li>
+      <img class="rounded-image" src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}">
+      <div class="company-details">
+          {% if company.url %}
+          <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
+          {% else %}
+          <b style="font-size: 18px;">{{ company.company }}</b><br>
+          {% endif %}
+          <div style="position: relative; margin-left: 8px;">
+              {% for position in company.positions %}
+              <div style="position: relative;">
+                  <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
+                  <div style="position: relative; padding-left: 10px;">
+                      <b>{{ position.position }}</b>{% if position.unit %}, {{ position.unit }}, {{ position.location }}{% endif %} &bull; {{ position.duration }}<br>
+                      {% if position.accomplishments %}
+                      <ul>
+                          {% for accomplishment in position.accomplishments %}
+                          <li>{{ accomplishment }}</li>
+                          {% endfor %}
+                      </ul>
+                      {% endif %}
+                  </div>
+              </div>
               {% endfor %}
-            </ul>
-            {% endif %}
-          </div>
-        </div>
-        {% endfor %}
-      </div><br>
-    </div>
+          </div><br>
+      </div>
   </div>
   {% endfor %}
 </section>
