@@ -1,6 +1,7 @@
 # Higher Education Roles
 
 - company: Southern New Hampshire University
+  display: True
   lateststart: "2023"
   logo: snhu.png
   url: https://www.snhu.edu/
@@ -11,6 +12,7 @@
     duration: Oct 2023 &mdash; Present
     courses: CYB-240 Application Security, CYB-250 Cyber Defense, CYB-260 Legal and Human Factors of Cybersecurity, ISE-510 Security Risk Analysis and Planning, ISE-620 Incident Detection and Response, ISE-640 Investigation and Digital Forensics
 - company: Red Cross
+  display: True
   lateststart: "2019"
   logo: redcross.png
   url: https://www.redcross.org/
@@ -21,6 +23,7 @@
     duration: Updating
     courses: First Aid, Cardiopulmonary Resuscitation (CPR), Automated External Defibrillator (AED)
 - company: ISC2
+  display: True
   lateststart: "2024"
   logo: isc2.jpeg
   url: https://www.isc2.org/
@@ -39,4 +42,15 @@
     certification: True
     duration: 2022
     courses: CISSP
+- company: CompTIA
+  display: False
+  lateststart: "2024"
+  logo: comptia.png
+  url: https://www.comptia.org/certifications/become-a-subject-matter-expert/current-smes
+  alt: CompTIA
+  positions:
+  - position: CompTIA SME (pending seminar attendance)
+    certification: True
+    duration: 2024
+    courses: Security+, Cybersecurity Analyst (CySA+)
     
