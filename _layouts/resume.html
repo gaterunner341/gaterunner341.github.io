@@ -63,7 +63,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
   <h2>Publications and Papers</h2>
   {% for publication in site.data.pubs %}
   <div style="width:100%; position: relative;">
-    <img src="./assets/images/publicationicons/{{ publication.logo }}" alt="{{ publication.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
+    <imimg class="rounded-image" src="./assets/images/publicationicons/{{ publication.logo }}" alt="{{ publication.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
     <div style="margin-left:50px; width:calc(100% - 50px);">
       <b style="font-size: 18px;">{{ publication.type }}</b><br>
       <div style="position: relative; margin-left: 8px;">
@@ -124,7 +124,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <h2>Education</h2>
     {% for education in site.data.education %}
     <div style="width: 100%;">
-      <img src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
+      <iimg class="rounded-image" src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         {% if education.url %}
         <b><a href="{{ education.url }}" target="_blank" class="hover-underline-animation">{{ education.degree }}, {{ education.subject }}</a></b><br>
@@ -142,7 +142,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     {% assign certname = site.data.certification | sort: 'year' | reverse %}
     {% for certification in certname %}
     <div style="width: 100%;">
-      <img src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
+      <iimg class="rounded-image" src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         {% if certification.url %}
         <b><a href="{{ certification.url }}" target="_blank" class="hover-underline-animation">{{ certification.cert }}</a></b><br>
@@ -159,7 +159,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <h2>Volunteer Experience</h2>
     {% for volunteer in site.data.volunteer %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ volunteer.logo }}" alt="{{ volunteer.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
+      <img class="rounded-image" src="./assets/images/resume/{{ volunteer.logo }}" alt="{{ volunteer.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         {% if volunteer.url %}
           <b><a href="{{ volunteer.url }}" target="_blank" class="hover-underline-animation">{{ volunteer.duty }}</a></b><br>
@@ -182,7 +182,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
     {% assign crse = site.data.courses | sort: 'date' | reverse %}
     {% for coursename in crse %}
     <div style="width:100%">
-      <img src="./assets/images/resume/{{ coursename.logo }}" alt="{{ coursename.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
+      <img class="rounded-image" src="./assets/images/resume/{{ coursename.logo }}" alt="{{ coursename.alt }}" style="padding-right:8px;float:left;width:40px;height:auto;">
       <div style="width:115%;">
         {% if coursename.url %}
         <b><a href="{{ coursename.url }}" target="_blank" class="hover-underline-animation">{{ coursename.course }}</a></b><br>
