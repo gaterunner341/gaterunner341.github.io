@@ -75,7 +75,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
             {% if item.url %}
               <b><a href="{{ item.url }}" target="_blank" class="hover-underline-animation">{{ item.title }}</a></b>, {{ item.publisher }} &bull; {{ item.date }}<br>
             {% else %}
-              <b>{{ item.title }}</b>,{% if item.publisher %} {{ item.publisher }}, {% endif %} &bull; {{ item.date }} 
+              <b>{{ item.title }}</b>{% if item.publisher %}, {{ item.publisher }} {% endif %} &bull; {{ item.date }} 
             {% endif %}
           </div>
         </div>
