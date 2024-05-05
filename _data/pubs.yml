@@ -14,15 +14,18 @@
   - title: Threat Hunting Querries
     url: https://github.com/gaterunner341/ThreatHuntingQuerries
     date: "2023"
+    description: Threat Hunting queries to find bad stuff.
   - title: Yara Rules
     url: https://github.com/gaterunner341/YaraRules
     date: "2023"
+    description: A collection of my YARA rules.
   - title: QRDecode
     url: https://github.com/gaterunner341/QRDecode
     date: "2023"
   - title: PCAPa
     url: https://github.com/gaterunner341/PCAPa
     date: "2023"
+    description: I wrote PCAP analyzer, a BASH-based script, while I was developing my BASH skills. PCAPa can be used to analyze PCAP network packet captures files. This is an adapted script based on a video tutorial from Packet Pioneer.
   - title: BFZip
     url: https://github.com/gaterunner341/BFZip
     date: "2020"
