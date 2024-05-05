@@ -60,7 +60,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
 </section>
 
 <section>
-  <h2>Publications and Papers</h2>
+  <h2>Projects, Publications,and Papers</h2>
   {% for publication in site.data.pubs %}
   <div style="width:100%; position: relative;">
     <img class="rounded-image" src="./assets/images/publicationicons/{{ publication.logo }}" alt="{{ publication.alt }}" style="padding-right:8px; float:left; width:40px; height:auto;">
@@ -75,7 +75,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
             {% if item.url %}
               <b><a href="{{ item.url }}" target="_blank" class="hover-underline-animation">{{ item.title }}</a></b>, {{ item.publisher }} &bull; {{ item.date }}<br>
             {% else %}
-              <b>{{ item.title }}</b>, {{ item.publisher }} &bull; {{ item.date }}
+              <b>{{ item.title }}</b>,{% if item.publisher %} {{ item.publisher }}, {% endif %} &bull; {{ item.date }} 
             {% endif %}
           </div>
         </div>

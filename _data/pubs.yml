@@ -7,3 +7,25 @@
     publisher: Champlain College
     url: https://github.com/gaterunner341/Papers/blob/7ae90a3d417fcf7740c84b530c12d1d87e2f3941/Drone%20Forensics%20Thesis.pdf
     date: "2018"
+- type: Projects
+  logo: project.jpg
+  alt: Projects
+  pubs:
+  - title: Threat Hunting Querries
+    url: https://github.com/gaterunner341/ThreatHuntingQuerries
+    date: "2023"
+  - title: Yara Rules
+    url: https://github.com/gaterunner341/YaraRules
+    date: "2023"
+  - title: QRDecode
+    url: https://github.com/gaterunner341/QRDecode
+    date: "2023"
+  - title: PCAPa
+    url: https://github.com/gaterunner341/PCAPa
+    date: "2023"
+  - title: BFZip
+    url: https://github.com/gaterunner341/BFZip
+    date: "2020"
+  - title: wifiHarvester
+    url: https://github.com/gaterunner341/wifiHarvester
+    date: "2019"
