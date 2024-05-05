@@ -41,14 +41,15 @@ Phillip is a security professional with 20 years of experience in physical, indu
                   <div style="position: relative; padding-left: 10px;">
                       <b>{{ position.position }}</b> &bull; {{ position.duration }}<br>
                       {% if position.certification %}
-                      Certification: <b>{{ position.courses }}</b>
+                        Certification: <b>{{ position.courses }}</b>
                       {% else %}
-                      <b>Courses:</b><ul>
+                        <b>Courses:</b>
+                        <ul>
                           {% assign courses = position.courses | split: ", " %}
                           {% for course in courses %}
                           <li>{{ course }}</li>
                           {% endfor %}
-                      </ul>
+                        </ul>
                       {% endif %}
                   </div>
               </div>
@@ -94,9 +95,9 @@ Phillip is a security professional with 20 years of experience in physical, indu
       <img class="rounded-image" src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}">
       <div class="company-details">
           {% if company.url %}
-          <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
+            <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
           {% else %}
-          <b style="font-size: 18px;">{{ company.company }}</b><br>
+            <b style="font-size: 18px;">{{ company.company }}</b><br>
           {% endif %}
           <div style="position: relative; margin-left: 8px;">
               {% for position in company.positions %}
@@ -127,9 +128,9 @@ Phillip is a security professional with 20 years of experience in physical, indu
       <img class="rounded-image" src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}">
       <div class="company-details">
         {% if education.url %}
-        <b><a href="{{ education.url }}" target="_blank" class="hover-underline-animation">{{ education.degree }}, {{ education.subject }}</a></b><br>
+          <b><a href="{{ education.url }}" target="_blank" class="hover-underline-animation">{{ education.degree }}, {{ education.subject }}</a></b><br>
         {% else %}
-        <b>{{ education.degree }}, {{ education.subject }}</b><br>
+          <b>{{ education.degree }}, {{ education.subject }}</b><br>
         {% endif %}
         {{ education.school }} &bull; {{ education.year }}<br><br>
       </div>
@@ -145,9 +146,9 @@ Phillip is a security professional with 20 years of experience in physical, indu
       <img class="rounded-image" src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}">
       <div class="company-details">
         {% if certification.url %}
-        <b><a href="{{ certification.url }}" target="_blank" class="hover-underline-animation">{{ certification.cert }}</a></b><br>
+          <b><a href="{{ certification.url }}" target="_blank" class="hover-underline-animation">{{ certification.cert }}</a></b><br>
         {% else %}
-        <b>{{ certification.cert }}</b><br>
+          <b>{{ certification.cert }}</b><br>
         {% endif %}
         {{ certification.org }} &bull; {{ certification.year }}<br><br>
       </div>
@@ -163,13 +164,13 @@ Phillip is a security professional with 20 years of experience in physical, indu
       <div class="company-details">
         {% if volunteer.url %}
           <b><a href="{{ volunteer.url }}" target="_blank" class="hover-underline-animation">{{ volunteer.duty }}</a></b><br>
-          {% else %}
+        {% else %}
           <b>{{ volunteer.duty }}</b><br>
         {% endif %}
         {{ volunteer.org }} &bull;
         {% if volunteer.endyear %}
           {{ volunteer.startyear }} &mdash; {{ volunteer.endyear }}<br><br>
-          {% else %}
+        {% else %}
           {{ volunteer.startyear }}<br><br>
         {% endif %}
       </div>
