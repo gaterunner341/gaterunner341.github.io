@@ -69,10 +69,10 @@ Phillip is a security professional with 20 years of experience in physical, indu
     <div class="company-details">
       <b style="font-size: 18px;">{{ publication.type }}</b><br>
       <div style="position: relative; margin-left: 8px;">
-        {% assign itemsort = publication.pubs | sort: 'date' | reverse %}
-        {% for item in itemsort %}
         <div style="position: relative;">
           <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
+          {% assign itemsort = publication.pubs | sort: 'date' | reverse %}
+          {% for item in itemsort %}
           <div style="position: relative; padding-left: 10px;">
             {% if item.url %}
               <b><a href="{{ item.url }}" target="_blank" class="hover-underline-animation">{{ item.title }}</a></b>{% if item.publisher %}, {{ item.publisher }} {% endif %} &bull; {{ item.date }}<br>
@@ -84,7 +84,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
           </div>
         </div>
         {% endfor %}
-      </div><br>
+      </div>
     </div>
   </div>
   {% endfor %}
