@@ -10,6 +10,7 @@
   - position: Adjunct Instructor
     certification: False
     duration: Oct 2023 &mdash; Present
+    description: As an adjuct instructor for SNHU, I am helping build the next generation of cybersecurity professionals.
     courses: CYB-240 Application Security, CYB-250 Cyber Defense, CYB-260 Legal and Human Factors of Cybersecurity, ISE-510 Security Risk Analysis and Planning, ISE-620 Incident Detection and Response, ISE-640 Investigation and Digital Forensics
 - company: Red Cross
   display: True
@@ -33,14 +34,17 @@
     certification: True
     duration: 2024
     courses: Certified in Cybersecurity (CC)
+    description: I was invited to author, and peer-review, questions for ISC2's latest certification the Certified in Cybersecurity (CC).
     certification: True
   - position: Exam Developer - Domain Map/Reference Validation/Update
     certification: True
     duration: 2023
     courses: CISSP
+    description: As part of peer-group, I re-mapped 1,000 CISSP questions to the updated exam domains, ensuring the currency of the exam for years to come.
   - position: Exam Developer - Group Review
     certification: True
     duration: 2022
+    description: I worked with a group my peer certification-holders across 20 countries to review, approve, and avance new certification exam questions to help maintain the relvancy of the CISSP exam.
     courses: CISSP
 - company: CompTIA
   display: False
