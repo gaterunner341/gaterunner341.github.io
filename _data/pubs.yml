@@ -11,7 +11,7 @@
   logo: projects.jpeg
   alt: Projects
   pubs:
-  - title: Threat Hunting Querries
+  - title: Threat Hunting Queries
     url: https://github.com/gaterunner341/ThreatHuntingQuerries
     date: "2023"
     description: A collection of home-grown threat hunting queries, including searches for Splunk, CrowdStrike, and other Security Information and Event Management (SIEM) and Endpoint Detection and Response (EDR) platforms as available.
