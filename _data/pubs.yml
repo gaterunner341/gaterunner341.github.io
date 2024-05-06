@@ -22,6 +22,7 @@
   - title: QRDecode
     url: https://github.com/gaterunner341/QRDecode
     date: "2023"
+    description: A Python and BASH project designed to aid in Quishing (QR code phishing) investigations. With the general public increasingly reliant on QR codes in their daily routines, adversaries are exploiting this trend to bypass email filters.
   - title: PCAPa
     url: https://github.com/gaterunner341/PCAPa
     date: "2023"
