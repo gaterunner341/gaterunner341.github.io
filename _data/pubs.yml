@@ -14,21 +14,22 @@
   - title: Threat Hunting Querries
     url: https://github.com/gaterunner341/ThreatHuntingQuerries
     date: "2023"
-    description: Threat Hunting queries to find bad stuff.
+    description: A collection of home-grown threat hunting queries, including searches for Splunk, CrowdStrike, and other Security Information and Event Management (SIEM) and Endpoint Detection and Response (EDR) platforms as available.
   - title: Yara Rules
     url: https://github.com/gaterunner341/YaraRules
     date: "2023"
-    description: A collection of my YARA rules.
+    description: A project dedicated to YARA rule development tailored for cybersecurity, focusing on detecting specific use-cases through research and practical application.
   - title: QRDecode
     url: https://github.com/gaterunner341/QRDecode
     date: "2023"
   - title: PCAPa
     url: https://github.com/gaterunner341/PCAPa
     date: "2023"
-    description: I wrote PCAP analyzer, a BASH-based script, while I was developing my BASH skills. PCAPa can be used to analyze PCAP network packet captures files. This is an adapted script based on a video tutorial from Packet Pioneer.
+    description: A BASH-based project to assist in PCAP analysis.
   - title: BFZip
     url: https://github.com/gaterunner341/BFZip
     date: "2020"
   - title: wifiHarvester
     url: https://github.com/gaterunner341/wifiHarvester
     date: "2019"
+    description: A Python-based project to enumerate and display WiFi passwords, and other associated information from a host machine. Also available as a Portable Executable (PE).
