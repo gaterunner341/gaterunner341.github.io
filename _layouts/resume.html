@@ -204,4 +204,18 @@ Phillip is a security professional with 20 years of experience in physical, indu
   </section>
 
 
+  <section>
+    Testing date calculation
+    {% assign start_date = '2022-01-01' | date: "%s" %}
+    {% assign end_date = '2024-05-06' | date: "%s" %}
+    
+    {% assign days_difference = end_date | minus: start_date | divided_by: 86400 %}
+    
+    {% assign years = days_difference | divided_by: 365 %}
+    {% assign months = (days_difference | modulo: 365) | divided_by: 30 %}
+    
+    The difference is {{ years }} years and {{ months }} months.
+  </section>
+
+
   <br><br><br><br><br><br><br>
