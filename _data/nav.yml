@@ -1,32 +1,19 @@
 # Side Nav Values
-
 - entry: Home
   class: fa-home
   url: index.html
-  color: 191970
-
 - entry: About Phillip
   class: fa-info-circle
   url: about-Phillip.html
-  color: 191970
-
 - entry: Projects
   class: fa-terminal
   url: projectspage.html
-  color: 191970
-
 - entry: Resume
   class: fa-file-text-o
   url: resume.html
-  color: 191970
-
 - entry: Blog Posts
   class: fa-rss-square
   url: /blogview/
-  color: 191970
-
 - entry: Curated Training
   class: fa-graduation-cap
   url: training.html
-  color: 191970
-
