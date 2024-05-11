@@ -1,4 +1,4 @@
-{% for nav in site.nav %}
+{% for nav in site.data.nav %}
   <h3><i class="fa {{ nav.class }}" style="color:191970" aria-hidden="true"></i> <a class="hover-underline-animation" href='{{ site.url }}/{{ nav.url }}'>{{ nav.entry }}</a></h3>
 {% endfor %}
 <br>
