@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<span style="font-size: 37px;font-weight: strong;">Curated Training Links</span><br>
+<span style="font-size: 37px;font-weight: strong;">Training Paths</span><br>
 
-<a href='{{ site.url }}/training-hunter.html'><h2>Cyber Threat Hunter</h2></a>
+{% for path in site.data.trainingpaths %}
+  {% if path.status == "complete" %}<a href='{{ site.url }}/{{ path.link }}'><h2>{{ path.role }}</h2></a>{% else %}<h2>{{ path.role }}</h> (pending){% endif %}
+{% endfor %}
 
 <h2>Security Operations Center Analyst</h> (pending)
 
