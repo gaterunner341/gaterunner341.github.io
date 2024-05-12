@@ -1,219 +1,25 @@
 # Curated Training List
 # Threat Hunter
-- source: Cyborg Security
-  title: Begin Your Hunt The Threat Hunting Workshop
-  type: Workshop
-  category: foundational
-  summary: To begin, you have to know what threat hunting is. Ask 10 people in cybersecurity what threat hunting is, and you'll get 10 different answers.
-  logo: cyborg.png
-  alt: Begin Your Hunt The Threat Hunting Workshop
-  icon: false
-  url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
 
-- source: Active Counter Measures
-  title: Threat Hunting Training Course
-  type: Course
-  category: foundational
-  summary: Threat hunting course from AC, highly recommended.
-  logo: ac.jpg
-  alt: Threat Hunting Training Course
-  icon: true
-  icons:
-    - iconname: fa-solid fa-stamp
-  url: https://www.activecountermeasures.com/hunt-training/
+- category: Foundational
+  - training: Begin Your Hunt The Threat Hunting Workshop
+    provider: Cyborg Security
+    type: Workshop
+    summary: To begin, you have to know what threat hunting is. Ask 10 people in cybersecurity what threat hunting is, and you'll get 10 different answers.
+    logo: cyborg.png
+    alt: Begin Your Hunt The Threat Hunting Workshop
+    icon: false
+    url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
+  - training: Threat Hunting Training Course
+    provider: Active Counter Measures
+    type: Course
+    summary: Threat hunting course from AC, highly recommended.
+    logo: ac.jpg
+    alt: Threat Hunting Training Course
+    icon: true
+    icons:
+      - iconname: fa-solid fa-stamp
+    url: https://www.activecountermeasures.com/hunt-training/
 
-- source: Bowne Consulting
-  title: Wireshark
-  type: Course
-  category: foundational
-  summary: Threat hunters often pivot to PCAP analysis to find artifacts, phishing emails, and other bad stuff.
-  logo: course.png
-  alt: Wireshark
-  icon: false
-  url: https://bowneconsultingcontent.com/pub/EH/proj/H420.htm
-
-- source: Sam's Class
-  title: VirusTotal
-  type: Course
-  category: foundational
-  summary: Learn how to upload, and work with artifacts in Virus Total.
-  logo: course.png
-  alt: VirusTotal & Wireshark
-  icon: false
-  url: https://samsclass.info/152/proj/IR304.htm
-
-- source: Neil Fox
-  title: How to Build a Malware Lab
-  type: YouTube Play List
-  category: foundational
-  summary: A good threat hunter has a virtual environment, or lab, where they can handle malicous artifacts and code. You'll need to be able to reset this when you mess it up, and you will mess it up.
-  logo: fox.jpg
-  alt: How to Build a Malwware Lab
-  icon: true
-  icons:
-    - iconname: fa-solid fa-list
-  url: https://www.youtube.com/playlist?list=PLiFO-R_BI-kAqDPqtnOq2n70mtAZ6xg5N
-
-- source: Cybrary
-  title: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
-  type: Course
-  category: foundational
-  summary: Gain an understanding of the common vernacular used in cybersecurity and threat hunting.
-  logo: cybrary.png
-  alt: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
-  icon: true
-  icons:
-    - iconname: fa-solid fa-stamp
-  url: https://www.cybrary.it/course/mitre-attack-defender-mad-attack-fundamentals
-
-- source: Taggart Tech
-  title: Intro to Regular Expressions
-  type: Course
-  category: foundational
-  summary: REGEX is used across many niches of cybersecurity and threat hunting, know how to leverage REGEX when hunting for bad stuff.
-  logo: tti.png
-  alt: Intro to Regular Expressions
-  icon: false
-  url: https://learn.taggart-tech.com/p/intro-to-regular-expressions
-
-- source: Elastic
-  title: Elastic Fundamentals
-  type: Courses
-  category: siem
-  summary: Elastic is a popular SIEM tool used by threat hunters to find bad stuff. Know how to use it.
-  logo: elastic.jpg
-  alt: Elastic Fundamentals
-  icon: false
-  url: https://www.elastic.co/training/free#fundamentals
-
-- source: Splunk
-  title: Splunk Fundamentals
-  type: Courses
-  category: siem
-  summary: Splunk is another popular SIEM, more often used by government agencies, to collect log data.
-  logo: splunk.webp
-  alt: Splunk Fundamentals
-  icon: true
-  icons:
-    - iconname: fa-solid fa-stamp
-  url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
-
-- source: Cyborg Security
-  title: Persistence is Futile
-  type: Workshop
-  category: lab
-  summary: Adversaries will always try to obtain, and maintain, a foot hold in your network. Learn how to find these persistence mechanisms.
-  logo: cyborg.png
-  alt: Persistence is Futile
-  icon: true
-  icons:
-    - iconname: fa-solid fa-certificate
-  url: https://www.cyborgsecurity.com/our-webinars/webinars/upcoming-threat-hunting-workshop-persistence-is-futile/
-
-- source: Cyborg Security
-  title: Execution
-  type: Workshop
-  category: lab
-  summary: Without execution, the adversary won't get anywhere. Learn how to find that activity.
-  logo: cyborg.png
-  alt: Execution
-  icon: true
-  icons:
-    - iconname: fa-solid fa-certificate
-  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-execution/
-
-- source: Cyborg Security
-  title: Defense Evasion
-  type: Workshop
-  category: lab
-  summary: With EDR tools getting better and better, adversaries will always try to find ways to evade your security tools and other defenses.
-  logo: cyborg.png
-  alt: Defense Evasion
-  icon: true
-  icons:
-    - iconname: fa-solid fa-certificate
-  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-4-hunting-for-defense-evasion/
-
-- source: Cyborg Security
-  title: Credential Access
-  type: Workshop
-  category: lab
-  summary: Adversaries will often try and obtain legitimate credentials for your network.
-  logo: cyborg.png
-  alt: Credential Access
-  icon: true
-  icons:
-    - iconname: fa-solid fa-certificate
-  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-credential-access/
-
-- source: Cyborg Security
-  title: Lateral Movement
-  type: Workshop
-  category: lab
-  summary: On average, and adversary will move laterally within your nework within 90 minutes of gaining access.
-  logo: cyborg.png
-  alt: Lateral Movement
-  icon: true
-  icons:
-    - iconname: fa-solid fa-certificate
-  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-lateral-movement/
-
-- source: Cyborg Security
-  title: Hunting for Impact
-  type: Workshop
-  category: lab
-  summary: Threat hunt workshop designed to teach you to hunt for the impact.
-  logo: cyborg.png
-  alt: Hunting for Impact
-  icon: true
-  icons:
-    - iconname: fa-solid fa-certificate
-  url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-impact/
-
-- source: Cyborg Security
-  title: Exfiltration
-  type: Workshop
-  category: lab 
-  summary: "The goal of an adversary is often to exfiltration some kind of data: proprietary data, your customer list, etc..."
-  logo: cyborg.png
-  alt: Hunting for Impact
-  icon: true
-  icons:
-    - iconname: fa-solid fa-certificate
-  url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-8-hunting-for-exfiltration/
-
-- source: Proof Point
-  title: Hiding in Plain Sight - Obfuscation Techniques in Phishing Attacks
-  type: White Paper
-  category: phishing
-  summary: Understand how obfuscation has made detecting phishing emails harder.
-  logo: proof.png
-  alt: Hiding in Plain Sight - Obfuscation Techniques in Phishing Attacks
-  icon: true
-  icons:
-    - iconname: fa-solid fa-paperclip
-  url: https://www.proofpoint.com/sites/default/files/proofpoint-obfuscation-techniques-phishing-attacks-threat-insight-en-v1.pdf
-
-- source: Shark Fest
-  title: Intrusion Analysis and Threat Hunting with Suricata
-  type: YouTube Video
-  category: foundational
-  summary: "Threat Hunting Overview with Suricata."
-  logo: shark.jpg
-  alt: Shark Fest Intrusion Analysis and Threat Hunting with Suricata
-  icon: true
-  icons:
-    - iconname: fa-brands fa-youtube
-  url: https://www.youtube.com/watch?v=0WgyiOxCFzE
-
-- source: VirusTotal
-  title: Writing YARA rules
-  type: Documentation
-  category: foundational
-  summary: "The basics of writing YARA rules."
-  logo: VT.jpeg
-  alt: Writing YARA Rules
-  icon: true
-  icons:
-    - iconname: fa-solid fa-square-virus
-  url: https://yara.readthedocs.io/en/stable/gettingstarted.html
+- category: SIEM
+- category: Lab
