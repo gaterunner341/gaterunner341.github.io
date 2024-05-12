@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<span style="font-size: 37px;font-weight: strong;">Curated Training Links</span><br>
+<span style="font-size: 37px;font-weight: strong;">Cyber Threat Hunter</span><br>
 
 <b>Legend:</b><br>
 <i class="fa-solid fa-stamp" style="color:#191970" aria-hidden="true" title="File Certificate"></i> File Certificate<br>
@@ -9,6 +9,10 @@ layout: default
 <i class="fa-brands fa-youtube" style="color:#191970" aria-hidden="true" title="YouTube Video"></i> YouTube Video<br>
 <i class="fa-solid fa-list" style="color:#191970" aria-hidden="true" title="YouTube Playlist"></i> YouTube Playlist<br>
 <i class="fa-solid fa-paperclip" style="color:#191970" aria-hidden="true" title="White Paper"></i> White Paper<br>
+
+{% for training in site.data.training_path_threathunter %}
+  <h2>{{ training.category }}</h2>
+{% endfor %}
 
 <h2>Cyber Threat Hunter</h2>
   <section>
