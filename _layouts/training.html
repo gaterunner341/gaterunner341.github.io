@@ -6,11 +6,4 @@ layout: default
 {% for path in site.data.trainingpaths %}
   {% if path.status == "complete" %}<a href='{{ site.url }}/{{ path.link }}'><h2>{{ path.role }}</h2></a>{% else %}<h2>{{ path.role }}</h> (pending){% endif %}
 {% endfor %}
-
-<h2>Security Operations Center Analyst</h> (pending)
-
-<h2>Phishing Analyst</h> (pending)
-
-
-
-  <br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
