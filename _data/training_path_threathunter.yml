@@ -1,6 +1,7 @@
 # Curated Training List
 # Threat Hunter
 - source: Cyborg Security
+  path: hunter
   title: Begin Your Hunt The Threat Hunting Workshop
   type: Workshop
   category: foundational
@@ -9,8 +10,8 @@
   alt: Begin Your Hunt The Threat Hunting Workshop
   icon: false
   url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
-
 - source: Active Counter Measures
+  path: hunter
   title: Threat Hunting Training Course
   type: Course
   category: foundational
@@ -21,8 +22,8 @@
   icons:
     - iconname: fa-solid fa-stamp
   url: https://www.activecountermeasures.com/hunt-training/
-
 - source: Bowne Consulting
+  path: hunter
   title: Wireshark
   type: Course
   category: foundational
@@ -31,8 +32,8 @@
   alt: Wireshark
   icon: false
   url: https://bowneconsultingcontent.com/pub/EH/proj/H420.htm
-
 - source: Sam's Class
+  path: hunter
   title: VirusTotal
   type: Course
   category: foundational
@@ -41,8 +42,8 @@
   alt: VirusTotal & Wireshark
   icon: false
   url: https://samsclass.info/152/proj/IR304.htm
-
 - source: Neil Fox
+path: hunter
   title: How to Build a Malware Lab
   type: YouTube Play List
   category: foundational
@@ -53,8 +54,8 @@
   icons:
     - iconname: fa-solid fa-list
   url: https://www.youtube.com/playlist?list=PLiFO-R_BI-kAqDPqtnOq2n70mtAZ6xg5N
-
 - source: Cybrary
+  path: hunter
   title: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
   type: Course
   category: foundational
@@ -65,8 +66,8 @@
   icons:
     - iconname: fa-solid fa-stamp
   url: https://www.cybrary.it/course/mitre-attack-defender-mad-attack-fundamentals
-
 - source: Taggart Tech
+  path: hunter
   title: Intro to Regular Expressions
   type: Course
   category: foundational
@@ -75,8 +76,8 @@
   alt: Intro to Regular Expressions
   icon: false
   url: https://learn.taggart-tech.com/p/intro-to-regular-expressions
-
 - source: Elastic
+  path: hunter
   title: Elastic Fundamentals
   type: Courses
   category: siem
@@ -85,8 +86,8 @@
   alt: Elastic Fundamentals
   icon: false
   url: https://www.elastic.co/training/free#fundamentals
-
 - source: Splunk
+  path: hunter
   title: Splunk Fundamentals
   type: Courses
   category: siem
@@ -97,8 +98,8 @@
   icons:
     - iconname: fa-solid fa-stamp
   url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
-
 - source: Cyborg Security
+  path: hunter
   title: Persistence is Futile
   type: Workshop
   category: lab
@@ -109,8 +110,8 @@
   icons:
     - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/upcoming-threat-hunting-workshop-persistence-is-futile/
-
 - source: Cyborg Security
+  path: hunter
   title: Execution
   type: Workshop
   category: lab
@@ -121,8 +122,8 @@
   icons:
     - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-execution/
-
 - source: Cyborg Security
+  path: hunter
   title: Defense Evasion
   type: Workshop
   category: lab
@@ -133,8 +134,8 @@
   icons:
     - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-4-hunting-for-defense-evasion/
-
 - source: Cyborg Security
+  path: hunter
   title: Credential Access
   type: Workshop
   category: lab
@@ -145,8 +146,8 @@
   icons:
     - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-credential-access/
-
 - source: Cyborg Security
+  path: hunter
   title: Lateral Movement
   type: Workshop
   category: lab
@@ -157,8 +158,8 @@
   icons:
     - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-lateral-movement/
-
 - source: Cyborg Security
+  path: hunter
   title: Hunting for Impact
   type: Workshop
   category: lab
@@ -169,8 +170,8 @@
   icons:
     - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-impact/
-
 - source: Cyborg Security
+  path: hunter
   title: Exfiltration
   type: Workshop
   category: lab 
@@ -181,8 +182,8 @@
   icons:
     - iconname: fa-solid fa-certificate
   url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-8-hunting-for-exfiltration/
-
 - source: Proof Point
+  path: hunter
   title: Hiding in Plain Sight - Obfuscation Techniques in Phishing Attacks
   type: White Paper
   category: phishing
@@ -193,8 +194,8 @@
   icons:
     - iconname: fa-solid fa-paperclip
   url: https://www.proofpoint.com/sites/default/files/proofpoint-obfuscation-techniques-phishing-attacks-threat-insight-en-v1.pdf
-
 - source: Shark Fest
+  path: hunter
   title: Intrusion Analysis and Threat Hunting with Suricata
   type: YouTube Video
   category: foundational
@@ -205,8 +206,8 @@
   icons:
     - iconname: fa-brands fa-youtube
   url: https://www.youtube.com/watch?v=0WgyiOxCFzE
-
 - source: VirusTotal
+  path: hunter
   title: Writing YARA rules
   type: Documentation
   category: foundational

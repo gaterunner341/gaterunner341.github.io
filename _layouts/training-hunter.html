@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<span style="font-size: 37px;font-weight: strong;">Curated Training Links</span><br>
+<span style="font-size: 37px;font-weight: strong;">Cyber Threat Hunter</span><br>
 
 <b>Legend:</b><br>
 <i class="fa-solid fa-stamp" style="color:#191970" aria-hidden="true" title="File Certificate"></i> File Certificate<br>
@@ -10,11 +10,9 @@ layout: default
 <i class="fa-solid fa-list" style="color:#191970" aria-hidden="true" title="YouTube Playlist"></i> YouTube Playlist<br>
 <i class="fa-solid fa-paperclip" style="color:#191970" aria-hidden="true" title="White Paper"></i> White Paper<br>
 
-<h2>Cyber Threat Hunter</h2>
-  <section>
+<section>
     <h3>Foundational</h3>
-    {% for training in site.data.training_path_threathunter %}
-    {% if training.path == "Threat Hunter" %}
+    {% if training.path == "hunter" and training.category == "foundational" %}
     {% if training.category == "foundational" %}
     <div style="width:100%">
       <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:4px;float:left;width:20px;height:auto;">
@@ -38,13 +36,11 @@ layout: default
       <br>
     </div>
     {% endif %}
-    {% endif %}
     {% endfor %}
 
     <h3>SIEM Basics</h3>
     {% for training in site.data.training_path_threathunter %}
-    {% if training.path == "Threat Hunter" %}
-    {% if training.category == "siem" %}
+    {% if training.path == "hunter" and training.category == "siem" %}
     <div style="width:100%">
       <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:4px;float:left;width:20px;height:auto;">
       <div style="width:115%;">
@@ -66,15 +62,13 @@ layout: default
       </div>
       <br>
     </div>
-    {% endif %}
     {% endif %}
     {% endfor %}
 
 
     <h3>Phishing Analysis</h3>
     {% for training in site.data.training_path_threathunter %}
-    {% if training.path == "Threat Hunter" %}
-    {% if training.category == "phishing" %}
+    {% if training.path == "hunter" and training.category == "phishing" %}
     <div style="width:100%">
       <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:4px;float:left;width:20px;height:auto;">
       <div style="width:115%;">
@@ -96,14 +90,12 @@ layout: default
       </div>
       <br>
     </div>
-    {% endif %}
     {% endif %}
     {% endfor %}
 
     <h3>Hunting Labs or Workshops</h3>
     {% for training in site.data.training_path_threathunter %}
-    {% if training.path == "Threat Hunter" %}
-    {% if training.category == "lab" %}
+    {% if training.path == "hunter" and training.category == "lab" %}
     <div style="width:100%">
       <img src="./assets/images/training/{{ training.logo }}" alt="{{ training.alt }}" style="padding-right:4px;float:left;width:20px;height:auto;">
       <div style="width:115%;">
@@ -125,7 +117,6 @@ layout: default
       </div>
       <br>
     </div>
-    {% endif %}
     {% endif %}
     {% endfor %}
 
