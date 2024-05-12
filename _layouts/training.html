@@ -4,6 +4,6 @@ layout: default
 <span style="font-size: 37px;font-weight: strong;">Training Paths</span><br>
 
 {% for path in site.data.trainingpaths %}
-  {% if path.status == "complete" %}<a href='{{ site.url }}/{{ path.link }}'><h2>{{ path.role }}</h2></a>{% else %}<h2>{{ path.role }}</h> ({{ path.status }}){% endif %}
+{% if path.status == "complete" or path.status == "developing" %}<a href='{{ site.url }}/{{ path.link }}'><h2>{{ path.role }}</h2></a>{% else %}<h2>{{ path.role }}</h> ({{ path.status }}){% endif %}
 {% endfor %}
 <br><br><br><br><br><br><br>

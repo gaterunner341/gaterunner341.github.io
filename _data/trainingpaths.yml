@@ -1,8 +1,8 @@
 # Training Paths
-# Training Types
 - role: Cyber Threat Hunter
   status: developing
-- role: Secuirty Operations Center Analyst
+  link: training-hunter.html
+- role: Secuirty Operations Center (SOC) Analyst
   status: pending
 - role: Phishing Analyst
   status: pending
