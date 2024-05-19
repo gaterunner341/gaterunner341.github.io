@@ -10,6 +10,13 @@ layout: default
       padding: 0;
       background-color: #f0f0f0;
   }
+  h2 {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 20px 0 10px 20px;
+  }
   .training-container {
       display: flex;
       flex-wrap: wrap;
@@ -19,8 +26,8 @@ layout: default
   .training {
       background-size: cover;
       background-position: center;
-      width: 200px;
-      height: calc(50% - 10px);
+      width: calc(50% - 10px);
+      height: 200px;
       position: relative;
       border-radius: 10px;
       overflow: hidden;
@@ -38,6 +45,9 @@ layout: default
       transform: translateX(-50%); /* Center horizontally */
       box-sizing: border-box;
       border-radius: 0 0 10px 10px; /* Optional: rounded bottom corners */
+  }
+  .training-info h3 {
+      margin: 0;
   }
   .training-info p {
       margin: 5px 0;
@@ -57,8 +67,9 @@ layout: default
 {% for training in cat.training %}
 <div class="training" style="background-image: url('{{ training.image }}');">
   <div class="training-info">
-    <a href="{{ training.url }}" target="_blank">{{ training.title }}</a>
-      <p>{{ training.provider }}</p>
+      <h3>{{ training.title }}</h3>
+      <p>Provider: {{ training.provider }}</p>
+      <a href="{{ training.url }}" target="_blank">View Resource</a>
   </div>
 </div>
 {% endfor %}
