@@ -19,8 +19,8 @@ layout: default
   .training {
       background-size: cover;
       background-position: center;
-      width: calc(50% - 10px);
-      height: 200px;
+      width: 200px;
+      height: calc(50% - 10px);
       position: relative;
       border-radius: 10px;
       overflow: hidden;
@@ -65,12 +65,5 @@ layout: default
 </div>
 {% endfor %}
 
+<br><br><br><br><br><br><br>
 </body>
-
-
-{% for cat in site.data.training_path_threathunter %}
-  <h2>{{ cat.category }}</h2>
-{% endfor %}
-
-
-  <br><br><br><br><br><br><br>
