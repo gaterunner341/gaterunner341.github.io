@@ -1,14 +1,6 @@
 ---
 layout: default
 ---
-<span style="font-size: 37px;font-weight: strong;">Cyber Threat Hunter</span><br>
-
-<b>Legend:</b><br>
-<i class="fa-solid fa-stamp" style="color:#191970" aria-hidden="true" title="File Certificate"></i> File Certificate<br>
-<i class="fa-solid fa-certificate" style="color:#191970" aria-hidden="true" title="Digital Badge"></i> Digital Badge<br>
-<i class="fa-brands fa-youtube" style="color:#191970" aria-hidden="true" title="YouTube Video"></i> YouTube Video<br>
-<i class="fa-solid fa-list" style="color:#191970" aria-hidden="true" title="YouTube Playlist"></i> YouTube Playlist<br>
-<i class="fa-solid fa-paperclip" style="color:#191970" aria-hidden="true" title="White Paper"></i> White Paper<br>
 
 <style>
   body {
@@ -18,29 +10,29 @@ layout: default
       padding: 0;
       background-color: #f0f0f0;
   }
-  .category {
-      margin: 20px;
-  }
-  .category h2 {
+  h2 {
       background-color: #333;
       color: #fff;
       padding: 10px;
       border-radius: 5px;
+      margin: 20px 0 10px 20px;
   }
   .training-container {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
+      margin: 0 20px;
   }
   .training {
       background-size: cover;
       background-position: center;
-      width: 300px;
+      width: calc(50% - 10px);
       height: 200px;
       position: relative;
       border-radius: 10px;
       overflow: hidden;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
   }
   .training-info {
       background-color: rgba(0, 0, 0, 0.5);
@@ -67,21 +59,21 @@ layout: default
 <body>
 
 {% for cat in site.data.training_path_threathunter %}
-<div class="category">
 <h2>{{ cat.category }}</h2>
 <div class="training-container">
-  {% for training in cat.training %}
-  <div class="training" style="background-image: url('{{ training.image }}');">
-      <div class="training-info">
-          <h3>{{ training.title }}</h3>
-          <p>Provider: {{ training.provider }}</p>
-          <a href="{{ training.url }}" target="_blank">View Resource</a>
-      </div>
+{% for training in cat.training %}
+<div class="training" style="background-image: url('{{ training.image }}');">
+  <div class="training-info">
+      <h3>{{ training.title }}</h3>
+      <p>Provider: {{ training.provider }}</p>
+      <a href="{{ training.url }}" target="_blank">View Resource</a>
   </div>
-  {% endfor %}
-</div>
 </div>
 {% endfor %}
+</div>
+{% endfor %}
+
+</body>
 
 
 {% for cat in site.data.training_path_threathunter %}
