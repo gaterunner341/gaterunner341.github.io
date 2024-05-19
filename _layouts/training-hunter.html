@@ -57,9 +57,8 @@ layout: default
 {% for training in cat.training %}
 <div class="training" style="background-image: url('{{ training.image }}');">
   <div class="training-info">
-      <h3>{{ training.title }}</h3>
-      <p>Provider: {{ training.provider }}</p>
-      <a href="{{ training.url }}" target="_blank">View Resource</a>
+    <a href="{{ training.url }}" target="_blank">{{ training.title }}</a>
+      <p>{{ training.provider }}</p>
   </div>
 </div>
 {% endfor %}
