@@ -2,70 +2,68 @@
 layout: default
 ---
 
-<style>
-  body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-  }
-  .training-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin: 0 20px;
-  }
-  .training {
-      width: calc(50% - 30px); /* Increased width to ensure better fit */
-      height: 300px; /* Increased height for better display */
-      position: relative;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px;
-      background-color: #333; /* Added background color */
-      color: #fff; /* Added text color */
-  }
-  .training-info {
-      padding: 15px;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      box-sizing: border-box;
-  }
-  .training-info h3 {
-      margin: 0;
-      font-size: 1.2em; /* Adjusted font size */
-  }
-  .training-info p {
-      margin: 5px 0;
-  }
-  .training-info a {
-      color: #00f;
-      text-decoration: none;
-  }
-</style>
-<title>Training List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .training-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+        .training {
+            width: 300px; /* Fixed width to ensure the content fits */
+            height: 300px; /* Height for better display */
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #333; /* Added background color */
+            color: #fff; /* Added text color */
+            margin-bottom: 20px;
+        }
+        .training-info {
+            padding: 15px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .training-info h3 {
+            margin: 0;
+            font-size: 1.2em; /* Adjusted font size */
+        }
+        .training-info p {
+            margin: 5px 0;
+        }
+        .training-info a {
+            color: #00f;
+            text-decoration: none;
+        }
+    </style>
+    <title>Training List</title>
 </head>
 <body>
 
 {% for cat in site.data.training_path_threathunter %}
 <h2>{{ cat.category }}</h2>
 <div class="training-container">
-{% for training in cat.training %}
-<div class="training">
-  <div class="training-info">
-      <h3>{{ training.title }}</h3>
-      <p>Provider: {{ training.provider }}</p>
-      <a href="{{ training.url }}" target="_blank">View Resource</a>
-  </div>
+    {% for training in cat.training %}
+    <div class="training">
+        <div class="training-info">
+            <h3>{{ training.title }}</h3>
+            <p>Provider: {{ training.provider }}</p>
+            <a href="{{ training.url }}" target="_blank">View Resource</a>
+        </div>
+    </div>
+    {% endfor %}
 </div>
 {% endfor %}
-</div>
-{% endfor %}
-
-</body>
 
 <br><br><br><br><br><br><br>
 </body>
