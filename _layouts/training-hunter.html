@@ -10,6 +10,80 @@ layout: default
 <i class="fa-solid fa-list" style="color:#191970" aria-hidden="true" title="YouTube Playlist"></i> YouTube Playlist<br>
 <i class="fa-solid fa-paperclip" style="color:#191970" aria-hidden="true" title="White Paper"></i> White Paper<br>
 
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+  }
+  .category {
+      margin: 20px;
+  }
+  .category h2 {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  .training-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .training {
+      background-size: cover;
+      background-position: center;
+      width: 300px;
+      height: 200px;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .training-info {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      box-sizing: border-box;
+  }
+  .training-info h3 {
+      margin: 0;
+  }
+  .training-info p {
+      margin: 5px 0;
+  }
+  .training-info a {
+      color: #00f;
+      text-decoration: none;
+  }
+</style>
+<title>Training List</title>
+</head>
+<body>
+
+{% for cat in site.data.training_path_threathunter %}
+<div class="category">
+<h2>{{ cat.category }}</h2>
+<div class="training-container">
+  {% for training in cat.training %}
+  <div class="training" style="background-image: url('{{ training.image }}');">
+      <div class="training-info">
+          <h3>{{ training.title }}</h3>
+          <p>Provider: {{ training.provider }}</p>
+          <a href="{{ training.url }}" target="_blank">View Resource</a>
+      </div>
+  </div>
+  {% endfor %}
+</div>
+</div>
+{% endfor %}
+
+
 {% for cat in site.data.training_path_threathunter %}
   <h2>{{ cat.category }}</h2>
 {% endfor %}
