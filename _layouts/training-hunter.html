@@ -17,28 +17,26 @@ layout: default
       margin: 0 20px;
   }
   .training {
-      background-size: cover;
-      background-position: center;
-      width: calc(50% - 10px);
-      height: 250px;
+      width: calc(50% - 30px); /* Increased width to ensure better fit */
+      height: 300px; /* Increased height for better display */
       position: relative;
       border-radius: 10px;
       overflow: hidden;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       margin-bottom: 20px;
+      background-color: #333; /* Added background color */
+      color: #fff; /* Added text color */
   }
   .training-info {
-      background-color: rgba(0, 0, 0, 0.5);
-      color: #fff;
-      padding: 10px;
+      padding: 15px;
       position: absolute;
       bottom: 0;
-      width: 100%; /* Increase width */
+      width: 100%;
       box-sizing: border-box;
-      border-radius: 0 0 10px 10px; /* Optional: rounded bottom corners */
   }
   .training-info h3 {
       margin: 0;
+      font-size: 1.2em; /* Adjusted font size */
   }
   .training-info p {
       margin: 5px 0;
@@ -56,7 +54,7 @@ layout: default
 <h2>{{ cat.category }}</h2>
 <div class="training-container">
 {% for training in cat.training %}
-<div class="training" style="background-image: url('{{ training.image }}');">
+<div class="training">
   <div class="training-info">
       <h3>{{ training.title }}</h3>
       <p>Provider: {{ training.provider }}</p>
@@ -66,6 +64,8 @@ layout: default
 {% endfor %}
 </div>
 {% endfor %}
+
+</body>
 
 <br><br><br><br><br><br><br>
 </body>
