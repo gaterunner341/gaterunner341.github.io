@@ -8,7 +8,7 @@
       summary: To begin, you have to know what threat hunting is. Ask 10 people in cybersecurity what threat hunting is, and you'll get 10 different answers.
       logo: cyborg.png
       alt: Begin Your Hunt The Threat Hunting Workshop
-      icon: false
+      image: hunt.jpg
       url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
     - title: Threat Hunting Training Course
       provider: Active Counter Measures
@@ -16,9 +16,7 @@
       summary: Threat hunting course from AC, highly recommended.
       logo: ac.jpg
       alt: Threat Hunting Training Course
-      icon: true
-      icons:
-        - iconname: fa-solid fa-stamp
+      image: hunt.jpg
       url: https://www.activecountermeasures.com/hunt-training/
 - category: SIEM
 - category: Lab
