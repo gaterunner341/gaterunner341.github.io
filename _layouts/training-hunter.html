@@ -48,7 +48,12 @@ layout: default
 <div class="training-container">
     {% for training in cat.training %}
     <div class="training">
-        <div class="training-info">
+        {% if training.image %}
+        <div class="training-info"  background-image: url('./assets/images/resume/{{ training.image }}'); background-size: cover; background-position: center;>
+          {% else %}
+          <div class="training-info"  background-image: url('./assets/images/resume/{{ training.image }}'); background-size: cover; background-position: center;>
+            {% endif %}  
+          </div>
           <a class="hover-underline-animation" href="{{ training.url }}" target="_blank">{{ training.title }}</a>
             <p>{{ training.provider }}</p>
         </div>

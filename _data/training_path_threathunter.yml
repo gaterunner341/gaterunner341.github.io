@@ -3,8 +3,9 @@
   training:
     - title: Begin Your Hunt The Threat Hunting Workshop
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
-    - title: Threat Hunting Training Course
+    - title: Threat Hunting Level 1
       provider: Active Counter Measures
       url: https://www.activecountermeasures.com/hunt-training/
 - category: SIEM
@@ -12,28 +13,37 @@
   training:
     - title: Persistence
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/our-webinars/webinars/upcoming-threat-hunting-workshop-persistence-is-futile/
     - title: Execution
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-execution/
     - title: Defense Evasion
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-4-hunting-for-defense-evasion/
     - title: Credential Access
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-credential-access/
     - title: Lateral Movement
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-lateral-movement/
     - title: Impact
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-impact/
     - title: Exfiltration
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-8-hunting-for-exfiltration/
     - title: Privilege Escalation
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-hunting-for-privilege-escalation/
     - title: Initial Access
       provider: Cyborg Security
+      image: cyborg.png
       url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-10-hunting-for-initial-access/
