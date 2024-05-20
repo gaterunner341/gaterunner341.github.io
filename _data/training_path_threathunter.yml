@@ -7,6 +7,11 @@
     - title: Threat Hunting Lv 1
       provider: Active Counter Measures
       url: https://www.activecountermeasures.com/hunt-training/
+- category: Log Analysis
+  training:
+    - title: How To Use FireEye RedLine For Incident Response
+      provider: Motasem Hamdan
+      url: https://www.youtube.com/watch?v=HXv45dsL8xI
 - category: Other
   training:
     - title: Threat Hunting with VT
