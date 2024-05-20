@@ -3,19 +3,40 @@
   training:
     - title: Begin Your Hunt The Threat Hunting Workshop
       provider: Cyborg Security
-      type: Workshop
-      summary: To begin, you have to know what threat hunting is. Ask 10 people in cybersecurity what threat hunting is, and you'll get 10 different answers.
       logo: cyborg.png
-      alt: Begin Your Hunt The Threat Hunting Workshop
       image: hunt.jpg
       url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
     - title: Threat Hunting Training Course
       provider: Active Counter Measures
-      type: Course
-      summary: Threat hunting course from AC, highly recommended.
       logo: ac.jpg
-      alt: Threat Hunting Training Course
-      image: hunt.jpg
       url: https://www.activecountermeasures.com/hunt-training/
 - category: SIEM
 - category: Lab
+  training:
+    - title: Threat Hunting Workshop 2 - Persistence is Futile
+      provider: Cyborg Security
+      url: https://www.cyborgsecurity.com/our-webinars/webinars/upcoming-threat-hunting-workshop-persistence-is-futile/
+    - title: Threat Hunting Workshop 3 - Hunting for Execution
+      provider: Cyborg Security
+      url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-execution/
+    - title: Threat Hunting Workshop 4 - Hunting for Defense Evasion
+      provider: Cyborg Security
+      url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-4-hunting-for-defense-evasion/
+    - title: Threat Hunting Workshop 5 - Hunting for Credential Access
+      provider: Cyborg Security
+      url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-credential-access/
+    - title: Threat Hunting Workshop 6 - Hunting for Lateral Movement
+      provider: Cyborg Security
+      url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-lateral-movement/
+    - title: Threat Hunting Workshop 7 - Hunting for Impact
+      provider: Cyborg Security
+      url: https://www.cyborgsecurity.com/our-webinars/webinars/threat-hunting-workshop-hunting-for-impact/
+    - title: Threat Hunting Workshop 8 - Hunting for Exfiltration
+      provider: Cyborg Security
+      url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-8-hunting-for-exfiltration/
+    - title: Threat Hunting Workshop 9 - Hunting for Privilege Escalation
+      provider: Cyborg Security
+      url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-hunting-for-privilege-escalation/
+    - title: Threat Hunting Workshop 10 - Hunting for Initial Access
+      provider: Cyborg Security
+      url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-10-hunting-for-initial-access/
