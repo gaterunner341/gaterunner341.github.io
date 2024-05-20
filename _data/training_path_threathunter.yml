@@ -41,7 +41,7 @@
     - title: Initial Access
       provider: Cyborg Security
       url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-10-hunting-for-initial-access/
-- categroy: Tools
+- category: Tools
   training:
     - title: CyberChef
       provider: GCHQ
