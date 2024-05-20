@@ -14,6 +14,9 @@
       url: https://www.youtube.com/watch?v=UZJ7j7t9cLc
 - category: Labs
   training:
+    - title: Threat Hunting Training Course
+      provider: Active Counter Measures
+      url: https://www.activecountermeasures.com/hunt-training/#lab-downloads
     - title: Persistence
       provider: Cyborg Security
       url: https://www.cyborgsecurity.com/our-webinars/webinars/upcoming-threat-hunting-workshop-persistence-is-futile/
