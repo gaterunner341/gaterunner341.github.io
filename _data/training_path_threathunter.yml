@@ -52,3 +52,6 @@
       url: https://www.virustotal.com/
     - title: URLScan.io
       url: https://urlscan.io/
+    - title: Hindsight
+      provider: Ryan Benson
+      url: https://github.com/obsidianforensics/hindsight
