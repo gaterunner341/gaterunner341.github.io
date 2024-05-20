@@ -64,6 +64,7 @@
       provider: Microsoft
       url: https://www.virustotal.com/
     - title: URLScan.io
+      provider: URLScan
       url: https://urlscan.io/
     - title: Hindsight
       provider: Ryan Benson
