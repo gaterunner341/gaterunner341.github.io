@@ -7,8 +7,7 @@
     - title: Threat Hunting Level 1
       provider: Active Counter Measures
       url: https://www.activecountermeasures.com/hunt-training/
-- category: SIEM
-- category: Tools:
+- category: Tools
   training:
     - title: Threat Hunting with VirusTotal
       provider: VirusTotal
