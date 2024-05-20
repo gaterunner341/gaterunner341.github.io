@@ -14,7 +14,7 @@
       url: https://www.youtube.com/watch?v=HXv45dsL8xI
 - category: Other
   training:
-    - title: Threat Hunting with VT
+    - title: Threat Hunting w/VT
       provider: VirusTotal
       url: https://www.youtube.com/watch?v=UZJ7j7t9cLc
     - title: Defang IOCs
