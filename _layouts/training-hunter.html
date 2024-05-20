@@ -17,7 +17,7 @@ layout: default
             margin: 20px;
         }
         .training {
-            width: calc(33.33% - 20px);
+            width: 200px; /* Fixed width to ensure the content fits */
             height: 200px; /* Height for better display */
             position: relative;
             border-radius: 10px;
@@ -48,8 +48,7 @@ layout: default
 <div class="training-container">
     {% for training in cat.training %}
     <div class="training">
-          <div class="training-info">
-          </div>
+        <div class="training-info">
           <a class="hover-underline-animation" href="{{ training.url }}" target="_blank">{{ training.title }}</a>
             <p>{{ training.provider }}</p>
         </div>
