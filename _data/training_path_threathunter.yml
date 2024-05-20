@@ -78,3 +78,6 @@
     - title: RedLine
       provider: FireEye Market
       url: https://fireeye.market/apps/211364
+    - title: Deobfuscate.io
+      provider: Ben Sb
+      url: https://deobfuscate.io/
