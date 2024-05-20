@@ -45,10 +45,9 @@
   training:
   - title: CyberChef
     provider: GCHQ
-    url: 
+    url: https://gchq.github.io/CyberChef/
   - title: IOC Fang
     provider: 
     url: https://ioc-fang.github.io/
-  - title: 
-    provider: 
-    url: 
+  - title: VirusTotal
+    url: https://www.virustotal.com/
