@@ -4,7 +4,7 @@
     - title: Threat Hunting Workshop
       provider: Cyborg Security
       url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
-    - title: Threat Hunting Level 1
+    - title: Threat Hunting Lv 1
       provider: Active Counter Measures
       url: https://www.activecountermeasures.com/hunt-training/
 - category: Other
@@ -14,7 +14,7 @@
       url: https://www.youtube.com/watch?v=UZJ7j7t9cLc
 - category: Labs
   training:
-    - title: Threat Hunting Training Course
+    - title: Threat Hunting Lab
       provider: Active Counter Measures
       url: https://www.activecountermeasures.com/hunt-training/#lab-downloads
     - title: Persistence
