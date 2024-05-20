@@ -58,6 +58,7 @@
       provider: GCHQ
       url: https://gchq.github.io/CyberChef/
     - title: IOC Fang
+      provider: Floyd Hightower
       url: https://ioc-fang.github.io/
     - title: VirusTotal
       provider: Microsoft
