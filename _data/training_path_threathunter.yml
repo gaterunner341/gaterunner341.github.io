@@ -1,7 +1,7 @@
 # Threat Hunter
 - category: Foundational
   training:
-    - title: The Threat Hunting Workshop
+    - title: Threat Hunting Workshop
       provider: Cyborg Security
       url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
     - title: Threat Hunting Level 1
