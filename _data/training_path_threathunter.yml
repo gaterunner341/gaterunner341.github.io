@@ -17,6 +17,9 @@
     - title: Threat Hunting with VT
       provider: VirusTotal
       url: https://www.youtube.com/watch?v=UZJ7j7t9cLc
+    - title: Defang IOCs
+      provider: Phillip Kittelson
+      url: https://www.youtube.com/watch?v=mU47YHOj-kY
 - category: Labs
   training:
     - title: Threat Hunting Lab
