@@ -47,7 +47,6 @@
     provider: GCHQ
     url: https://gchq.github.io/CyberChef/
   - title: IOC Fang
-    provider: 
     url: https://ioc-fang.github.io/
   - title: VirusTotal
     url: https://www.virustotal.com/
