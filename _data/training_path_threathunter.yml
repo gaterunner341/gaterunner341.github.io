@@ -7,12 +7,12 @@
     - title: Threat Hunting Level 1
       provider: Active Counter Measures
       url: https://www.activecountermeasures.com/hunt-training/
-- category: Tools
+- category: Other
   training:
     - title: Threat Hunting with VirusTotal
       provider: VirusTotal
       url: https://www.youtube.com/watch?v=UZJ7j7t9cLc
-- category: Lab
+- category: Labs
   training:
     - title: Persistence
       provider: Cyborg Security
@@ -41,3 +41,14 @@
     - title: Initial Access
       provider: Cyborg Security
       url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-10-hunting-for-initial-access/
+- categroy: Tools
+  training:
+  - title: CyberChef
+    provider: GCHQ
+    url: 
+  - title: IOC Fang
+    provider: 
+    url: https://ioc-fang.github.io/
+  - title: 
+    provider: 
+    url: 
