@@ -52,6 +52,7 @@
     - title: IOC Fang
       url: https://ioc-fang.github.io/
     - title: VirusTotal
+      provider: Microsoft
       url: https://www.virustotal.com/
     - title: URLScan.io
       url: https://urlscan.io/
