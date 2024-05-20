@@ -54,4 +54,10 @@
       url: https://urlscan.io/
     - title: Hindsight
       provider: Ryan Benson
-      url: https://github.com/obsidianforensics/hindsight
+      url: https://dfir.blog/hindsight/
+    - title: UnfURL
+      provider: Ryan Benson
+      url: https://dfir.blog/unfurl/
+    - title: PDF Tools
+      provider: Dider Stevens
+      url: https://blog.didierstevens.com/programs/pdf-tools/
