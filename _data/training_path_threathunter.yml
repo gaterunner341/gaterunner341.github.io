@@ -43,10 +43,12 @@
       url: https://www.cyborgsecurity.com/threat-hunting-workshops/threat-hunting-workshop-10-hunting-for-initial-access/
 - categroy: Tools
   training:
-  - title: CyberChef
-    provider: GCHQ
-    url: https://gchq.github.io/CyberChef/
-  - title: IOC Fang
-    url: https://ioc-fang.github.io/
-  - title: VirusTotal
-    url: https://www.virustotal.com/
+    - title: CyberChef
+      provider: GCHQ
+      url: https://gchq.github.io/CyberChef/
+    - title: IOC Fang
+      url: https://ioc-fang.github.io/
+    - title: VirusTotal
+      url: https://www.virustotal.com/
+    - title: URLScan.io
+      url: https://urlscan.io/
