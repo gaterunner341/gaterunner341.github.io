@@ -1,4 +1,8 @@
 # SOC
 - category: Foundational
+  training:
+    - title: Splunk Fundamentals 1, 2, 3
+      provider: Splunk
+      url: https://www.splunk.com/en_us/training/splunk-fundamentals.html
 - category: Labs
 - category: Tools

@@ -1,6 +1,9 @@
 # Threat Hunter
 - category: Foundational
   training:
+    - title: Pyramid of Pain
+      provider: The Threat Hunnting Project
+      url: https://www.threathunting.net/files/A%20Framework%20for%20Cyber%20Threat%20Hunting%20Part%201_%20The%20Pyramid%20of%20Pain%20_%20Sqrrl.pdf
     - title: Threat Hunting Workshop
       provider: Cyborg Security
       url: https://www.cyborgsecurity.com/our-webinars/webinars/begin-your-hunt-the-threat-hunting-workshop/
@@ -81,3 +84,8 @@
     - title: Deobfuscate.io
       provider: Ben Sb
       url: https://deobfuscate.io/
+- category: Other Resources
+  training:
+    - title: The Threat Hunting Project
+      provider:
+      url: https://www.threathunting.net/
