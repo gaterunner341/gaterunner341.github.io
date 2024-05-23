@@ -3,7 +3,7 @@
   status: developing
   prereq: Cybersecurity concepts, Networking concepts, Communication skills, Estimate impact
   link: training-hunter.html
-- role: Secuirty Operations Center (SOC) Analyst
+- role: SOC Analyst
   status: developing
   prereq: Basic IT knowledge/skills/abilities, Communication skills, Basic cybersecurity concepts
   link: training-soc.html
