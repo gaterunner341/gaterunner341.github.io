@@ -40,21 +40,11 @@ sitemap: false
  <div class="article-container">
     <div class="article">
         <div class="article-info">
-          <a style="font-size: 37px;font-weight: strong;" class="hover-underline-animation" href="{{ post.url }}">{{ post.title }} | {{ post.date | date: "%Y-%m-%d" }}</a><br>
+          <a style="font-size: 20px;font-weight: strong;" class="hover-underline-animation" href="{{ post.url }}">{{ post.title }} | {{ post.date | date: "%Y-%m-%d" }}</a><br>
           {{ post.content | strip_html | truncatewords: 50 }}
         </div>
     </div>
 </div>
-{% endfor %}
-
-{% for post in site.posts %}
-  <article>
-    <h3><a class="hover-underline-animation" href="{{ post.url }}">{{ post.title }} | {{ post.date | date: "%Y-%m-%d" }}</a></h3>
-    {%- if post.image -%}
-      <img src="{{ site.url }}/assets/images/featured-image/{{ post.image }}" style="width:150px;float:left" alt="{{ post.alt}}">
-    {%- endif -%}
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </article>
 {% endfor %}
 
 <i class="fa-solid fa-backward" style="padding-right: 0.3em;margin-left: -0.9em;color: #8B0000;"></i>[Back...](./){: .hover-underline-animation}
