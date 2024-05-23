@@ -5,7 +5,7 @@
   link: training-hunter.html
 - role: Secuirty Operations Center (SOC) Analyst
   status: developing
-  prereq: 
+  prereq: Basic IT knowledge/skills/abilities, Communication skills, Basic cybersecurity concepts
   link: training-soc.html
 - role: Phishing Analyst
   prereq: 
