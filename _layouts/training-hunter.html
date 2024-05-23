@@ -39,7 +39,7 @@ layout: default
 {% assign pagecat = "Cyber Threat Hunter" %}
 
 {% for cat in site.data.trainingpaths %}
-{% if cat.role == {{ pagecat }} %}
+{% if cat.role == pagecat %}
 <span style="font-size: 37px;font-weight: strong;">{{ cat.role }}</span><br>
 <h2>Recommended Prerequsites</h2>
     <ul>
