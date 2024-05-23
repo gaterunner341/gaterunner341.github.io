@@ -40,7 +40,7 @@ sitemap: false
  <div class="article-container">
     <div class="article">
         <div class="article-info">
-          <a class="hover-underline-animation" href="{{ post.url }}">{{ post.title }} | {{ post.date | date: "%Y-%m-%d" }}</a><br>
+          <a style="font-size: 37px;font-weight: strong;" class="hover-underline-animation" href="{{ post.url }}">{{ post.title }} | {{ post.date | date: "%Y-%m-%d" }}</a><br>
           {{ post.content | strip_html | truncatewords: 50 }}
         </div>
     </div>
