@@ -41,7 +41,7 @@ sitemap: false
     <div class="article">
         <div class="article-info">
           <a style="font-size: 15px;font-weight: strong;" class="hover-underline-animation" href="{{ post.url }}">{{ post.title | truncate: 50 }} | {{ post.date | date: "%Y-%m-%d" }}</a><br>
-          {{ post.content | strip_html | truncatewords: 50 }}
+          {{ post.content | strip_html | truncatewords: 45 }}
         </div>
     </div>
 </div>
