@@ -39,7 +39,7 @@ layout: default
 
 {% for cat in site.data.trainingpaths %}
 {% if cat.role == pagecat %}
-<span style="font-size: 37px;font-weight: strong;">{{ cat.role }}</span> {{ cat.status }}<br>
+<span style="font-size: 37px;font-weight: strong;">{{ cat.role }}</span> ({{ cat.status | upcase }})<br>
 <h2>Recommended Prerequsites</h2>
     <ul>
         {% assign pre = cat.prereq | split: ", " %}
