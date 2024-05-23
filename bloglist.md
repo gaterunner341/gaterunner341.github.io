@@ -38,7 +38,7 @@ sitemap: false
 
 {% for post in site.posts %}
  <div class="article-container">
-    <div class="article">
+    <div class="article">{{ post.title }}
         <div class="article-info">
           <a style="font-size: 15px;font-weight: strong;" class="hover-underline-animation" href="{{ post.url }}">{{ post.title | truncate: 45 }} | {{ post.date | date: "%Y-%m-%d" }}</a><br>
           {{ post.content | strip_html | truncate: 150 }}
