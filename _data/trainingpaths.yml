@@ -1,9 +1,12 @@
 # Training Paths
 - role: Cyber Threat Hunter
   status: developing
+  prereq: Cybersecurity concepts, Networking concepts, Communication skills, Estimate impact
   link: training-hunter.html
 - role: Secuirty Operations Center (SOC) Analyst
   status: developing
+  prereq: 
   link: training-soc.html
 - role: Phishing Analyst
+  prereq: 
   status: pending

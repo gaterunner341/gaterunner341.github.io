@@ -35,6 +35,19 @@ layout: default
 </head>
 <body>
 
+<h2>Recommended Prerequsites</h2>
+{% for cat in site.data.trainingpaths %}
+{% if cat.role == "Cyber Threat Hunter" %}
+    <ul>
+        {% assign pre = cat.prereq | split: ", " %}
+        {% for req in pre %}
+        <li>{{ req }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+{% else %}
+{% endfor %}
+
 <span style="font-size: 37px;font-weight: strong;">Cyber Threat Hunter</span><br>
 <h2>Recommended Prerequsites</h2>
 <ul>
