@@ -14,6 +14,7 @@ sitemap: false
     }
     .article {
         width: 500px;
+        padding-left: 15px;
         height: 125px;
         position: relative;
         border-radius: 10px;
