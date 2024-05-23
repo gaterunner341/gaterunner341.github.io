@@ -41,10 +41,9 @@ sitemap: false
 
 {% for post in site.posts %}
  <div class="article-container">
-    <div class="article">{{ post.title | truncate: 45 }} | {{ post.date | date: "%Y-%m-%d" }}
+    <div class="article">  {{ post.title | truncate: 50 }} | {{ post.date | date: "%Y-%m-%d" }}
         <div class="article-info">
-          <a style="font-size: 15px;font-weight: strong;" class="hover-underline-animation" href="{{ post.url }}">{{ post.title | truncate: 45 }} | {{ post.date | date: "%Y-%m-%d" }}</a><br>
-          {{ post.content | strip_html | truncate: 150 }}
+          {{ post.content | strip_html | truncate: 150 }} <a style="font-size: 15px;font-weight: strong;" class="hover-underline-animation" href="{{ post.url }}">Continue Reading...</a>
         </div>
     </div>
 </div>
