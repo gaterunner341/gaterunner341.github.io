@@ -14,7 +14,6 @@ sitemap: false
     }
     .article {
         width: 500px;
-        padding-left: 15px;
         height: 125px;
         position: relative;
         border-radius: 10px;
@@ -32,6 +31,7 @@ sitemap: false
         width: 100%;
         box-sizing: border-box;
         background-color: #f0f0f0;
+        color: black;
         font-size: 12px;
     }
     .article-info p {
