@@ -14,12 +14,15 @@ sitemap: false
     }
     .article {
         width: 500px;
+        padding: 15px;
         height: 125px;
         position: relative;
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         background-color: #191970;
+        color: white;
+        font-size: 12px
         margin-bottom: 20px;
     }
     .article-info {
@@ -38,7 +41,7 @@ sitemap: false
 
 {% for post in site.posts %}
  <div class="article-container">
-    <div class="article">{{ post.title }}
+    <div class="article">{{ post.title | truncate: 45 }} | {{ post.date | date: "%Y-%m-%d" }}
         <div class="article-info">
           <a style="font-size: 15px;font-weight: strong;" class="hover-underline-animation" href="{{ post.url }}">{{ post.title | truncate: 45 }} | {{ post.date | date: "%Y-%m-%d" }}</a><br>
           {{ post.content | strip_html | truncate: 150 }}
