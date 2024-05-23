@@ -35,13 +35,22 @@ layout: default
 </head>
 <body>
 
-<span style="font-size: 37px;font-weight: strong;">SOC Analyst</span><br>
+{% assign pagecat = "Secuirty Operations Center (SOC) Analyst" %}
+
+{% for cat in site.data.trainingpaths %}
+{% if cat.role == pagecat %}
+<span style="font-size: 37px;font-weight: strong;">{{ cat.role }}</span><br>
 <h2>Recommended Prerequsites</h2>
-<ul>
-    <li>Basic IT knowledge/skills/abilities</li>
-    <li>Communication skills</li>
-    <li>Basic cybersecurity concepts</li>
-</ul>
+    <ul>
+        {% assign pre = cat.prereq | split: ", " %}
+        {% for req in pre %}
+        <li>{{ req }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+{% else %}
+{% endfor %}
+
 {% for cat in site.data.training_path_soc %}
 <h2>{{ cat.category }}</h2>
 <div class="training-container">
