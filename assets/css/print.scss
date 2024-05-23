@@ -1,118 +1,61 @@
 ---
 ---
 
+/* Reset Styles */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  padding: 0;
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
   margin: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: top;
+  padding: 0;
   border: 0;
+  font: inherit;
+  vertical-align: top;
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
   line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 13px;
-  line-height: 1.5;
   color: #000;
 }
 
-a {
-  font-weight: bold;
-  color: #d5000d;
+ol, ul {
+  list-style: none;
 }
 
-header {
-  padding-top: 35px;
-  padding-bottom: 10px;
+blockquote, q {
+  quotes: none;
 }
-
-header h1 {
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 1.2;
-  color: #303030;
-  letter-spacing: -1px;
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
 }
-
-header h2 {
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 1.3;
-  color: #aaa;
-  letter-spacing: -1px;
-}
-#downloads {
-  display: none;
-}
-#main_content {
-  padding-top: 20px;
-}
-
-code, pre {
-  margin-bottom: 30px;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
-  font-size: 12px;
-  color: #222;
-}
-
-code {
-  padding: 0 3px;
-}
-
-pre {
-  padding: 20px;
-  overflow: auto;
-  border: solid 1px #ddd;
-}
-pre code {
-  padding: 0;
-}
-
-ul, ol, dl {
-  margin-bottom: 20px;
-}
-
-
-/* COMMON STYLES */
 
 table {
+  border-spacing: 0;
+  border-collapse: collapse;
   width: 100%;
   border: 1px solid #ebebeb;
+}
+
+th, td {
+  border: 1px solid #ebebeb;
+  text-align: center;
 }
 
 th {
@@ -121,19 +64,14 @@ th {
 
 td {
   font-weight: 300;
-  text-align: center;
-  border: 1px solid #ebebeb;
 }
 
 form {
   padding: 20px;
   background: #f2f2f2;
-
 }
 
-
-/* GENERAL ELEMENT TYPE STYLES */
-
+/* General Element Type Styles */
 h1 {
   font-size: 2.8em;
 }
@@ -152,20 +90,21 @@ h3 {
   color: #d5000d;
 }
 
-h4 {
-  font-size: 16px;
+h4, h5, h6 {
   font-weight: bold;
   color: #303030;
 }
 
+h4 {
+  font-size: 16px;
+}
+
 h5 {
   font-size: 1em;
-  color: #303030;
 }
 
 h6 {
   font-size: .8em;
-  color: #303030;
 }
 
 p {
@@ -174,6 +113,8 @@ p {
 }
 
 a {
+  font-weight: bold;
+  color: #d5000d;
   text-decoration: none;
 }
 
@@ -182,27 +123,41 @@ p a {
 }
 
 blockquote {
-  padding: 0 0 0 30px;
+  padding-left: 30px;
   margin-bottom: 20px;
   font-size: 1.6em;
   border-left: 10px solid #e9e9e9;
 }
 
-ul li {
+ul li, ol li {
   padding-left: 20px;
   list-style-position: inside;
-  list-style: disc;
-}
-
-ol li {
-  padding-left: 3px;
-  list-style-position: inside;
-  list-style: decimal;
 }
 
 dl dd {
   font-style: italic;
   font-weight: 100;
+}
+
+code, pre {
+  margin-bottom: 30px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
+  font-size: 12px;
+  color: #222;
+}
+
+code {
+  padding: 0 3px;
+}
+
+pre {
+  padding: 20px;
+  overflow: auto;
+  border: 1px solid #ddd;
+}
+
+pre code {
+  padding: 0;
 }
 
 footer {
@@ -217,44 +172,74 @@ footer a {
   color: #666;
 }
 
-/* MISC */
-.clearfix:after {
+/* Misc */
+.clearfix::after {
   display: block;
-  height: 0;
+  content: '';
   clear: both;
-  visibility: hidden;
-  content: '.';
 }
 
-.clearfix {display: inline-block;}
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
+.clearfix {
+  display: block;
+}
 
+#downloads {
+  display: none;
+}
+
+#main_content {
+  padding-top: 20px;
+}
+
+/* Header */
+header {
+  padding: 35px 0 10px;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #303030;
+  letter-spacing: -1px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.3;
+  color: #aaa;
+  letter-spacing: -1px;
+}
+
+/* Training Styles */
 .training-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   margin: 20px;
 }
+
 .training {
-  width: 150px; /* Fixed width to ensure the content fits */
-  height: 125px; /* Height for better display */
+  width: 150px;
+  height: 125px;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #191970; /* Added background color */
+  background-color: #191970;
   margin-bottom: 20px;
 }
+
 .training-info {
   padding: 15px;
   position: absolute;
   bottom: 0;
   width: 100%;
-  box-sizing: border-box;
   background-color: #f0f0f0;
   font-size: 12px;
 }
+
 .training-info p {
   margin: 5px 0;
 }

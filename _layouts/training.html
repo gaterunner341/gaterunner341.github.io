@@ -4,6 +4,6 @@ layout: default
 <span style="font-size: 37px;font-weight: strong;">Training Paths</span><br>
 
 {% for path in site.data.trainingpaths %}
-  {% if path.status == "complete" or path.status == "developing" %}<a class="hover-underline-animation" href='{{ site.url }}/{{ path.link }}'><h2>{{ path.role }}</h2></a><br>{% else %}<h2>{{ path.role }}</h2> ({{ path.status }}){% endif %}
+  {% if path.status == "complete" or path.status == "developing" %}<a class="hover-underline-animation" href='{{ site.url }}/{{ path.link }}'><h2>{{ path.role }}</h2></a><br>{% else %}<h2>{{ path.role }}</h2>{% endif %}
 {% endfor %}
 <br><br><br><br><br><br><br>
