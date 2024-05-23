@@ -5,7 +5,7 @@
       provider: SQRRL
       url: https://www.threathunting.net/files/framework-for-threat-hunting-whitepaper.pdf
     - title: Pyramid of Pain
-      provider: The Threat Hunnting Project
+      provider: The Threat Hunting Project
       url: https://www.threathunting.net/files/A%20Framework%20for%20Cyber%20Threat%20Hunting%20Part%201_%20The%20Pyramid%20of%20Pain%20_%20Sqrrl.pdf
     - title: Threat Hunting Workshop
       provider: Cyborg Security
