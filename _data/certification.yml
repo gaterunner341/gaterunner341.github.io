@@ -70,5 +70,10 @@
   alt: PMP
   url: https://www.credly.com/badges/38640824-ecf7-4ceb-af4e-effed0fe692e/public_url
 
-
-  
+- cert: GIAC Strategic Planning, Policy, and Leadership (GSTRT)
+  org: SANS
+  year: 2024
+  certID: 
+  logo: gstrt.svg
+  alt:GSTRT
+  url: https://www.giac.org/certifications/strategic-planning-policy-leadership-gstrt/ 
