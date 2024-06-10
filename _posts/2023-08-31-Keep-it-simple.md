@@ -14,7 +14,7 @@ I wrote a **very simple** query to find exploitation of WinRAR  under CVE-2023-3
 
 My finished query is:
 
-```python
+```
 event_simpleName=ProcessRollup2 (ParentBaseFileName=winrar.exe FileName=cmd.exe)
 | stats count by ParentBaseFileName FileName CommandLine
 ```
