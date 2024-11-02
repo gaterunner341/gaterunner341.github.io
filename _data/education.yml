@@ -5,7 +5,7 @@
   year: 2026
   logo: champlain.png
   alt: Champlain College
-  url: https://www.parchment.com/u/award/25ab4a269c1c3506de51604454dc70fd
+  url: false
 
 - degree: Master of Science
   subject: Digital Forensic Science
