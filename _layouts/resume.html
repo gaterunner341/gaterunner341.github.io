@@ -137,7 +137,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
         {% if education.url %}
           <b><a href="{{ education.url }}" target="_blank" class="hover-underline-animation">{{ education.degree }}, {{ education.subject }}</a></b><br>
         {% else %}
-          <b>{{ education.degree }}, {{ education.subject }}</b><br>
+          <b>{{ education.degree }} {{ education.subject }}</b><br>
         {% endif %}
         {{ education.school }} &bull; {{ education.year }}<br><br>
       </div>
