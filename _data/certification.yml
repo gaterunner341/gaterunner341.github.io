@@ -1,6 +1,6 @@
 # CISSP
 - cert: Certified Information System Security Professional (CISSP)
-  org: ISC2
+  org: International Information System Security Certification Consortium (ISC2)
   year: 2021
   certID: 830401
   logo: cissp.png
@@ -54,7 +54,7 @@
 
 # ISC Associate
 - cert: Associate of ISC2
-  org: ISC2
+  org: International Information System Security Certification Consortium (ISC2)
   year: 2020
   certID: Expired
   logo: isc2_associate.png
