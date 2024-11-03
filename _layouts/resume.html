@@ -145,8 +145,6 @@ Phillip is a security professional with 20 years of experience in physical, indu
     {% endfor %}
   </section>
 
-  {% if position.unit %}<br>{{ position.unit }}, {{ position.location }}{% endif %}
-
   <section>
     <h2>Certifications, Accreditation, and Credentials</h2>
     {% assign certname = site.data.certification | sort: 'year' | reverse %}
