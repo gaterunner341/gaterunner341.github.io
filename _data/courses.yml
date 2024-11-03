@@ -251,7 +251,7 @@
   alt: Space 100
   url: https://nssi.spaceforce.mil/
 
-- provider: SANS
+- provider: SysAdmin, Audit, Network, and Security (SANS) Institute
   course: LDR514 Security Strategic Planning, Policy, and Leadership
   date: 2024
   logo: sans.png
