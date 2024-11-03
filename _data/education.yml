@@ -1,6 +1,7 @@
 # Degree
 - degree: Master
   subject: of Business Administration
+  status: in progress
   school: Champlain College
   year: 2026
   logo: champlain.png
@@ -9,6 +10,7 @@
 
 - degree: Master of Science
   subject: Digital Forensic Science
+  status: false
   school: Champlain College
   year: 2023
   logo: champlain.png
@@ -18,6 +20,7 @@
 # Degree
 - degree: Bachelor of Science
   subject: Computer Forensics and Digital Investigation
+  status: false
   school: Champlain College
   year: 2018
   logo: champlain.png
@@ -27,6 +30,7 @@
 # Degree
 - degree: Associates in Applied Science
   subject: Information Technology
+  status: false
   school: Community College of the Air Force
   year: 2022
   logo: ccaf.png
@@ -36,6 +40,7 @@
 # Degree
 - degree: Associates in Applied Science
   subject: Criminal Justice
+  status: false
   school: Community College of the Air Force
   year: 2016
   logo: ccaf.png
