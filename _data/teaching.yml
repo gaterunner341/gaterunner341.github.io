@@ -50,12 +50,12 @@
   display: False
   lateststart: "2024"
   logo: comptia.png
-  url: https://www.comptia.org/certifications/become-a-subject-matter-expert/current-smes
+  url: https://www.credly.com/badges/c4a649b2-2635-438e-98e8-15a205b62556
   alt: CompTIA
   positions:
-  - position: CompTIA SME (pending seminar attendance)
+  - position: CompTIA SME CySA+ Job Task Analysis and Question Writing
     certification: True
-    duration: 2024
+    duration: 2025
     courses: Security+, Cybersecurity Analyst (CySA+)
-    description: I've been accepted into the CompTIA SME program for Security+ and Cybersecurity Analyst+. Once I attend the respective exam developer seminars, my name will be featured on the program website.
+    description: 
     
