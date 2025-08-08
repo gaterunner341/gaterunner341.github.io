@@ -266,7 +266,7 @@
   url: https://bots.splunk.com/login?redirect=/
 
 - provider: DC3 Cyber Training Academy
-  course: Log Analysis Course
+  course: Mac Forensics (MACF)
   date: 2025
   logo: dc3.png
   alt: DC3
