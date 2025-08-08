@@ -264,3 +264,10 @@
   logo: boss.png
   alt: Splunk BOSS of the SOC
   url: https://bots.splunk.com/login?redirect=/
+
+- provider: DC3 Cyber Training Academy
+  course: Log Analysis Course
+  date: 2025
+  logo: dc3.png
+  alt: DC3
+  url: False
