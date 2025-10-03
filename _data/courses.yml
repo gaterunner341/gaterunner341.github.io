@@ -271,3 +271,10 @@
   logo: dc3.png
   alt: DC3
   url: False
+
+- provider: SysAdmin, Audit, Network, and Security (SANS) Institute
+  course: LDR551 Building and Leading Security Operations Centers
+  date: 2025
+  logo: sans.png
+  alt: LDR551 Building and Leading Security Operations Centers
+  url: https://www.sans.org/cyber-security-courses/building-leading-security-operations-centers
