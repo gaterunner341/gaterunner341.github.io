@@ -37,7 +37,7 @@
 - provider: 229th Cyberspace Operations Squadron
   course: Cyber Operations Fundamentals Course
   date: 2021
-  logo: 229.png
+  logo: usaf.png
   alt: 229
   url: False
 
@@ -118,13 +118,6 @@
   alt: USAF
   url: False
 
-- provider: Taser
-  course: Taser X26 Certified User
-  date: 2008
-  logo: taser.png
-  alt: Taser
-  url: False
-
 - provider: United States Marine Corps
   course: Military Working Dog Pre-Deployment Course
   date: 2007
@@ -194,13 +187,6 @@
   logo: usaf.png
   alt: USAF
   url: False
-
-- provider: Cybrary
-  course: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
-  date: 2023
-  logo: cybrary.png
-  alt: MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals
-  url: https://app.cybrary.it/courses/api/certificate/CC-d0a7b6da-fa87-4d39-8fe0-bb9ec3c96f66/view
 
 - provider: Cyborg Security
   course: Foundational Threat Hunting KPIs & Metrics
