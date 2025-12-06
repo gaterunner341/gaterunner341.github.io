@@ -279,8 +279,8 @@
   alt: LDR551 Building and Leading Security Operations Centers
   url: https://www.sans.org/cyber-security-courses/building-leading-security-operations-centers
 
-- provider: ISACA
-  course: Future Tech DC/George Mason University
+- provider: ISACA/George Mason University
+  course: Future Tech DC
   date: 2025
   logo: isaca.png
   alt: Future Tech DC
