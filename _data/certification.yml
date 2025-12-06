@@ -16,15 +16,6 @@
   alt: Security+
   url: https://www.credly.com/badges/d9894d81-0c04-4985-8f9e-f1832a965872
 
-# AWS CP
-- cert: Certified Cloud Practitioner
-  org: Amazon Web Services (AWS)
-  year: 2021
-  certID: 08LF1XCJPFF1QS9S
-  logo: ACP.png
-  alt: ACP
-  url: https://www.credly.com/badges/05a58aaa-9fdb-4e15-9d4c-7a924816fbd3
-
 # DCSA PSC
 - cert: Physical Security Certification
   org: Defense Counterintelligence and Security Agency (DCSA)
@@ -32,15 +23,6 @@
   certID: Expired
   logo: dcsa.png
   alt: PSC
-  url: False
-
-# SARTECH III
-- cert: SARTECH III
-  org: National Association for Search and Rescue
-  year: 2009
-  certID: Expired
-  logo: nasar.png
-  alt: NASAR
   url: False
 
 # AWS Partner
@@ -51,15 +33,6 @@
   logo: awsp.png
   alt: AWS Partner
   url: https://www.credly.com/badges/34e04e90-61c5-451d-bc12-3ae220743f15
-
-# ISC Associate
-- cert: Associate of ISC2
-  org: International Information System Security Certification Consortium (ISC2)
-  year: 2020
-  certID: Expired
-  logo: isc2_associate.png
-  alt: Associated of (ISC)2
-  url: https://www.credly.com/earner/earned/badge/96ad2b61-cc69-4e49-a8fe-3d81ef17f4ec
 
 # PMP
 - cert: Project Management Professional (PMP)
