@@ -35,7 +35,7 @@
   year: 2022
   logo: ccaf.png
   alt: CCAF
-  url: false
+  url: https://www.airuniversity.af.edu/CCAF/
 
 # Degree
 - degree: Associates in Applied Science
@@ -45,7 +45,7 @@
   year: 2016
   logo: ccaf.png
   alt: CCAF
-  url: false
+  url: https://www.airuniversity.af.edu/CCAF/
 
 - degree: Graduate Certificate
   subject: Chief Information Security Officer
