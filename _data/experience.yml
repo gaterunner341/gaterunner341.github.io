@@ -1,5 +1,18 @@
   # Jobs
   # Team Lead
+
+tyto.jpg
+
+ - company: Tyto Athene
+    url: https://gotyto.com/
+    logo: tyto.jpg
+    alt: Tyto Athene
+    lateststart: "2025"
+    positions:
+    - position: Security Operations Center (SOC) Manager
+      unit: False
+      duration: July 2025 &mdash; Present
+
   - company: MindPoint Group
     url: https://www.mindpointgroup.com/
     logo: mpg.jpg
@@ -8,7 +21,7 @@
     positions:
     - position: Security Operations Center (SOC) Manager
       unit: False
-      duration: Dec 2023 &mdash; Present
+      duration: Dec 2023 &mdash; July 2025
       accomplishments:
     - position: Senior Consultant (Cyber Threat Hunter)
       unit: False
