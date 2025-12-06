@@ -61,39 +61,24 @@ Phillip is a security professional with 20 years of experience in physical, indu
   {% endfor %}
 </section>
 
-<section>
-  <h2>Projects, Publications, and Papers</h2>
-  {% for publication in site.data.pubs %}
-  <div style="width:100%; position: relative;">
-    <img class="rounded-image" src="./assets/images/publicationicons/{{ publication.logo }}" alt="{{ publication.alt }}">
-    <div class="company-details">
-      <b style="font-size: 18px;">{{ publication.type }}</b><br>
-      <div style="position: relative; margin-left: 8px;">
-        {% assign itemsort = publication.pubs | sort: 'date' | reverse %}
-        {% for item in itemsort %}
-        <div style="position: relative;">
-          <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
-          <div style="position: relative; padding-left: 10px;">
-            {% if item.url %}
-              <b><a href="{{ item.url }}" target="_blank" class="hover-underline-animation">{{ item.title }}</a></b>{% if item.publisher %}, {{ item.publisher }} {% endif %} &bull; {{ item.date }}<br>
-              {% if item.description %}{{ item.description }}<br><br>{% endif %}
-            {% else %}
-              <b>{{ item.title }}</b>{% if item.publisher %}, {{ item.publisher }} {% endif %} &bull; {{ item.date }}<br><br>
-              {% if item.description %}
-              <ul>
-                <li>{{ item.description }}</li>
-              </ul>
-              {% endif %}
-            {% endif %}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div><br>
-  </div>
-  {% endfor %}
-</section>
 
+
+  <section>
+    <h2>Education</h2>
+    {% for education in site.data.education %}
+    <div style="width: 100%;">
+      <img class="rounded-image" src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}">
+      <div class="company-details">
+        {% if education.url %}
+          <b><a href="{{ education.url }}" target="_blank" class="hover-underline-animation">{{ education.degree }} {{ education.subject }}</a></b>{% if education.status %} ({{ education.status }}){% endif %}<br>
+        {% else %}
+          <b>{{ education.degree }} {{ education.subject }}</b>{% if education.status %} ({{ education.status }}){% endif %}<br>
+        {% endif %}
+        {{ education.school }} &bull; {{ education.year }}<br><br>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
 <section>
   <h2>Professional Experience</h2>
   {% assign experience = site.data.experience | sort: 'lateststart' | reverse %}
@@ -128,22 +113,6 @@ Phillip is a security professional with 20 years of experience in physical, indu
   {% endfor %}
 </section>
 
-  <section>
-    <h2>Education</h2>
-    {% for education in site.data.education %}
-    <div style="width: 100%;">
-      <img class="rounded-image" src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}">
-      <div class="company-details">
-        {% if education.url %}
-          <b><a href="{{ education.url }}" target="_blank" class="hover-underline-animation">{{ education.degree }} {{ education.subject }}</a></b>{% if education.status %} ({{ education.status }}){% endif %}<br>
-        {% else %}
-          <b>{{ education.degree }} {{ education.subject }}</b>{% if education.status %} ({{ education.status }}){% endif %}<br>
-        {% endif %}
-        {{ education.school }} &bull; {{ education.year }}<br><br>
-      </div>
-    </div>
-    {% endfor %}
-  </section>
 
   <section>
     <h2>Certifications, Accreditation, and Credentials</h2>
@@ -202,4 +171,37 @@ Phillip is a security professional with 20 years of experience in physical, indu
     </div>
     {% endfor %}
   </section>
+
+  <section>
+  <h2>Projects, Publications, and Papers</h2>
+  {% for publication in site.data.pubs %}
+  <div style="width:100%; position: relative;">
+    <img class="rounded-image" src="./assets/images/publicationicons/{{ publication.logo }}" alt="{{ publication.alt }}">
+    <div class="company-details">
+      <b style="font-size: 18px;">{{ publication.type }}</b><br>
+      <div style="position: relative; margin-left: 8px;">
+        {% assign itemsort = publication.pubs | sort: 'date' | reverse %}
+        {% for item in itemsort %}
+        <div style="position: relative;">
+          <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
+          <div style="position: relative; padding-left: 10px;">
+            {% if item.url %}
+              <b><a href="{{ item.url }}" target="_blank" class="hover-underline-animation">{{ item.title }}</a></b>{% if item.publisher %}, {{ item.publisher }} {% endif %} &bull; {{ item.date }}<br>
+              {% if item.description %}{{ item.description }}<br><br>{% endif %}
+            {% else %}
+              <b>{{ item.title }}</b>{% if item.publisher %}, {{ item.publisher }} {% endif %} &bull; {{ item.date }}<br><br>
+              {% if item.description %}
+              <ul>
+                <li>{{ item.description }}</li>
+              </ul>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div><br>
+  </div>
+  {% endfor %}
+</section>
   <br><br><br><br><br><br><br>
