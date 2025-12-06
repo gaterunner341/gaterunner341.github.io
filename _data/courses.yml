@@ -292,3 +292,10 @@
   logo: isaca.png
   alt: LDR551 Building and Leading Security Operations Centers
   url: https://isaca-gwdc.org/
+
+- provider: CrowdStrike
+  course: CrowdStrike Government Summit
+  date: 2023
+  logo: cs.jpg
+  alt: CrowdStrike Government Summit
+  url: https://www.crowdstrike.com/en-us/press-releases/crowdstrike-government-summit-2023/
