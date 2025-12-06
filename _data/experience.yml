@@ -2,134 +2,134 @@
   # Team Lead
 
 - company: Tyto Athene
-    url: https://gotyto.com/
-    logo: tyto.jpg
-    alt: Tyto Athene
-    lateststart: "2025"
-    positions:
-    - position: Security Operations Center (SOC) Manager
-      unit: False
-      duration: July 2025 &mdash; Present
+  url: https://gotyto.com/
+  logo: tyto.jpg
+  alt: Tyto Athene
+  lateststart: "2025"
+  positions:
+  - position: Security Operations Center (SOC) Manager
+    unit: False
+    duration: July 2025 &mdash; Present
 
 - company: MindPoint Group
-    url: https://www.mindpointgroup.com/
-    logo: mpg.jpg
-    alt: MindPoint Group
-    lateststart: "2023"
-    positions:
-    - position: Security Operations Center (SOC) Manager
-      unit: False
-      duration: Dec 2023 &mdash; July 2025
-      accomplishments:
-    - position: Senior Consultant (Cyber Threat Hunter)
-      unit: False
-      duration: Mar 2023 &mdash; Dec 2023
-    - position: Senior Consultant (Tier II SOC Analyst)
-      unit: False
-      duration: Mar 2022 &mdash; Mar 2023
+  url: https://www.mindpointgroup.com/
+  logo: mpg.jpg
+  alt: MindPoint Group
+  lateststart: "2023"
+  positions:
+  - position: Security Operations Center (SOC) Manager
+    unit: False
+    duration: Dec 2023 &mdash; July 2025
+    accomplishments:
+  - position: Senior Consultant (Cyber Threat Hunter)
+    unit: False
+    duration: Mar 2023 &mdash; Dec 2023
+  - position: Senior Consultant (Tier II SOC Analyst)
+    unit: False
+    duration: Mar 2022 &mdash; Mar 2023
 
 - company: United States Air Force Reserve
-    url: https://www.afrc.af.mil/
-    logo: usafr.jpg
-    alt: USAFR
-    lateststart: "2022"
-    positions:
-    - position: NCOIC, Help Desk (1D7 IMA)
-      unit: Special Operations Command Pacific
-      location: Camp Smith, HI
-      duration: Oct 2024 &mdash; Present
-    - position: Section Chief, Cyber Operations (1D7)
-      unit: 507th Communications Flight
-      location: Tinker AFB, OK
-      duration: May 2022 &mdash; Oct 2024
-    - position: NCOIC, Client Systems (3D)
-      unit: 507th Communications Flight
-      location: Tinker AFB, OK
-      duration: Mar 2019 &mdash; May 2022
-    - position: NCOIC, Operations (3P)
-      unit: 720th Security Forces Squadron
-      location: Davis-Montan AFB, AZ
-      duration: Sep 2017 &mdash; Mar 2019
-    - position: Operations Superintendent (3P)
-      unit: 720th Security Forces Squadon
-      location: Davis-Monthan AFB, AZ
-      duration: Sep 2016 &mdash; Sep 2017
-    - position: Squad Leader (3P)
-      unit: 720th Security Forces Squadron
-      location: Davis-Monthan AFB, AZ
-      duration: May 2015 &mdash; Sep 2016
+  url: https://www.afrc.af.mil/
+  logo: usafr.jpg
+  alt: USAFR
+  lateststart: "2022"
+  positions:
+  - position: NCOIC, Help Desk (1D7 IMA)
+    unit: Special Operations Command Pacific
+    location: Camp Smith, HI
+    duration: Oct 2024 &mdash; Present
+  - position: Section Chief, Cyber Operations (1D7)
+    unit: 507th Communications Flight
+    location: Tinker AFB, OK
+    duration: May 2022 &mdash; Oct 2024
+  - position: NCOIC, Client Systems (3D)
+    unit: 507th Communications Flight
+    location: Tinker AFB, OK
+    duration: Mar 2019 &mdash; May 2022
+  - position: NCOIC, Operations (3P)
+    unit: 720th Security Forces Squadron
+    location: Davis-Montan AFB, AZ
+    duration: Sep 2017 &mdash; Mar 2019
+  - position: Operations Superintendent (3P)
+    unit: 720th Security Forces Squadon
+    location: Davis-Monthan AFB, AZ
+    duration: Sep 2016 &mdash; Sep 2017
+  - position: Squad Leader (3P)
+    unit: 720th Security Forces Squadron
+    location: Davis-Monthan AFB, AZ
+    duration: May 2015 &mdash; Sep 2016
 
 - company: Raytheon Technologies
-    url: https://www.rtx.com/
-    logo: rtx.jpg
-    alt: Raytheon Technologies
-    lateststart: "2021"
-    positions:
-    - position: Principal Specialist, Cyber Incident Response
-      unit: False
-      duration: Mar 2021 &mdash; Mar 2022
-    - position: Principal Specialist, Cybersecurity & Risk Management
-      unit: False
-      duration: Aug 2019 &mdash; Mar 2021
+  url: https://www.rtx.com/
+  logo: rtx.jpg
+  alt: Raytheon Technologies
+  lateststart: "2021"
+  positions:
+  - position: Principal Specialist, Cyber Incident Response
+    unit: False
+    duration: Mar 2021 &mdash; Mar 2022
+  - position: Principal Specialist, Cybersecurity & Risk Management
+    unit: False
+    duration: Aug 2019 &mdash; Mar 2021
 
 - company: Multiple Contracts
-    url: False
-    logo: work.jpg
-    alt: Work
-    lateststart: "2017"
-    positions:
-    - position: Traveling Technician
-      unit: False
-      duration: Sep 2017 &mdash; Aug 2019
+  url: False
+  logo: work.jpg
+  alt: Work
+  lateststart: "2017"
+  positions:
+  - position: Traveling Technician
+    unit: False
+    duration: Sep 2017 &mdash; Aug 2019
 
 - company: Lockheed Martin
-    url: https://www.lockheedmartin.com/
-    logo: lm.jpg
-    alt: Lockheed Martin
-    lateststart: "2014"
-    positions:
-    - position: Technical Support
-      unit: False
-      duration: Jun 2015 &mdash; Sep 2017
-    - position: Security Assistant, Senior
-      unit: False
-      duration: Aug 2014 &mdash; Jun 2015
+  url: https://www.lockheedmartin.com/
+  logo: lm.jpg
+  alt: Lockheed Martin
+  lateststart: "2014"
+  positions:
+  - position: Technical Support
+    unit: False
+    duration: Jun 2015 &mdash; Sep 2017
+  - position: Security Assistant, Senior
+    unit: False
+    duration: Aug 2014 &mdash; Jun 2015
 
 - company: United States Air Force
-    url: https://www.af.mil/
-    logo: usaf.png
-    alt: USAF
-    lateststart: "2003"
-    positions:
-    - position: NCOIC, Security Forces Stan Eval
-      unit: 56th Security Forces Squadron
-      location: Luke AFB, AZ
-      duration: Jan 2013 - Aug 2014
-    - position: Element Leader
-      unit: 56th Security Forces Squadron
-      location: Luke AFB, AZ
-      duration: Jul 2012 - Jan 2013
-    - position: Military Working Dog Handler
-      unit: 56th Security Forces Squadron
-      location: Luke AFB, AZ
-      duration: Jan 2007 - Jul 2012
-    - position: Security Response Team Leader
-      unit: 341st Missile Security Forces Squadron
-      location: Malmstrom AFB, MT
-      duration: Apr 2006 - Jan 2007
-    - position: Law Enforcement Patrolman
-      unit: 341st Security Forces Squadron
-      location: Malmstrom AFB, MT
-      duration: Nov 2005 - Apr 2006
-    - position: Assistant NCOIC, Security Forces Armory
-      unit: 31st Security Forces Squadron
-      location: Aviano AB, Italy
-      duration: Apr 2005 - Nov 2005
-    - position: Security Response Team Member
-      unit: 31st Security Forces Squadron
-      location: Aviano AB, Italy
-      duration: Sep 2004 - Apr 2005 
-    - position: Installation Entry Controller
-      unit: 341st Security Forces Squadron
-      location: Malmstrom AFB, MT
-      duration: Aug 2003 - Sep 2004
+  url: https://www.af.mil/
+  logo: usaf.png
+  alt: USAF
+  lateststart: "2003"
+  positions:
+  - position: NCOIC, Security Forces Stan Eval
+    unit: 56th Security Forces Squadron
+    location: Luke AFB, AZ
+    duration: Jan 2013 - Aug 2014
+  - position: Element Leader
+    unit: 56th Security Forces Squadron
+    location: Luke AFB, AZ
+    duration: Jul 2012 - Jan 2013
+  - position: Military Working Dog Handler
+    unit: 56th Security Forces Squadron
+    location: Luke AFB, AZ
+    duration: Jan 2007 - Jul 2012
+  - position: Security Response Team Leader
+    unit: 341st Missile Security Forces Squadron
+    location: Malmstrom AFB, MT
+    duration: Apr 2006 - Jan 2007
+  - position: Law Enforcement Patrolman
+    unit: 341st Security Forces Squadron
+    location: Malmstrom AFB, MT
+    duration: Nov 2005 - Apr 2006
+  - position: Assistant NCOIC, Security Forces Armory
+    unit: 31st Security Forces Squadron
+    location: Aviano AB, Italy
+    duration: Apr 2005 - Nov 2005
+  - position: Security Response Team Member
+    unit: 31st Security Forces Squadron
+    location: Aviano AB, Italy
+    duration: Sep 2004 - Apr 2005 
+  - position: Installation Entry Controller
+    unit: 341st Security Forces Squadron
+    location: Malmstrom AFB, MT
+    duration: Aug 2003 - Sep 2004
