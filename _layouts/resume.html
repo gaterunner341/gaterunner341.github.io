@@ -164,6 +164,24 @@ Phillip is a security professional with 20 years of experience in physical, indu
   </section>
 
   <section>
+    <h2>Courses, Workshops, Conferences and Events</h2>
+    {% assign crse = site.data.courses | sort: 'date' | reverse %}
+    {% for coursename in crse %}
+    <div style="width:100%">
+      <img class="rounded-image" src="./assets/images/resume/{{ coursename.logo }}" alt="{{ coursename.alt }}">
+      <div class="company-details">
+        {% if coursename.url %}
+          <b><a href="{{ coursename.url }}" target="_blank" class="hover-underline-animation">{{ coursename.course }}</a></b><br>
+        {% else %}
+          <b>{{ coursename.course }}</b><br>
+        {% endif %}
+        {{ coursename.provider }} &bull; {{ coursename.date }}<br><br>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section>
     <h2>Volunteer Experience</h2>
     {% for volunteer in site.data.volunteer %}
     <div style="width:100%">
@@ -180,24 +198,6 @@ Phillip is a security professional with 20 years of experience in physical, indu
         {% else %}
           {{ volunteer.startyear }}<br><br>
         {% endif %}
-      </div>
-    </div>
-    {% endfor %}
-  </section>
-
-  <section>
-    <h2>Courses, Workshops, Conferences and Events</h2>
-    {% assign crse = site.data.courses | sort: 'date' | reverse %}
-    {% for coursename in crse %}
-    <div style="width:100%">
-      <img class="rounded-image" src="./assets/images/resume/{{ coursename.logo }}" alt="{{ coursename.alt }}">
-      <div class="company-details">
-        {% if coursename.url %}
-          <b><a href="{{ coursename.url }}" target="_blank" class="hover-underline-animation">{{ coursename.course }}</a></b><br>
-        {% else %}
-          <b>{{ coursename.course }}</b><br>
-        {% endif %}
-        {{ coursename.provider }} &bull; {{ coursename.date }}<br><br>
       </div>
     </div>
     {% endfor %}
