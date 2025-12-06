@@ -35,26 +35,32 @@
   lateststart: "2022"
   positions:
   - position: NCOIC, C4 Support (1D7 IMA)
+    afsc: 1D7
     unit: Special Operations Command Pacific
     location: Camp Smith, HI
     duration: Oct 2024 &mdash; Present
   - position: Section Chief, Cyber Operations (1D7)
+    afsc: 1D7
     unit: 507th Communications Flight
     location: Tinker AFB, OK
     duration: May 2022 &mdash; Oct 2024
   - position: NCOIC, Client Systems (3D)
+    afsc: 3D
     unit: 507th Communications Flight
     location: Tinker AFB, OK
     duration: Mar 2019 &mdash; May 2022
   - position: NCOIC, Operations (3P)
+    afsc: 3P
     unit: 720th Security Forces Squadron
     location: Davis-Montan AFB, AZ
     duration: Sep 2017 &mdash; Mar 2019
   - position: Operations Superintendent (3P)
+    afsc: 3P
     unit: 720th Security Forces Squadon
     location: Davis-Monthan AFB, AZ
     duration: Sep 2016 &mdash; Sep 2017
   - position: Squad Leader (3P)
+    afsc: 3P
     unit: 720th Security Forces Squadron
     location: Davis-Monthan AFB, AZ
     duration: May 2015 &mdash; Sep 2016
