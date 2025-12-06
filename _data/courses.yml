@@ -280,6 +280,13 @@
   url: https://www.sans.org/cyber-security-courses/building-leading-security-operations-centers
 
 - provider: ISACA
+  course: Future Tech DC/George Mason University
+  date: 2025
+  logo: isaca.png
+  alt: Future Tech DC
+  url: https://isaca-gwdc.org/
+
+- provider: ISACA/George Mason University
   course: Generative AI for Cyber Auditors Workshop
   date: 2025
   logo: isaca.png
