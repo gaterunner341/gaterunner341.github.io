@@ -58,4 +58,9 @@
     duration: 2025
     courses: Security+, Cybersecurity Analyst (CySA+)
     description: Worked to help update the objectives for the CS0-004 exam, and develop questions.
+  - position: CompTIA SME Security+ Question Writing
+    certification: True
+    duration: 2025
+    courses: Security+
+    description: Exam development and item writing for Security+ SY0-801.
     
