@@ -23,6 +23,75 @@ layout: default
 Phillip is a security professional with 20 years of experience in physical, industrial, personnel, and cybersecurity. Skilled with securing, defending, and countering threats to government and military networks. CISSP certification holder, ISC Exam Developer, and Adjunct Instructor.
 
 <section>
+    <h2>Education</h2>
+    {% for education in site.data.education %}
+    <div style="width: 100%;">
+      <img class="rounded-image" src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}">
+      <div class="company-details">
+        {% if education.url %}
+          <b><a href="{{ education.url }}" target="_blank" class="hover-underline-animation">{{ education.degree }} {{ education.subject }}</a></b>{% if education.status %} ({{ education.status }}){% endif %}<br>
+        {% else %}
+          <b>{{ education.degree }} {{ education.subject }}</b>{% if education.status %} ({{ education.status }}){% endif %}<br>
+        {% endif %}
+        {{ education.school }} &bull; {{ education.year }}<br><br>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h2>Certifications, Accreditation, and Credentials</h2>
+    {% assign certname = site.data.certification | sort: 'year' | reverse %}
+    {% for certification in certname %}
+    <div style="width: 100%;">
+      <img class="rounded-image" src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}">
+      <div class="company-details">
+        {% if certification.url %}
+          <b><a href="{{ certification.url }}" target="_blank" class="hover-underline-animation">{{ certification.cert }}</a></b><br>
+        {% else %}
+          <b>{{ certification.cert }}</b><br>
+        {% endif %}
+        {{ certification.org }} &bull; {{ certification.year }}<br><br>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section>
+  <h2>Professional Experience</h2>
+  {% assign experience = site.data.experience | sort: 'lateststart' | reverse %}
+  {% for company in experience %}
+  <div style="width:100%; position: relative;">
+      <img class="rounded-image" src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}">
+      <div class="company-details">
+          {% if company.url %}
+            <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
+          {% else %}
+            <b style="font-size: 18px;">{{ company.company }}</b><br>
+          {% endif %}
+          <div style="position: relative; margin-left: 8px;">
+              {% for position in company.positions %}
+              <div style="position: relative;">
+                  <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
+                  <div style="position: relative; padding-left: 10px;">
+                      <b>{{ position.position }}</b> &bull; {{ position.duration }}{% if position.unit %}<br>{{ position.unit }}, {{ position.location }}{% endif %}<br>
+                      {% if position.accomplishments %}
+                      <ul>
+                          {% for accomplishment in position.accomplishments %}
+                          <li>{{ accomplishment }}</li>
+                          {% endfor %}
+                      </ul>
+                      {% endif %}
+                  </div>
+              </div>
+              {% endfor %}
+          </div><br>
+      </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section>
   <h2>Instructor, Exam Development, and other Industry Work</h2>
   {% assign experience = site.data.teaching | sort: 'lateststart' | reverse %}
   {% for company in experience %}
@@ -61,78 +130,7 @@ Phillip is a security professional with 20 years of experience in physical, indu
   {% endfor %}
 </section>
 
-
-
-  <section>
-    <h2>Education</h2>
-    {% for education in site.data.education %}
-    <div style="width: 100%;">
-      <img class="rounded-image" src="./assets/images/resume/{{ education.logo }}" alt="{{ education.alt }}">
-      <div class="company-details">
-        {% if education.url %}
-          <b><a href="{{ education.url }}" target="_blank" class="hover-underline-animation">{{ education.degree }} {{ education.subject }}</a></b>{% if education.status %} ({{ education.status }}){% endif %}<br>
-        {% else %}
-          <b>{{ education.degree }} {{ education.subject }}</b>{% if education.status %} ({{ education.status }}){% endif %}<br>
-        {% endif %}
-        {{ education.school }} &bull; {{ education.year }}<br><br>
-      </div>
-    </div>
-    {% endfor %}
-  </section>
 <section>
-  <h2>Professional Experience</h2>
-  {% assign experience = site.data.experience | sort: 'lateststart' | reverse %}
-  {% for company in experience %}
-  <div style="width:100%; position: relative;">
-      <img class="rounded-image" src="./assets/images/resume/{{ company.logo }}" alt="{{ company.alt }}">
-      <div class="company-details">
-          {% if company.url %}
-            <b style="font-size: 18px;"><a href="{{ company.url }}" target="_blank" class="hover-underline-animation">{{ company.company }}</a></b><br>
-          {% else %}
-            <b style="font-size: 18px;">{{ company.company }}</b><br>
-          {% endif %}
-          <div style="position: relative; margin-left: 8px;">
-              {% for position in company.positions %}
-              <div style="position: relative;">
-                  <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
-                  <div style="position: relative; padding-left: 10px;">
-                      <b>{{ position.position }}</b> &bull; {{ position.duration }}{% if position.unit %}<br>{{ position.unit }}, {{ position.location }}{% endif %}<br>
-                      {% if position.accomplishments %}
-                      <ul>
-                          {% for accomplishment in position.accomplishments %}
-                          <li>{{ accomplishment }}</li>
-                          {% endfor %}
-                      </ul>
-                      {% endif %}
-                  </div>
-              </div>
-              {% endfor %}
-          </div><br>
-      </div>
-  </div>
-  {% endfor %}
-</section>
-
-
-  <section>
-    <h2>Certifications, Accreditation, and Credentials</h2>
-    {% assign certname = site.data.certification | sort: 'year' | reverse %}
-    {% for certification in certname %}
-    <div style="width: 100%;">
-      <img class="rounded-image" src="./assets/images/resume/{{ certification.logo }}" alt="{{ certification.alt }}">
-      <div class="company-details">
-        {% if certification.url %}
-          <b><a href="{{ certification.url }}" target="_blank" class="hover-underline-animation">{{ certification.cert }}</a></b><br>
-        {% else %}
-          <b>{{ certification.cert }}</b><br>
-        {% endif %}
-        {{ certification.org }} &bull; {{ certification.year }}<br><br>
-      </div>
-    </div>
-    {% endfor %}
-  </section>
-
-  <section>
     <h2>Courses, Workshops, Conferences and Events</h2>
     {% assign crse = site.data.courses | sort: 'date' | reverse %}
     {% for coursename in crse %}
