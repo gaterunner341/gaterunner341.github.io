@@ -2,21 +2,21 @@
 - provider: CrowdStrike
   course: Investigating and Mitigating Threats with Real Time Response
   date: 2022
-  logo: cs.png
+  logo: cs.jpg
   alt: CrowdStrike
   url: False
 
 - provider: CrowdStrike
   course: Investigating and Querying Event Data With Falcon EDR
   date: 2022
-  logo: cs.png
+  logo: cs.jpg
   alt: CrowdStrike
   url: https://www.crowdstrike.com/resources/data-sheets/crowdstrike-university-fht-202-course-syllabus/
 
 - provider: CrowdStrike
   course: Intermediate Falcon Platform for Responders
   date: 2022
-  logo: cs.png
+  logo: cs.jpg
   alt: CrowdStrike
   url: https://www.crowdstrike.com/wp-content/uploads/2020/03/fht-201-course-syllabus.pdf
 
