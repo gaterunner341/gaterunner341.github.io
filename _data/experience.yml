@@ -1,9 +1,7 @@
   # Jobs
   # Team Lead
 
-tyto.jpg
-
- - company: Tyto Athene
+- company: Tyto Athene
     url: https://gotyto.com/
     logo: tyto.jpg
     alt: Tyto Athene
@@ -13,7 +11,7 @@ tyto.jpg
       unit: False
       duration: July 2025 &mdash; Present
 
-  - company: MindPoint Group
+- company: MindPoint Group
     url: https://www.mindpointgroup.com/
     logo: mpg.jpg
     alt: MindPoint Group
@@ -30,7 +28,7 @@ tyto.jpg
       unit: False
       duration: Mar 2022 &mdash; Mar 2023
 
-  - company: United States Air Force Reserve
+- company: United States Air Force Reserve
     url: https://www.afrc.af.mil/
     logo: usafr.jpg
     alt: USAFR
@@ -61,7 +59,7 @@ tyto.jpg
       location: Davis-Monthan AFB, AZ
       duration: May 2015 &mdash; Sep 2016
 
-  - company: Raytheon Technologies
+- company: Raytheon Technologies
     url: https://www.rtx.com/
     logo: rtx.jpg
     alt: Raytheon Technologies
@@ -74,7 +72,7 @@ tyto.jpg
       unit: False
       duration: Aug 2019 &mdash; Mar 2021
 
-  - company: Multiple Contracts
+- company: Multiple Contracts
     url: False
     logo: work.jpg
     alt: Work
@@ -84,7 +82,7 @@ tyto.jpg
       unit: False
       duration: Sep 2017 &mdash; Aug 2019
 
-  - company: Lockheed Martin
+- company: Lockheed Martin
     url: https://www.lockheedmartin.com/
     logo: lm.jpg
     alt: Lockheed Martin
@@ -97,7 +95,7 @@ tyto.jpg
       unit: False
       duration: Aug 2014 &mdash; Jun 2015
 
-  - company: United States Air Force
+- company: United States Air Force
     url: https://www.af.mil/
     logo: usaf.png
     alt: USAF
