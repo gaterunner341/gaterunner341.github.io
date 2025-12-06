@@ -306,3 +306,10 @@
   logo: splunk.webp
   alt: Splunk GovSummit
   url: False
+
+- provider: MITRE
+  course: Malware Technical Exchange Meeting
+  date: 2024
+  logo: mtme.pnd
+  alt: Malware Technical Exchange Meeting hosted by MITRE
+  url: False
