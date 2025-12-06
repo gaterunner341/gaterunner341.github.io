@@ -17,13 +17,13 @@
   url: https://www.credly.com/badges/d9894d81-0c04-4985-8f9e-f1832a965872
 
 # DCSA PSC
-- cert: Physical Security Certification
-  org: Defense Counterintelligence and Security Agency (DCSA)
+- cert: Physical Security Certification (PSC)
+  org: Center for Development of Security Excellence, Defense Counterintelligence and Security Agency (DCSA)
   year: 2016
   certID: Expired
   logo: dod.png
   alt: PSC
-  url: False
+  url: https://www.cdse.edu/Certification/What-is-the-SP%C4%93D-Program/Physical-Security-Certification/
 
 # AWS Partner
 - cert: AWS Partner Technical Accredited
