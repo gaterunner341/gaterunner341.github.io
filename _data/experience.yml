@@ -7,7 +7,7 @@
   alt: Tyto Athene
   lateststart: "2025"
   positions:
-  - position: Security Operations Center (SOC) Manager
+  - position: SOC Manager
     unit: False
     duration: July 2025 &mdash; Present
 
@@ -17,14 +17,14 @@
   alt: MindPoint Group
   lateststart: "2023"
   positions:
-  - position: Security Operations Center (SOC) Manager
+  - position: SOC Manager
     unit: False
     duration: Dec 2023 &mdash; July 2025
     accomplishments:
   - position: Senior Consultant (Cyber Threat Hunter)
     unit: False
     duration: Mar 2023 &mdash; Dec 2023
-  - position: Senior Consultant (Tier II SOC Analyst)
+  - position: Senior Consultant (SOC Analyst)
     unit: False
     duration: Mar 2022 &mdash; Mar 2023
 
