@@ -278,3 +278,10 @@
   logo: sans.png
   alt: LDR551 Building and Leading Security Operations Centers
   url: https://www.sans.org/cyber-security-courses/building-leading-security-operations-centers
+
+- provider: ISACA
+  course: Generative AI for Cyber Auditors Workshop
+  date: 2025
+  logo: isaca.png
+  alt: LDR551 Building and Leading Security Operations Centers
+  url: https://isaca-gwdc.org/
