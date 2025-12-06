@@ -298,7 +298,7 @@
   date: 2023
   logo: cs.jpg
   alt: CrowdStrike Government Summit
-  url: https://www.crowdstrike.com/en-us/press-releases/crowdstrike-government-summit-2023/
+  url: False
 
 - provider: Splunk
   course: Splunk GovSummit
