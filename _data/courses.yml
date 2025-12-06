@@ -240,7 +240,7 @@
 - provider: SysAdmin, Audit, Network, and Security (SANS) Institute
   course: LDR514 Security Strategic Planning, Policy, and Leadership
   date: 2024
-  logo: sans.png
+  logo: sans.jpg
   alt: LDR514 Security Strategic Planning, Policy, and Leadership
   url: https://www.sans.org/cyber-security-courses/strategic-security-planning-policy-leadership/
 
@@ -261,7 +261,7 @@
 - provider: SysAdmin, Audit, Network, and Security (SANS) Institute
   course: LDR551 Building and Leading Security Operations Centers
   date: 2025
-  logo: sans.png
+  logo: sans.jpg
   alt: LDR551 Building and Leading Security Operations Centers
   url: https://www.sans.org/cyber-security-courses/building-leading-security-operations-centers
 
