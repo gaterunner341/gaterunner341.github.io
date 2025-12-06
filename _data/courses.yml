@@ -86,7 +86,7 @@
 - provider: United States Air Force
   course: Senior Non-Commissioned Officer Academy
   date: 2016
-  logo: au.png
+  logo: usaf.png
   alt: Air University
   url: False
 
@@ -142,7 +142,7 @@
 - provider: United States Army
   course: Physical Security Course
   date: 2004
-  logo: usa.png
+  logo: usa.jpg
   alt: US Army
   url: False
 
