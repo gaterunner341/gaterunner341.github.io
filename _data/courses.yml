@@ -308,7 +308,7 @@
   url: False
 
 - provider: MITRE
-  course: Malware Technical Exchange Meeting
+  course: Malware Technical Exchange Meeting (MTEM)
   date: 2024
   logo: mtem.png
   alt: Malware Technical Exchange Meeting hosted by MITRE
