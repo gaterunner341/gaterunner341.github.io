@@ -46,3 +46,12 @@
   logo: ccaf.png
   alt: CCAF
   url: false
+
+- degree: Graduate Certificate
+  subject: Chief Information Security Officer
+  status: in progress
+  school: Champlain College
+  year: 2026
+  logo: nducyber.png
+  alt: College of Information and Cyberspace, National Defense University
+  url: https://cic.ndu.edu/Center-for-Cybersecurity/CAE-CDE-CISO-Certificate-Program/
