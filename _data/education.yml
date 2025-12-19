@@ -1,12 +1,12 @@
 # Degree
 - degree: Master
   subject: of Business Administration
-  status: in progress
+  status: false
   school: Champlain College
-  year: 2026
+  year: 2025
   logo: champlain.png
   alt: Champlain College
-  url: false
+  url: https://www.parchment.com/u/award/3e3927f32a91800f8c535656a62db7f0
 
 - degree: Master of Science
   subject: Digital Forensic Science
