@@ -1,15 +1,17 @@
   # Jobs
   # Team Lead
 
-- company: Tyto Athene
+
+
+- company: MindPoint Group, a division of Tyto Athene
   url: https://gotyto.com/
   logo: tyto.jpg
-  alt: Tyto Athene
+  alt: MindPoint Group, a division of Tyto Athene
   lateststart: "2025"
   positions:
   - position: SOC Manager
     unit: False
-    duration: July 2025 &mdash; Present
+    duration: July 2025 &mdash; Jan 2026
 
 - company: MindPoint Group
   url: https://www.mindpointgroup.com/

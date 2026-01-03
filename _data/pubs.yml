@@ -5,10 +5,17 @@
   pubs:
   - title: Drone Forensics
     publisher: Champlain College
+    degree: Bachelor of Science Computer Forensics and Digital Investigation
     url: https://github.com/gaterunner341/Papers/blob/7ae90a3d417fcf7740c84b530c12d1d87e2f3941/Drone%20Forensics%20Thesis.pdf
     date: "2018"
+  - title: Analysis of Running Processes in Windows Memory Using PowerShell
+    publisher: Champlain College
+    degree: Masters of Science Digital Forensics Science
+    url: false
+    date: "2022"
   - title: M&A Strategy and Roadmap Building for Government Contracting Businesses
     publisher: Champlain College
+    degree: Master of Business Administration
     url: false
     date: "2025"
 - type: Projects
