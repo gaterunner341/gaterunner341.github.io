@@ -184,10 +184,10 @@ Phillip is a security professional with 20 years of experience in physical, indu
           <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 100%; border-left: 1px solid #000;"></div>
           <div style="position: relative; padding-left: 10px;">
             {% if item.url %}
-              <b><a href="{{ item.url }}" target="_blank" class="hover-underline-animation">{{ item.title }}</a></b> {% if item.degree %} &bull; {{ item.degree }} {% endif %} {% if item.publisher %}, {{ item.publisher }} {% endif %} &bull; {{ item.date }}<br>
+              <b><a href="{{ item.url }}" target="_blank" class="hover-underline-animation">{{ item.title }}</a></b> {% if item.degree %} &bull; {{ item.degree }} {% endif %} {% if item.publisher %} &bull; {{ item.publisher }} {% endif %} &bull; {{ item.date }}<br>
               {% if item.description %}{{ item.description }}<br><br>{% endif %}
             {% else %}
-              <b>{{ item.title }}</b> {% if item.degree %} &bull; {{ item.degree }} {% endif %} {% if item.publisher %}, {{ item.publisher }} {% endif %} &bull; {{ item.date }}<br><br>
+              <b>{{ item.title }}</b> {% if item.degree %} &bull; {{ item.degree }} {% endif %} {% if item.publisher %} &bull; {{ item.publisher }} {% endif %} &bull; {{ item.date }}<br><br>
               {% if item.description %}
               <ul>
                 <li>{{ item.description }}</li>
