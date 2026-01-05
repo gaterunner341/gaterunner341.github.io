@@ -1,5 +1,15 @@
   # Jobs
 
+- company: CoalFire Federal
+  url: https://coalfirefederal.com/
+  logo: coalfirefed.jpg
+  alt: CoalFire Federal
+  lateststart: "2026"
+  positions:
+  - position: Senior Manager
+    unit: False
+    duration: Jan 2026 &mdash; Present
+
 - company: MindPoint Group, a division of Tyto Athene
   url: https://gotyto.com/
   logo: tyto.jpg
